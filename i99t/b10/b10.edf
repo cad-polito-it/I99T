@@ -1,0 +1,1471 @@
+(edif Synopsys_edif (edifVersion 2 0 0) (edifLevel 0)
+ (keywordMap (keywordLevel 0))
+ (status
+  (written (timeStamp 1999 6 30 21 30 15)
+   (program "Synopsys Design Compiler" (Version "1998.08"))
+   (dataOrigin "company") (author "designer")
+  )
+ )
+ (external pdt2 (edifLevel 0) (technology (numberDefinition))
+  (cell NAND_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell NAND3_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port I3 (direction INPUT)) (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell NAND4_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port I3 (direction INPUT)) (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell AND_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell AND3_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port I3 (direction INPUT)) (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell AND4_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port I3 (direction INPUT)) (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell OR3_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port I3 (direction INPUT)) (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell NOR_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell OR_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell NAND5_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port I2 (direction INPUT))
+     (port I3 (direction INPUT)) (port I4 (direction INPUT))
+     (port I5 (direction INPUT)) (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell INV_GATE (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port I1 (direction INPUT)) (port O (direction OUTPUT)))
+   )
+  )
+  (cell FLIP_FLOP_D_RESET (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port RESET (direction INPUT)) (port CK (direction INPUT))
+     (port D (direction INPUT)) (port Q (direction OUTPUT))
+    )
+   )
+  )
+ )
+ (library DESIGNS (edifLevel 0) (technology (numberDefinition))
+  (cell b10 (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface (port r_button (direction INPUT))
+     (port g_button (direction INPUT)) (port key (direction INPUT))
+     (port start (direction INPUT)) (port reset (direction INPUT))
+     (port test (direction INPUT)) (port cts (direction OUTPUT))
+     (port ctr (direction OUTPUT)) (port rts (direction INPUT))
+     (port rtr (direction INPUT)) (port clock (direction INPUT))
+     (port (rename v_in_3_ "v_in[3]") (direction INPUT))
+     (port (rename v_in_2_ "v_in[2]") (direction INPUT))
+     (port (rename v_in_1_ "v_in[1]") (direction INPUT))
+     (port (rename v_in_0_ "v_in[0]") (direction INPUT))
+     (port (rename v_out_3_ "v_out[3]") (direction OUTPUT))
+     (port (rename v_out_2_ "v_out[2]") (direction OUTPUT))
+     (port (rename v_out_1_ "v_out[1]") (direction OUTPUT))
+     (port (rename v_out_0_ "v_out[0]") (direction OUTPUT))
+    )
+    (contents
+     (instance U189
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U190
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U191
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U192
+      (viewRef Netlist_representation (cellRef NAND4_GATE (libraryRef pdt2)))
+     )
+     (instance U193
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U194
+      (viewRef Netlist_representation (cellRef NAND4_GATE (libraryRef pdt2)))
+     )
+     (instance U195
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U196
+      (viewRef Netlist_representation (cellRef NOR_GATE (libraryRef pdt2)))
+     )
+     (instance U197
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U198
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U199
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U200
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U201
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U202
+      (viewRef Netlist_representation (cellRef AND3_GATE (libraryRef pdt2)))
+     )
+     (instance U203
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U204
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U205
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U206
+      (viewRef Netlist_representation (cellRef AND4_GATE (libraryRef pdt2)))
+     )
+     (instance U207
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U208
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U209
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U210
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U211
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U212
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U213
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U214
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U215
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U216
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U217
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U218
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U219
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U220
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U221
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U222
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U223
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U224
+      (viewRef Netlist_representation (cellRef AND3_GATE (libraryRef pdt2)))
+     )
+     (instance U225
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U226
+      (viewRef Netlist_representation (cellRef NAND4_GATE (libraryRef pdt2)))
+     )
+     (instance U227
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U228
+      (viewRef Netlist_representation (cellRef NAND4_GATE (libraryRef pdt2)))
+     )
+     (instance U229
+      (viewRef Netlist_representation (cellRef AND3_GATE (libraryRef pdt2)))
+     )
+     (instance U230
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U231
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U232
+      (viewRef Netlist_representation (cellRef AND3_GATE (libraryRef pdt2)))
+     )
+     (instance U233
+      (viewRef Netlist_representation (cellRef AND3_GATE (libraryRef pdt2)))
+     )
+     (instance U234
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U235
+      (viewRef Netlist_representation (cellRef AND3_GATE (libraryRef pdt2)))
+     )
+     (instance U236
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U237
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U238
+      (viewRef Netlist_representation (cellRef OR3_GATE (libraryRef pdt2)))
+     )
+     (instance U239
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U240
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U241
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U242
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U243
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U244
+      (viewRef Netlist_representation (cellRef OR3_GATE (libraryRef pdt2)))
+     )
+     (instance U245
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U246
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U247
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U248
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U249
+      (viewRef Netlist_representation (cellRef NAND5_GATE (libraryRef pdt2)))
+     )
+     (instance U250
+      (viewRef Netlist_representation (cellRef OR3_GATE (libraryRef pdt2)))
+     )
+     (instance U251
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U252
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U253
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U254
+      (viewRef Netlist_representation (cellRef OR3_GATE (libraryRef pdt2)))
+     )
+     (instance U255
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U256
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U257
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U258
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U259
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U260
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U261
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U262
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U263
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U264
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U265
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U266
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U267
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U268
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U269
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U270
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U271
+      (viewRef Netlist_representation (cellRef OR3_GATE (libraryRef pdt2)))
+     )
+     (instance U272
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U273
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U274
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U275
+      (viewRef Netlist_representation (cellRef NAND4_GATE (libraryRef pdt2)))
+     )
+     (instance U276
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U277
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U278
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U279
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U280
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U281
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U282
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U283
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U284
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U285
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U286
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U287
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U288
+      (viewRef Netlist_representation (cellRef NAND4_GATE (libraryRef pdt2)))
+     )
+     (instance U289
+      (viewRef Netlist_representation (cellRef OR3_GATE (libraryRef pdt2)))
+     )
+     (instance U290
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U291
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U292
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U293
+      (viewRef Netlist_representation (cellRef OR3_GATE (libraryRef pdt2)))
+     )
+     (instance U294
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U295
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U296
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U297
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U298
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U299
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U300
+      (viewRef Netlist_representation (cellRef NAND3_GATE (libraryRef pdt2)))
+     )
+     (instance U301
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U302
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U303
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U304
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U305
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U306
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U307
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U308
+      (viewRef Netlist_representation (cellRef AND_GATE (libraryRef pdt2)))
+     )
+     (instance U309
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U310
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U311
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U312
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U313
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U314
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U315
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U316
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U317
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U318
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U319
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U320
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U321
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U322
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U323
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U324
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U325
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U326
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U327
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U328
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U329
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U330
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U331
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U332
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U333
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U334
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U335
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U336
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U337
+      (viewRef Netlist_representation (cellRef OR3_GATE (libraryRef pdt2)))
+     )
+     (instance U338
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U339
+      (viewRef Netlist_representation (cellRef NAND_GATE (libraryRef pdt2)))
+     )
+     (instance U340
+      (viewRef Netlist_representation (cellRef OR_GATE (libraryRef pdt2)))
+     )
+     (instance U341
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U342
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance U343
+      (viewRef Netlist_representation (cellRef INV_GATE (libraryRef pdt2)))
+     )
+     (instance (rename v_out_reg_3_ "v_out_reg[3]")
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance (rename v_out_reg_2_ "v_out_reg[2]")
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance (rename v_out_reg_1_ "v_out_reg[1]")
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance (rename v_out_reg_0_ "v_out_reg[0]")
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance (rename sign_reg_3_ "sign_reg[3]")
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance (rename stato_reg_0_ "stato_reg[0]")
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance (rename stato_reg_2_ "stato_reg[2]")
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance voto1_reg
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance ctr_reg
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance voto3_reg
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance last_r_reg
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance cts_reg
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance voto2_reg
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance (rename stato_reg_3_ "stato_reg[3]")
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance last_g_reg
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance (rename stato_reg_1_ "stato_reg[1]")
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (instance voto0_reg
+      (viewRef Netlist_representation
+       (cellRef FLIP_FLOP_D_RESET (libraryRef pdt2))
+      )
+     )
+     (net (rename stato_3_ "stato[3]")
+      (joined (portRef I2 (instanceRef U196)) (portRef I1 (instanceRef U198))
+       (portRef I1 (instanceRef U203)) (portRef I1 (instanceRef U239))
+       (portRef I2 (instanceRef U246)) (portRef I2 (instanceRef U249))
+       (portRef I1 (instanceRef U252)) (portRef I1 (instanceRef U284))
+       (portRef I2 (instanceRef U286)) (portRef I1 (instanceRef U301))
+       (portRef I1 (instanceRef U322)) (portRef Q (instanceRef stato_reg_3_))
+      )
+     )
+     (net (rename stato_2_ "stato[2]")
+      (joined (portRef I1 (instanceRef U195)) (portRef I1 (instanceRef U196))
+       (portRef I1 (instanceRef U202)) (portRef I2 (instanceRef U226))
+       (portRef I1 (instanceRef U266)) (portRef I1 (instanceRef U274))
+       (portRef I1 (instanceRef U296)) (portRef Q (instanceRef stato_reg_2_))
+      )
+     )
+     (net rts
+      (joined (portRef rts) (portRef I2 (instanceRef U238))
+       (portRef I1 (instanceRef U247)) (portRef I2 (instanceRef U323))
+      )
+     )
+     (net n_414
+      (joined (portRef I2 (instanceRef U206)) (portRef I2 (instanceRef U293))
+       (portRef I2 (instanceRef U313)) (portRef I2 (instanceRef U324))
+       (portRef I1 (instanceRef U325)) (portRef I2 (instanceRef U333))
+       (portRef Q (instanceRef voto2_reg))
+      )
+     )
+     (net (rename stato_1_ "stato[1]")
+      (joined (portRef I1 (instanceRef U201)) (portRef I3 (instanceRef U202))
+       (portRef I1 (instanceRef U204)) (portRef I1 (instanceRef U212))
+       (portRef I2 (instanceRef U232)) (portRef I2 (instanceRef U244))
+       (portRef I1 (instanceRef U254)) (portRef I1 (instanceRef U265))
+       (portRef I1 (instanceRef U278)) (portRef I3 (instanceRef U281))
+       (portRef I1 (instanceRef U287)) (portRef I2 (instanceRef U289))
+       (portRef I1 (instanceRef U306)) (portRef I2 (instanceRef U338))
+       (portRef Q (instanceRef stato_reg_1_))
+      )
+     )
+     (net (rename stato_0_ "stato[0]")
+      (joined (portRef I1 (instanceRef U199)) (portRef I1 (instanceRef U200))
+       (portRef I1 (instanceRef U246)) (portRef I1 (instanceRef U256))
+       (portRef I1 (instanceRef U261)) (portRef I2 (instanceRef U278))
+       (portRef I1 (instanceRef U281)) (portRef I2 (instanceRef U284))
+       (portRef I2 (instanceRef U318)) (portRef Q (instanceRef stato_reg_0_))
+      )
+     )
+     (net voto3
+      (joined (portRef I1 (instanceRef U311)) (portRef I2 (instanceRef U329))
+       (portRef I1 (instanceRef U342)) (portRef Q (instanceRef voto3_reg))
+      )
+     )
+     (net reset
+      (joined (portRef reset) (portRef RESET (instanceRef voto3_reg))
+       (portRef RESET (instanceRef voto1_reg))
+       (portRef RESET (instanceRef v_out_reg_3_))
+       (portRef RESET (instanceRef v_out_reg_1_))
+       (portRef RESET (instanceRef stato_reg_3_))
+       (portRef RESET (instanceRef stato_reg_1_))
+       (portRef RESET (instanceRef sign_reg_3_))
+       (portRef RESET (instanceRef last_g_reg))
+       (portRef RESET (instanceRef ctr_reg))
+       (portRef RESET (instanceRef cts_reg))
+       (portRef RESET (instanceRef last_r_reg))
+       (portRef RESET (instanceRef stato_reg_0_))
+       (portRef RESET (instanceRef stato_reg_2_))
+       (portRef RESET (instanceRef v_out_reg_0_))
+       (portRef RESET (instanceRef v_out_reg_2_))
+       (portRef RESET (instanceRef voto0_reg))
+       (portRef RESET (instanceRef voto2_reg))
+      )
+     )
+     (net r_button
+      (joined (portRef r_button) (portRef I3 (instanceRef U292))
+       (portRef I2 (instanceRef U332))
+      )
+     )
+     (net (rename v_in_3_ "v_in[3]")
+      (joined (portRef v_in_3_) (portRef I5 (instanceRef U249))
+       (portRef I1 (instanceRef U282))
+      )
+     )
+     (net test
+      (joined (portRef test) (portRef I1 (instanceRef U244))
+       (portRef I2 (instanceRef U297))
+      )
+     )
+     (net (rename v_out_2_ "v_out[2]")
+      (joined (portRef v_out_2_) (portRef I1 (instanceRef U312))
+       (portRef Q (instanceRef v_out_reg_2_))
+      )
+     )
+     (net n_412
+      (joined (portRef I1 (instanceRef U206)) (portRef I2 (instanceRef U271))
+       (portRef I2 (instanceRef U315)) (portRef I2 (instanceRef U320))
+       (portRef I2 (instanceRef U326)) (portRef I2 (instanceRef U327))
+       (portRef Q (instanceRef voto1_reg))
+      )
+     )
+     (net last_r
+      (joined (portRef I1 (instanceRef U231))
+       (portRef Q (instanceRef last_r_reg))
+      )
+     )
+     (net clock
+      (joined (portRef clock) (portRef CK (instanceRef v_out_reg_3_))
+       (portRef CK (instanceRef v_out_reg_2_))
+       (portRef CK (instanceRef v_out_reg_1_))
+       (portRef CK (instanceRef v_out_reg_0_))
+       (portRef CK (instanceRef sign_reg_3_))
+       (portRef CK (instanceRef stato_reg_0_))
+       (portRef CK (instanceRef stato_reg_2_))
+       (portRef CK (instanceRef voto1_reg)) (portRef CK (instanceRef ctr_reg))
+       (portRef CK (instanceRef voto3_reg))
+       (portRef CK (instanceRef last_r_reg))
+       (portRef CK (instanceRef cts_reg)) (portRef CK (instanceRef voto2_reg))
+       (portRef CK (instanceRef stato_reg_3_))
+       (portRef CK (instanceRef last_g_reg))
+       (portRef CK (instanceRef stato_reg_1_))
+       (portRef CK (instanceRef voto0_reg))
+      )
+     )
+     (net rtr
+      (joined (portRef rtr) (portRef I1 (instanceRef U226))
+       (portRef I2 (instanceRef U250)) (portRef I2 (instanceRef U254))
+       (portRef I1 (instanceRef U285)) (portRef I2 (instanceRef U290))
+      )
+     )
+     (net (rename v_out_0_ "v_out[0]")
+      (joined (portRef v_out_0_) (portRef I1 (instanceRef U316))
+       (portRef Q (instanceRef v_out_reg_0_))
+      )
+     )
+     (net (rename v_out_1_ "v_out[1]")
+      (joined (portRef v_out_1_) (portRef I1 (instanceRef U314))
+       (portRef Q (instanceRef v_out_reg_1_))
+      )
+     )
+     (net (rename sign_3_ "sign[3]")
+      (joined (portRef I1 (instanceRef U245)) (portRef I2 (instanceRef U304))
+       (portRef Q (instanceRef sign_reg_3_))
+      )
+     )
+     (net (rename v_in_0_ "v_in[0]")
+      (joined (portRef v_in_0_) (portRef I1 (instanceRef U249))
+       (portRef I1 (instanceRef U307))
+      )
+     )
+     (net voto0
+      (joined (portRef I1 (instanceRef U227)) (portRef I1 (instanceRef U317))
+       (portRef I2 (instanceRef U339)) (portRef Q (instanceRef voto0_reg))
+      )
+     )
+     (net (rename v_in_2_ "v_in[2]")
+      (joined (portRef v_in_2_) (portRef I3 (instanceRef U249))
+       (portRef I1 (instanceRef U294))
+      )
+     )
+     (net cts
+      (joined (portRef cts) (portRef I1 (instanceRef U291))
+       (portRef Q (instanceRef cts_reg))
+      )
+     )
+     (net (rename v_out_3_ "v_out[3]")
+      (joined (portRef v_out_3_) (portRef I1 (instanceRef U310))
+       (portRef Q (instanceRef v_out_reg_3_))
+      )
+     )
+     (net g_button
+      (joined (portRef g_button) (portRef I3 (instanceRef U268))
+       (portRef I2 (instanceRef U336))
+      )
+     )
+     (net last_g
+      (joined (portRef I1 (instanceRef U234))
+       (portRef Q (instanceRef last_g_reg))
+      )
+     )
+     (net ctr
+      (joined (portRef ctr) (portRef I1 (instanceRef U276))
+       (portRef Q (instanceRef ctr_reg))
+      )
+     )
+     (net start
+      (joined (portRef start) (portRef I1 (instanceRef U207))
+       (portRef I1 (instanceRef U241)) (portRef I2 (instanceRef U252))
+       (portRef I3 (instanceRef U267)) (portRef I1 (instanceRef U277))
+      )
+     )
+     (net key
+      (joined (portRef key) (portRef I1 (instanceRef U210))
+       (portRef I3 (instanceRef U232)) (portRef I1 (instanceRef U303))
+      )
+     )
+     (net (rename v_in_1_ "v_in[1]")
+      (joined (portRef v_in_1_) (portRef I4 (instanceRef U249))
+       (portRef I1 (instanceRef U272))
+      )
+     )
+     (net n329
+      (joined (portRef I1 (instanceRef U189)) (portRef O (instanceRef U246)))
+     )
+     (net n330
+      (joined (portRef I2 (instanceRef U189)) (portRef O (instanceRef U245)))
+     )
+     (net n331
+      (joined (portRef I1 (instanceRef U190)) (portRef O (instanceRef U265)))
+     )
+     (net n332
+      (joined (portRef I1 (instanceRef U260)) (portRef I2 (instanceRef U194))
+       (portRef I2 (instanceRef U190)) (portRef O (instanceRef U343))
+      )
+     )
+     (net n333
+      (joined (portRef I3 (instanceRef U190)) (portRef O (instanceRef U266)))
+     )
+     (net n334
+      (joined (portRef I2 (instanceRef U224)) (portRef I1 (instanceRef U191))
+       (portRef O (instanceRef U238))
+      )
+     )
+     (net n335
+      (joined (portRef I2 (instanceRef U191)) (portRef O (instanceRef U276)))
+     )
+     (net n336
+      (joined (portRef I1 (instanceRef U192)) (portRef O (instanceRef U291)))
+     )
+     (net n337
+      (joined (portRef I2 (instanceRef U192)) (portRef O (instanceRef U290)))
+     )
+     (net n338
+      (joined (portRef I3 (instanceRef U192)) (portRef O (instanceRef U289)))
+     )
+     (net n339
+      (joined (portRef I1 (instanceRef U341)) (portRef I2 (instanceRef U316))
+       (portRef I2 (instanceRef U314)) (portRef I2 (instanceRef U312))
+       (portRef I2 (instanceRef U310)) (portRef I1 (instanceRef U224))
+       (portRef I4 (instanceRef U192)) (portRef O (instanceRef U226))
+      )
+     )
+     (net n340
+      (joined (portRef I1 (instanceRef U193)) (portRef O (instanceRef U301)))
+     )
+     (net n341
+      (joined (portRef I2 (instanceRef U193)) (portRef O (instanceRef U300)))
+     )
+     (net n342
+      (joined (portRef I1 (instanceRef U194)) (portRef O (instanceRef U309)))
+     )
+     (net n343
+      (joined (portRef I3 (instanceRef U194)) (portRef O (instanceRef U338)))
+     )
+     (net n344
+      (joined (portRef I4 (instanceRef U194)) (portRef O (instanceRef U337)))
+     )
+     (net n345
+      (joined (portRef I1 (instanceRef U289)) (portRef I2 (instanceRef U267))
+       (portRef I1 (instanceRef U250)) (portRef I2 (instanceRef U239))
+       (portRef I1 (instanceRef U238)) (portRef I2 (instanceRef U204))
+       (portRef O (instanceRef U195))
+      )
+     )
+     (net n346
+      (joined (portRef I1 (instanceRef U290)) (portRef I1 (instanceRef U280))
+       (portRef I2 (instanceRef U241)) (portRef I1 (instanceRef U197))
+       (portRef O (instanceRef U196))
+      )
+     )
+     (net n347
+      (joined (portRef I1 (instanceRef U297)) (portRef I2 (instanceRef U260))
+       (portRef I3 (instanceRef U244)) (portRef I1 (instanceRef U237))
+       (portRef O (instanceRef U197))
+      )
+     )
+     (net n348
+      (joined (portRef I1 (instanceRef U337)) (portRef I2 (instanceRef U309))
+       (portRef I1 (instanceRef U299)) (portRef I2 (instanceRef U296))
+       (portRef I2 (instanceRef U287)) (portRef I2 (instanceRef U275))
+       (portRef I2 (instanceRef U263)) (portRef I1 (instanceRef U259))
+       (portRef I3 (instanceRef U226)) (portRef I2 (instanceRef U203))
+       (portRef I2 (instanceRef U202)) (portRef I2 (instanceRef U197))
+       (portRef O (instanceRef U199))
+      )
+     )
+     (net n349
+      (joined (portRef I1 (instanceRef U304)) (portRef I2 (instanceRef U269))
+       (portRef I2 (instanceRef U261)) (portRef I2 (instanceRef U258))
+       (portRef I2 (instanceRef U212)) (portRef O (instanceRef U198))
+      )
+     )
+     (net n350
+      (joined (portRef I3 (instanceRef U290)) (portRef I1 (instanceRef U286))
+       (portRef I1 (instanceRef U267)) (portRef I1 (instanceRef U242))
+       (portRef I3 (instanceRef U239)) (portRef O (instanceRef U200))
+      )
+     )
+     (net n351
+      (joined (portRef I1 (instanceRef U323)) (portRef I2 (instanceRef U322))
+       (portRef I2 (instanceRef U300)) (portRef I2 (instanceRef U274))
+       (portRef I2 (instanceRef U259)) (portRef I3 (instanceRef U250))
+       (portRef I2 (instanceRef U248)) (portRef I4 (instanceRef U226))
+       (portRef I2 (instanceRef U200)) (portRef O (instanceRef U201))
+      )
+     )
+     (net n352
+      (joined (portRef I1 (instanceRef U343)) (portRef I1 (instanceRef U269))
+       (portRef I2 (instanceRef U247)) (portRef O (instanceRef U202))
+      )
+     )
+     (net n353
+      (joined (portRef I3 (instanceRef U289)) (portRef I1 (instanceRef U262))
+       (portRef I3 (instanceRef U254)) (portRef I1 (instanceRef U253))
+       (portRef O (instanceRef U203))
+      )
+     )
+     (net n354
+      (joined (portRef I1 (instanceRef U302)) (portRef I1 (instanceRef U255))
+       (portRef I1 (instanceRef U243)) (portRef O (instanceRef U204))
+      )
+     )
+     (net n355
+      (joined (portRef I3 (instanceRef U228)) (portRef I1 (instanceRef U208))
+       (portRef O (instanceRef U205))
+      )
+     )
+     (net n356
+      (joined (portRef I1 (instanceRef U205)) (portRef O (instanceRef U248)))
+     )
+     (net n357
+      (joined (portRef I2 (instanceRef U205)) (portRef O (instanceRef U247)))
+     )
+     (net n358
+      (joined (portRef I3 (instanceRef U296)) (portRef I1 (instanceRef U258))
+       (portRef I1 (instanceRef U236)) (portRef O (instanceRef U206))
+      )
+     )
+     (net n359
+      (joined (portRef I3 (instanceRef U206)) (portRef O (instanceRef U342)))
+     )
+     (net n360
+      (joined (portRef I2 (instanceRef U325)) (portRef I1 (instanceRef U324))
+       (portRef I4 (instanceRef U206)) (portRef O (instanceRef U227))
+      )
+     )
+     (net n361
+      (joined (portRef I1 (instanceRef U292)) (portRef I1 (instanceRef U268))
+       (portRef I1 (instanceRef U240)) (portRef I1 (instanceRef U232))
+       (portRef O (instanceRef U207))
+      )
+     )
+     (net n362
+      (joined (portRef I2 (instanceRef U303)) (portRef I1 (instanceRef U248))
+       (portRef I2 (instanceRef U207)) (portRef O (instanceRef U237))
+      )
+     )
+     (net n363
+      (joined (portRef I3 (instanceRef U235)) (portRef I1 (instanceRef U209))
+       (portRef O (instanceRef U208))
+      )
+     )
+     (net n364
+      (joined (portRef I1 (instanceRef U270)) (portRef I2 (instanceRef U208))
+       (portRef O (instanceRef U239))
+      )
+     )
+     (net n365
+      (joined (portRef I3 (instanceRef U233)) (portRef I1 (instanceRef U230))
+       (portRef I3 (instanceRef U229)) (portRef O (instanceRef U209))
+      )
+     )
+     (net n366
+      (joined (portRef I2 (instanceRef U209)) (portRef O (instanceRef U267)))
+     )
+     (net n367
+      (joined (portRef I3 (instanceRef U293)) (portRef I2 (instanceRef U277))
+       (portRef I3 (instanceRef U271)) (portRef I2 (instanceRef U240))
+       (portRef O (instanceRef U210))
+      )
+     )
+     (net n368
+      (joined (portRef I1 (instanceRef U288)) (portRef I1 (instanceRef U275))
+       (portRef O (instanceRef U211))
+      )
+     )
+     (net n369
+      (joined (portRef I1 (instanceRef U293)) (portRef I1 (instanceRef U271))
+       (portRef I1 (instanceRef U211)) (portRef O (instanceRef U243))
+      )
+     )
+     (net n370
+      (joined (portRef I2 (instanceRef U211)) (portRef O (instanceRef U274)))
+     )
+     (net n371
+      (joined (portRef I2 (instanceRef U337)) (portRef I1 (instanceRef U309))
+       (portRef O (instanceRef U212))
+      )
+     )
+     (net n372
+      (joined (portRef I1 (instanceRef U213)) (portRef O (instanceRef U311)))
+     )
+     (net n373
+      (joined (portRef I2 (instanceRef U213)) (portRef O (instanceRef U310)))
+     )
+     (net n374
+      (joined (portRef I1 (instanceRef U214)) (portRef O (instanceRef U313)))
+     )
+     (net n375
+      (joined (portRef I2 (instanceRef U214)) (portRef O (instanceRef U312)))
+     )
+     (net n376
+      (joined (portRef I1 (instanceRef U215)) (portRef O (instanceRef U315)))
+     )
+     (net n377
+      (joined (portRef I2 (instanceRef U215)) (portRef O (instanceRef U314)))
+     )
+     (net n378
+      (joined (portRef I1 (instanceRef U216)) (portRef O (instanceRef U317)))
+     )
+     (net n379
+      (joined (portRef I2 (instanceRef U216)) (portRef O (instanceRef U316)))
+     )
+     (net n380
+      (joined (portRef I1 (instanceRef U217)) (portRef O (instanceRef U319)))
+     )
+     (net n381
+      (joined (portRef I2 (instanceRef U217)) (portRef O (instanceRef U318)))
+     )
+     (net n382
+      (joined (portRef I1 (instanceRef U218)) (portRef O (instanceRef U321)))
+     )
+     (net n383
+      (joined (portRef I2 (instanceRef U218)) (portRef O (instanceRef U320)))
+     )
+     (net n384
+      (joined (portRef I1 (instanceRef U219)) (portRef O (instanceRef U330)))
+     )
+     (net n385
+      (joined (portRef I2 (instanceRef U219)) (portRef O (instanceRef U329)))
+     )
+     (net n386
+      (joined (portRef I1 (instanceRef U220)) (portRef O (instanceRef U332)))
+     )
+     (net n387
+      (joined (portRef I2 (instanceRef U220)) (portRef O (instanceRef U331)))
+     )
+     (net n388
+      (joined (portRef I1 (instanceRef U221)) (portRef O (instanceRef U334)))
+     )
+     (net n389
+      (joined (portRef I2 (instanceRef U221)) (portRef O (instanceRef U333)))
+     )
+     (net n390
+      (joined (portRef I1 (instanceRef U222)) (portRef O (instanceRef U336)))
+     )
+     (net n391
+      (joined (portRef I2 (instanceRef U222)) (portRef O (instanceRef U335)))
+     )
+     (net n392
+      (joined (portRef I1 (instanceRef U223)) (portRef O (instanceRef U340)))
+     )
+     (net n393
+      (joined (portRef I2 (instanceRef U223)) (portRef O (instanceRef U339)))
+     )
+     (net n394
+      (joined (portRef I4 (instanceRef U228)) (portRef O (instanceRef U224)))
+     )
+     (net n395
+      (joined (portRef I3 (instanceRef U224)) (portRef O (instanceRef U254)))
+     )
+     (net n396
+      (joined (portRef I1 (instanceRef U327)) (portRef I1 (instanceRef U326))
+       (portRef O (instanceRef U225))
+      )
+     )
+     (net n397
+      (joined (portRef I1 (instanceRef U225)) (portRef O (instanceRef U325)))
+     )
+     (net n398
+      (joined (portRef I2 (instanceRef U225)) (portRef O (instanceRef U324)))
+     )
+     (net n399
+      (joined (portRef I2 (instanceRef U319)) (portRef I1 (instanceRef U300))
+       (portRef I2 (instanceRef U299)) (portRef I1 (instanceRef U264))
+       (portRef I1 (instanceRef U257)) (portRef O (instanceRef U228))
+      )
+     )
+     (net n400
+      (joined (portRef I1 (instanceRef U228)) (portRef O (instanceRef U256)))
+     )
+     (net n401
+      (joined (portRef I2 (instanceRef U228)) (portRef O (instanceRef U255)))
+     )
+     (net n402
+      (joined (portRef I2 (instanceRef U321)) (portRef I1 (instanceRef U320))
+       (portRef O (instanceRef U229))
+      )
+     )
+     (net n403
+      (joined (portRef I1 (instanceRef U229)) (portRef O (instanceRef U268)))
+     )
+     (net n404
+      (joined (portRef I2 (instanceRef U233)) (portRef I2 (instanceRef U229))
+       (portRef O (instanceRef U240))
+      )
+     )
+     (net n405
+      (joined (portRef I2 (instanceRef U330)) (portRef I1 (instanceRef U329))
+       (portRef O (instanceRef U230))
+      )
+     )
+     (net n406
+      (joined (portRef I2 (instanceRef U230)) (portRef O (instanceRef U280)))
+     )
+     (net n407
+      (joined (portRef I1 (instanceRef U331)) (portRef I2 (instanceRef U292))
+       (portRef O (instanceRef U231))
+      )
+     )
+     (net n408
+      (joined (portRef I1 (instanceRef U336)) (portRef I2 (instanceRef U335))
+       (portRef I1 (instanceRef U332)) (portRef I2 (instanceRef U331))
+       (portRef O (instanceRef U232))
+      )
+     )
+     (net n409
+      (joined (portRef I2 (instanceRef U334)) (portRef I1 (instanceRef U333))
+       (portRef O (instanceRef U233))
+      )
+     )
+     (net n410
+      (joined (portRef I1 (instanceRef U233)) (portRef O (instanceRef U292)))
+     )
+     (net n411
+      (joined (portRef I1 (instanceRef U335)) (portRef I2 (instanceRef U268))
+       (portRef O (instanceRef U234))
+      )
+     )
+     (net n412
+      (joined (portRef I2 (instanceRef U340)) (portRef I1 (instanceRef U339))
+       (portRef O (instanceRef U235))
+      )
+     )
+     (net n413
+      (joined (portRef I1 (instanceRef U235)) (portRef O (instanceRef U302)))
+     )
+     (net n414
+      (joined (portRef I2 (instanceRef U251)) (portRef I2 (instanceRef U235))
+       (portRef O (instanceRef U241))
+      )
+     )
+     (net n415
+      (joined (portRef I1 (instanceRef U263)) (portRef O (instanceRef U236)))
+     )
+     (net n416
+      (joined (portRef I2 (instanceRef U264)) (portRef I3 (instanceRef U238))
+       (portRef O (instanceRef U242))
+      )
+     )
+     (net n417
+      (joined (portRef I2 (instanceRef U245)) (portRef O (instanceRef U244)))
+     )
+     (net n418
+      (joined (portRef I1 (instanceRef U251)) (portRef O (instanceRef U249)))
+     )
+     (net n419
+      (joined (portRef I3 (instanceRef U251)) (portRef O (instanceRef U250)))
+     )
+     (net n420
+      (joined (portRef I2 (instanceRef U256)) (portRef O (instanceRef U251)))
+     )
+     (net n421
+      (joined (portRef I2 (instanceRef U253)) (portRef O (instanceRef U252)))
+     )
+     (net n422
+      (joined (portRef I2 (instanceRef U255)) (portRef O (instanceRef U253)))
+     )
+     (net n423
+      (joined (portRef I1 (instanceRef U338)) (portRef I3 (instanceRef U337))
+       (portRef I1 (instanceRef U318)) (portRef O (instanceRef U257))
+      )
+     )
+     (net n424
+      (joined (portRef I3 (instanceRef U259)) (portRef O (instanceRef U258)))
+     )
+     (net n425
+      (joined (portRef I3 (instanceRef U260)) (portRef O (instanceRef U259)))
+     )
+     (net n426
+      (joined (portRef I1 (instanceRef U319)) (portRef O (instanceRef U260)))
+     )
+     (net n427
+      (joined (portRef I2 (instanceRef U262)) (portRef O (instanceRef U261)))
+     )
+     (net n428
+      (joined (portRef I2 (instanceRef U302)) (portRef I2 (instanceRef U265))
+       (portRef O (instanceRef U262))
+      )
+     )
+     (net n429
+      (joined (portRef I3 (instanceRef U264)) (portRef O (instanceRef U263)))
+     )
+     (net n430
+      (joined (portRef I2 (instanceRef U266)) (portRef O (instanceRef U264)))
+     )
+     (net n431
+      (joined (portRef I2 (instanceRef U270)) (portRef O (instanceRef U269)))
+     )
+     (net n432
+      (joined (portRef I2 (instanceRef U307)) (portRef I2 (instanceRef U294))
+       (portRef I2 (instanceRef U282)) (portRef I2 (instanceRef U272))
+       (portRef O (instanceRef U270))
+      )
+     )
+     (net n433
+      (joined (portRef I2 (instanceRef U273)) (portRef O (instanceRef U271)))
+     )
+     (net n434
+      (joined (portRef I1 (instanceRef U273)) (portRef O (instanceRef U272)))
+     )
+     (net n435
+      (joined (portRef I1 (instanceRef U321)) (portRef O (instanceRef U273)))
+     )
+     (net n436
+      (joined (portRef I2 (instanceRef U276)) (portRef O (instanceRef U275)))
+     )
+     (net n437
+      (joined (portRef I3 (instanceRef U275)) (portRef O (instanceRef U323)))
+     )
+     (net n438
+      (joined (portRef I4 (instanceRef U275)) (portRef O (instanceRef U322)))
+     )
+     (net n439
+      (joined (portRef I2 (instanceRef U279)) (portRef O (instanceRef U277)))
+     )
+     (net n440
+      (joined (portRef I1 (instanceRef U279)) (portRef O (instanceRef U278)))
+     )
+     (net n441
+      (joined (portRef I2 (instanceRef U280)) (portRef O (instanceRef U279)))
+     )
+     (net n442
+      (joined (portRef I2 (instanceRef U283)) (portRef O (instanceRef U281)))
+     )
+     (net n443
+      (joined (portRef I2 (instanceRef U281)) (portRef O (instanceRef U328)))
+     )
+     (net n444
+      (joined (portRef I1 (instanceRef U283)) (portRef O (instanceRef U282)))
+     )
+     (net n445
+      (joined (portRef I1 (instanceRef U330)) (portRef O (instanceRef U283)))
+     )
+     (net n446
+      (joined (portRef I2 (instanceRef U285)) (portRef O (instanceRef U284)))
+     )
+     (net n447
+      (joined (portRef I4 (instanceRef U288)) (portRef O (instanceRef U285)))
+     )
+     (net n448
+      (joined (portRef I3 (instanceRef U288)) (portRef O (instanceRef U286)))
+     )
+     (net n449
+      (joined (portRef I2 (instanceRef U288)) (portRef O (instanceRef U287)))
+     )
+     (net n450
+      (joined (portRef I2 (instanceRef U291)) (portRef O (instanceRef U288)))
+     )
+     (net n451
+      (joined (portRef I2 (instanceRef U295)) (portRef O (instanceRef U293)))
+     )
+     (net n452
+      (joined (portRef I1 (instanceRef U295)) (portRef O (instanceRef U294)))
+     )
+     (net n453
+      (joined (portRef I1 (instanceRef U334)) (portRef O (instanceRef U295)))
+     )
+     (net n454
+      (joined (portRef I2 (instanceRef U298)) (portRef O (instanceRef U296)))
+     )
+     (net n455
+      (joined (portRef I1 (instanceRef U298)) (portRef O (instanceRef U297)))
+     )
+     (net n456
+      (joined (portRef I3 (instanceRef U300)) (portRef O (instanceRef U298)))
+     )
+     (net n457
+      (joined (portRef I2 (instanceRef U301)) (portRef O (instanceRef U299)))
+     )
+     (net n458
+      (joined (portRef I2 (instanceRef U305)) (portRef O (instanceRef U303)))
+     )
+     (net n459
+      (joined (portRef I1 (instanceRef U305)) (portRef O (instanceRef U304)))
+     )
+     (net n460
+      (joined (portRef I2 (instanceRef U306)) (portRef O (instanceRef U305)))
+     )
+     (net n461
+      (joined (portRef I2 (instanceRef U308)) (portRef O (instanceRef U306)))
+     )
+     (net n462
+      (joined (portRef I1 (instanceRef U308)) (portRef O (instanceRef U307)))
+     )
+     (net n463
+      (joined (portRef I1 (instanceRef U340)) (portRef O (instanceRef U308)))
+     )
+     (net n464
+      (joined (portRef I2 (instanceRef U317)) (portRef I1 (instanceRef U315))
+       (portRef I1 (instanceRef U313)) (portRef I2 (instanceRef U311))
+       (portRef O (instanceRef U341))
+      )
+     )
+     (net n465
+      (joined (portRef I2 (instanceRef U328)) (portRef O (instanceRef U326)))
+     )
+     (net n466
+      (joined (portRef I1 (instanceRef U328)) (portRef O (instanceRef U327)))
+     )
+     (net n467
+      (joined (portRef D (instanceRef v_out_reg_3_))
+       (portRef O (instanceRef U213))
+      )
+     )
+     (net n468
+      (joined (portRef D (instanceRef v_out_reg_2_))
+       (portRef O (instanceRef U214))
+      )
+     )
+     (net n469
+      (joined (portRef D (instanceRef v_out_reg_1_))
+       (portRef O (instanceRef U215))
+      )
+     )
+     (net n470
+      (joined (portRef D (instanceRef v_out_reg_0_))
+       (portRef O (instanceRef U216))
+      )
+     )
+     (net n471
+      (joined (portRef D (instanceRef sign_reg_3_))
+       (portRef O (instanceRef U189))
+      )
+     )
+     (net n472
+      (joined (portRef D (instanceRef stato_reg_0_))
+       (portRef O (instanceRef U217))
+      )
+     )
+     (net n473
+      (joined (portRef D (instanceRef stato_reg_2_))
+       (portRef O (instanceRef U190))
+      )
+     )
+     (net n474
+      (joined (portRef D (instanceRef voto1_reg))
+       (portRef O (instanceRef U218))
+      )
+     )
+     (net n475
+      (joined (portRef D (instanceRef ctr_reg)) (portRef O (instanceRef U191))
+      )
+     )
+     (net n476
+      (joined (portRef D (instanceRef voto3_reg))
+       (portRef O (instanceRef U219))
+      )
+     )
+     (net n477
+      (joined (portRef D (instanceRef last_r_reg))
+       (portRef O (instanceRef U220))
+      )
+     )
+     (net n478
+      (joined (portRef D (instanceRef cts_reg)) (portRef O (instanceRef U192))
+      )
+     )
+     (net n479
+      (joined (portRef D (instanceRef voto2_reg))
+       (portRef O (instanceRef U221))
+      )
+     )
+     (net n480
+      (joined (portRef D (instanceRef stato_reg_3_))
+       (portRef O (instanceRef U193))
+      )
+     )
+     (net n481
+      (joined (portRef D (instanceRef last_g_reg))
+       (portRef O (instanceRef U222))
+      )
+     )
+     (net n482
+      (joined (portRef D (instanceRef stato_reg_1_))
+       (portRef O (instanceRef U194))
+      )
+     )
+     (net n483
+      (joined (portRef D (instanceRef voto0_reg))
+       (portRef O (instanceRef U223))
+      )
+     )
+    )
+   )
+  )
+ )
+ (design Synopsys_edif (cellRef b10 (libraryRef DESIGNS)))
+)
