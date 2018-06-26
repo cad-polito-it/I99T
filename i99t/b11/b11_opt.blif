@@ -1,0 +1,1590 @@
+.model b11_opt.blif
+.inputs X_IN_5_ X_IN_4_ X_IN_3_ X_IN_2_ X_IN_1_ X_IN_0_ STBI 
+.outputs X_OUT_5_ X_OUT_4_ X_OUT_3_ X_OUT_2_ X_OUT_1_ X_OUT_0_ 
+.latch	U711	R_IN_REG_5_	0
+.latch	U710	R_IN_REG_4_	0
+.latch	U709	R_IN_REG_3_	0
+.latch	U708	R_IN_REG_2_	0
+.latch	U707	R_IN_REG_1_	0
+.latch	U706	R_IN_REG_0_	0
+.latch	U635	CONT_REG_5_	0
+.latch	U634	CONT_REG_4_	0
+.latch	U705	CONT_REG_3_	0
+.latch	U630	CONT_REG_2_	0
+.latch	U704	CONT_REG_1_	0
+.latch	U703	CONT_REG_0_	0
+.latch	U702	CONT1_REG_8_	0
+.latch	U701	CONT1_REG_7_	0
+.latch	U700	CONT1_REG_6_	0
+.latch	U699	CONT1_REG_5_	0
+.latch	U698	CONT1_REG_4_	0
+.latch	U697	CONT1_REG_3_	0
+.latch	U696	CONT1_REG_2_	0
+.latch	U694	CONT1_REG_1_	0
+.latch	U693	CONT1_REG_0_	0
+.latch	U629	X_OUT_REG_5_	0
+.latch	U628	X_OUT_REG_4_	0
+.latch	U627	X_OUT_REG_3_	0
+.latch	U626	X_OUT_REG_2_	0
+.latch	U625	X_OUT_REG_1_	0
+.latch	U624	X_OUT_REG_0_	0
+.latch	U631	STATO_REG_3_	0
+.latch	U686	STATO_REG_2_	0
+.latch	U632	STATO_REG_1_	0
+.latch	U633	STATO_REG_0_	0
+.names X_IN_5_ U915 U1088
+0- 1
+-0 1
+.names X_OUT_REG_5_ X_OUT_5_
+1 1
+.names X_OUT_REG_4_ X_OUT_4_
+1 1
+.names X_OUT_REG_3_ X_OUT_3_
+1 1
+.names X_OUT_REG_2_ X_OUT_2_
+1 1
+.names X_OUT_REG_1_ X_OUT_1_
+1 1
+.names X_OUT_REG_0_ X_OUT_0_
+1 1
+.names U685 U737 U585
+1- 1
+-1 1
+.names U928 U927 STATO_REG_1_ U734 U586
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U1032 U1050 U1049 U730 U587
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U589 U731 U588
+11 1
+.names U664 U717 U589
+11 1
+.names U594 U593 U614 U592 U591 U590
+1---- 1
+-1--- 1
+--1-- 1
+---1- 1
+----1 1
+.names U1007 U1006 U745 U591
+111 1
+.names U861 U860 U859 U858 U592
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U612 U736 U717 U593
+111 1
+.names CONT1_REG_4_ U673 U748 U594
+111 1
+.names U651 CONT1_REG_5_ U596 U595
+1-- 1
+-1- 1
+--1 1
+.names CONT1_REG_3_ CONT1_REG_4_ U756 U596
+111 1
+.names U718 R_IN_REG_3_ U597
+1- 1
+-1 1
+.names U719 R_IN_REG_1_ U598
+1- 1
+-1 1
+.names U669 U654 U599
+1- 1
+-1 1
+.names U721 U695 U600
+1- 1
+-1 1
+.names U725 U838 U601
+1- 1
+-1 1
+.names U723 U832 U602
+1- 1
+-1 1
+.names U727 U855 U603
+1- 1
+-1 1
+.names U673 CONT1_REG_4_ U604
+1- 1
+-1 1
+.names U729 U867 U605
+1- 1
+-1 1
+.names U730 U689 U606
+1- 1
+-1 1
+.names U731 U589 U607
+1- 1
+-1 1
+.names U733 U588 U608
+1- 1
+-1 1
+.names U732 U690 U609
+1- 1
+-1 1
+.names U683 U665 U610
+1- 1
+-1 1
+.names U662 U687 U611
+1- 1
+-1 1
+.names U688 U739 U612
+1- 1
+-1 1
+.names U717 CONT1_REG_5_ U613
+1- 1
+-1 1
+.names U604 U655 U614
+00 1
+.names U734 U666 U615
+1- 1
+-1 1
+.names U684 U586 CONT_REG_3_ U616
+1-- 1
+-1- 1
+--1 1
+.names U595 U658 U617
+11 1
+.names STATO_REG_2_ STATO_REG_0_ U618
+00 1
+.names U639 U646 STATO_REG_0_ U619
+111 1
+.names U670 U798 U620
+11 1
+.names R_IN_REG_0_ U646 STATO_REG_0_ U621
+111 1
+.names U613 U938 U622
+11 1
+.names U942 U941 U623
+11 1
+.names U770 U769 U624
+0- 1
+-0 1
+.names U773 U772 U774 U625
+0-- 1
+-0- 1
+--0 1
+.names U778 U779 U777 U626
+0-- 1
+-0- 1
+--0 1
+.names U782 U783 U781 U627
+0-- 1
+-0- 1
+--0 1
+.names U785 U786 U784 U628
+0-- 1
+-0- 1
+--0 1
+.names U940 U939 U787 U629
+0-- 1
+-0- 1
+--0 1
+.names U912 U911 U630
+0- 1
+-0 1
+.names U665 U747 U631
+0- 1
+-0 1
+.names U757 U655 U758 U759 U632
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U766 U765 U764 U653 U633
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U743 U918 U634
+0- 1
+-0 1
+.names CONT_REG_5_ U585 U635
+11 1
+.names R_IN_REG_5_ U636
+0 1
+.names R_IN_REG_4_ U637
+0 1
+.names R_IN_REG_2_ U638
+0 1
+.names R_IN_REG_0_ U639
+0 1
+.names R_IN_REG_3_ U640
+0 1
+.names R_IN_REG_1_ U641
+0 1
+.names U920 U919 U712 U642
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_1_ U643
+0 1
+.names STATO_REG_0_ U644
+0 1
+.names STATO_REG_0_ STATO_REG_1_ U645
+0- 1
+-0 1
+.names STATO_REG_2_ U646
+0 1
+.names CONT1_REG_0_ U647
+0 1
+.names CONT1_REG_1_ U648
+0 1
+.names CONT1_REG_3_ U649
+0 1
+.names CONT1_REG_4_ U650
+0 1
+.names CONT1_REG_6_ CONT1_REG_7_ U651
+1- 1
+-1 1
+.names STATO_REG_0_ U643 U652
+0- 1
+-0 1
+.names U618 STATO_REG_1_ U642 U653
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_1_ STATO_REG_0_ U654
+1- 1
+-1 1
+.names STATO_REG_1_ U644 STATO_REG_2_ U655
+0-- 1
+-0- 1
+--0 1
+.names U618 U643 U656
+0- 1
+-0 1
+.names STATO_REG_3_ U657
+0 1
+.names CONT1_REG_8_ U658
+0 1
+.names STATO_REG_3_ CONT1_REG_8_ U767 U659
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_3_ U658 U767 U660
+0-- 1
+-0- 1
+--0 1
+.names CONT1_REG_2_ U661
+0 1
+.names U776 U780 U662
+0- 1
+-0 1
+.names U687 U662 U663
+0- 1
+-0 1
+.names CONT1_REG_5_ U664
+0 1
+.names STATO_REG_2_ U744 U665
+0- 1
+-0 1
+.names CONT_REG_0_ U666
+0 1
+.names U799 U808 U667
+0- 1
+-0 1
+.names CONT_REG_1_ U668
+0 1
+.names U795 U807 U669
+0- 1
+-0 1
+.names R_IN_REG_2_ R_IN_REG_3_ U670
+1- 1
+-1 1
+.names U819 U818 U671
+0- 1
+-0 1
+.names CONT_REG_2_ U672
+0 1
+.names U649 U841 U673
+0- 1
+-0 1
+.names U840 U852 U674
+0- 1
+-0 1
+.names U864 U863 U675
+0- 1
+-0 1
+.names CONT_REG_5_ U676
+0 1
+.names CONT1_REG_6_ U677
+0 1
+.names U879 U878 U678
+0- 1
+-0 1
+.names CONT1_REG_5_ U604 U679
+0- 1
+-0 1
+.names CONT1_REG_7_ U680
+0 1
+.names U891 U890 U681
+0- 1
+-0 1
+.names U881 CONT1_REG_6_ U682
+0- 1
+-0 1
+.names U1064 U1063 U917 U683
+0-- 1
+-0- 1
+--0 1
+.names CONT_REG_1_ CONT_REG_0_ CONT_REG_2_ U684
+0-- 1
+-0- 1
+--0 1
+.names U734 U914 U685
+0- 1
+-0 1
+.names U926 U925 U686
+0- 1
+-0 1
+.names U935 U934 U687
+0- 1
+-0 1
+.names U937 U936 U688
+0- 1
+-0 1
+.names U1031 U1030 U689
+0- 1
+-0 1
+.names U1050 U1049 U690
+0- 1
+-0 1
+.names U928 U927 U691
+0- 1
+-0 1
+.names U932 U931 U692
+0- 1
+-0 1
+.names U953 U952 U693
+0- 1
+-0 1
+.names U964 U963 U694
+0- 1
+-0 1
+.names U981 U980 U695
+0- 1
+-0 1
+.names U985 U984 U696
+0- 1
+-0 1
+.names U994 U993 U697
+0- 1
+-0 1
+.names U1009 U1008 U698
+0- 1
+-0 1
+.names U1026 U1025 U699
+0- 1
+-0 1
+.names U1045 U1044 U700
+0- 1
+-0 1
+.names U1062 U1061 U701
+0- 1
+-0 1
+.names U1070 U1069 U702
+0- 1
+-0 1
+.names U615 U1071 U703
+0- 1
+-0 1
+.names U1073 U1072 U704
+0- 1
+-0 1
+.names U616 U1076 U705
+0- 1
+-0 1
+.names U1078 U1077 U706
+0- 1
+-0 1
+.names U1080 U1079 U707
+0- 1
+-0 1
+.names U1082 U1081 U708
+0- 1
+-0 1
+.names U1084 U1083 U709
+0- 1
+-0 1
+.names U1086 U1085 U710
+0- 1
+-0 1
+.names U1088 U1087 U711
+0- 1
+-0 1
+.names U924 U923 U922 U921 U712
+1111 1
+.names U812 U813 U811 U713
+111 1
+.names U829 U827 U828 U714
+111 1
+.names U850 U848 U849 U715
+111 1
+.names U875 U874 U1017 U1016 U716
+1111 1
+.names U739 U688 U717
+0- 1
+-0 1
+.names U796 U799 U718
+0- 1
+-0 1
+.names U794 U795 U719
+0- 1
+-0 1
+.names U792 U791 U720
+0- 1
+-0 1
+.names U821 U822 U721
+0- 1
+-0 1
+.names U822 U831 U722
+0- 1
+-0 1
+.names U833 U834 U723
+0- 1
+-0 1
+.names U837 U836 U724
+0- 1
+-0 1
+.names U839 U840 U725
+0- 1
+-0 1
+.names U834 U854 U726
+0- 1
+-0 1
+.names U856 U857 U727
+0- 1
+-0 1
+.names U857 U866 U728
+0- 1
+-0 1
+.names U868 U869 U729
+0- 1
+-0 1
+.names U869 U882 U730
+0- 1
+-0 1
+.names CONT1_REG_6_ U657 U731
+0- 1
+-0 1
+.names U1032 U730 U732
+0- 1
+-0 1
+.names CONT1_REG_7_ U657 U733
+0- 1
+-0 1
+.names U908 U747 U734
+0- 1
+-0 1
+.names STATO_REG_3_ STATO_REG_1_ STATO_REG_2_ U735
+1-- 1
+-1- 1
+--1 1
+.names U652 U736
+0 1
+.names U586 U737
+0 1
+.names U659 U738
+0 1
+.names U663 U739
+0 1
+.names U660 U740
+0 1
+.names U587 U741
+0 1
+.names U653 U742
+0 1
+.names U913 CONT_REG_3_ U737 U743
+0-- 1
+-0- 1
+--0 1
+.names U645 U744
+0 1
+.names U665 U745
+0 1
+.names U642 U746
+0 1
+.names STATO_REG_1_ U618 U746 U747
+0-- 1
+-0- 1
+--0 1
+.names U655 U748
+0 1
+.names R_IN_REG_1_ R_IN_REG_0_ U749
+0- 1
+-0 1
+.names U638 U749 U750
+0- 1
+-0 1
+.names R_IN_REG_4_ R_IN_REG_3_ U750 U751
+0-- 1
+-0- 1
+--0 1
+.names CONT_REG_2_ CONT_REG_1_ CONT_REG_0_ U752
+1-- 1
+-1- 1
+--1 1
+.names CONT_REG_3_ CONT_REG_4_ U752 U753
+0-- 1
+-0- 1
+--0 1
+.names U676 U753 U754
+0- 1
+-0 1
+.names CONT1_REG_1_ CONT1_REG_0_ U755
+0- 1
+-0 1
+.names U661 U755 U756
+0- 1
+-0 1
+.names U641 U644 STATO_REG_2_ U757
+0-- 1
+-0- 1
+--0 1
+.names U930 U929 U736 U758
+0-- 1
+-0- 1
+--0 1
+.names U742 U691 U759
+0- 1
+-0 1
+.names U654 U760
+0 1
+.names U658 U651 U761
+0- 1
+-0 1
+.names STBI STATO_REG_2_ U762
+1- 1
+-1 1
+.names STATO_REG_2_ U641 U763
+0- 1
+-0 1
+.names U760 U763 U764
+0- 1
+-0 1
+.names U736 U762 U765
+0- 1
+-0 1
+.names U748 U761 U766
+0- 1
+-0 1
+.names U656 U767
+0 1
+.names U659 U660 U768
+0- 1
+-0 1
+.names CONT1_REG_0_ U768 U769
+0- 1
+-0 1
+.names X_OUT_REG_0_ U656 U770
+0- 1
+-0 1
+.names CONT1_REG_1_ CONT1_REG_0_ U771
+0- 1
+-0 1
+.names U933 U771 U738 U772
+0-- 1
+-0- 1
+--0 1
+.names U740 CONT1_REG_1_ U773
+0- 1
+-0 1
+.names X_OUT_REG_1_ U656 U774
+0- 1
+-0 1
+.names CONT1_REG_2_ U933 U775
+0- 1
+-0 1
+.names U692 U661 U776
+0- 1
+-0 1
+.names U776 U775 U738 U777
+0-- 1
+-0- 1
+--0 1
+.names CONT1_REG_2_ U740 U778
+0- 1
+-0 1
+.names X_OUT_REG_2_ U656 U779
+0- 1
+-0 1
+.names CONT1_REG_2_ U657 U780
+0- 1
+-0 1
+.names U738 U663 U611 U781
+0-- 1
+-0- 1
+--0 1
+.names U740 CONT1_REG_3_ U782
+0- 1
+-0 1
+.names X_OUT_REG_3_ U656 U783
+0- 1
+-0 1
+.names U612 U738 U717 U784
+0-- 1
+-0- 1
+--0 1
+.names U740 CONT1_REG_4_ U785
+0- 1
+-0 1
+.names X_OUT_REG_4_ U656 U786
+0- 1
+-0 1
+.names U622 U738 U787
+0- 1
+-0 1
+.names U951 U950 U644 U788
+0-- 1
+-0- 1
+--0 1
+.names U617 U643 U789
+0- 1
+-0 1
+.names U654 U789 U790
+0- 1
+-0 1
+.names STATO_REG_2_ U790 U791
+0- 1
+-0 1
+.names STATO_REG_1_ U788 U792
+0- 1
+-0 1
+.names U720 U793
+0 1
+.names U948 U639 U794
+0- 1
+-0 1
+.names U945 U944 R_IN_REG_0_ U795
+0-- 1
+-0- 1
+--0 1
+.names U623 U647 U796
+0- 1
+-0 1
+.names U670 U797
+0 1
+.names R_IN_REG_3_ R_IN_REG_2_ U798
+0- 1
+-0 1
+.names U620 CONT1_REG_0_ U799
+0- 1
+-0 1
+.names U655 U652 U800
+0- 1
+-0 1
+.names CONT1_REG_0_ U800 U801
+0- 1
+-0 1
+.names U597 U943 U745 U802
+0-- 1
+-0- 1
+--0 1
+.names U598 U949 U760 U803
+0-- 1
+-0- 1
+--0 1
+.names U618 R_IN_REG_0_ U804
+0- 1
+-0 1
+.names CONT_REG_0_ U619 U805
+0- 1
+-0 1
+.names U803 U801 U802 U805 U804 U806
+0---- 1
+-0--- 1
+--0-- 1
+---0- 1
+----0 1
+.names U794 U641 U807
+0- 1
+-0 1
+.names U796 U640 U808
+0- 1
+-0 1
+.names U667 U809
+0 1
+.names U655 U599 U810
+0- 1
+-0 1
+.names U960 U959 U745 U811
+0-- 1
+-0- 1
+--0 1
+.names U736 U771 U933 U812
+0-- 1
+-0- 1
+--0 1
+.names U618 R_IN_REG_1_ U813
+0- 1
+-0 1
+.names U621 CONT_REG_0_ U814
+0- 1
+-0 1
+.names CONT_REG_1_ U619 U815
+0- 1
+-0 1
+.names U815 U814 U962 U961 U713 U816
+0---- 1
+-0--- 1
+--0-- 1
+---0- 1
+----0 1
+.names U809 R_IN_REG_2_ U817
+0- 1
+-0 1
+.names CONT1_REG_1_ U817 U818
+0- 1
+-0 1
+.names U667 U638 U819
+0- 1
+-0 1
+.names U671 U820
+0 1
+.names U979 U638 U821
+0- 1
+-0 1
+.names U976 U975 R_IN_REG_2_ U822
+0-- 1
+-0- 1
+--0 1
+.names U971 U970 U745 U823
+0-- 1
+-0- 1
+--0 1
+.names U736 U775 U776 U824
+0-- 1
+-0- 1
+--0 1
+.names U748 U974 U825
+0- 1
+-0 1
+.names U760 U983 U826
+0- 1
+-0 1
+.names U618 R_IN_REG_2_ U827
+0- 1
+-0 1
+.names CONT_REG_1_ U621 U828
+0- 1
+-0 1
+.names CONT_REG_2_ U619 U829
+0- 1
+-0 1
+.names U826 U825 U824 U823 U714 U830
+0---- 1
+-0--- 1
+--0-- 1
+---0- 1
+----0 1
+.names U695 U821 U831
+0- 1
+-0 1
+.names U722 U832
+0 1
+.names U990 U640 U833
+0- 1
+-0 1
+.names U987 U986 R_IN_REG_3_ U834
+0-- 1
+-0- 1
+--0 1
+.names U820 U797 U835
+0- 1
+-0 1
+.names CONT1_REG_2_ U835 U836
+0- 1
+-0 1
+.names U671 U670 U837
+0- 1
+-0 1
+.names U724 U838
+0 1
+.names U620 U649 U839
+0- 1
+-0 1
+.names U623 CONT1_REG_3_ U840
+0- 1
+-0 1
+.names CONT1_REG_2_ CONT1_REG_1_ U841
+0- 1
+-0 1
+.names CONT1_REG_3_ CONT1_REG_1_ CONT1_REG_2_ U842
+0-- 1
+-0- 1
+--0 1
+.names U673 U842 U843
+0- 1
+-0 1
+.names U736 U663 U611 U844
+0-- 1
+-0- 1
+--0 1
+.names U748 U843 U845
+0- 1
+-0 1
+.names U601 U992 U745 U846
+0-- 1
+-0- 1
+--0 1
+.names U602 U991 U760 U847
+0-- 1
+-0- 1
+--0 1
+.names U618 R_IN_REG_3_ U848
+0- 1
+-0 1
+.names CONT_REG_2_ U621 U849
+0- 1
+-0 1
+.names U619 CONT_REG_3_ U850
+0- 1
+-0 1
+.names U845 U844 U847 U715 U846 U851
+0---- 1
+-0--- 1
+--0-- 1
+---0- 1
+----0 1
+.names U839 U724 U852
+0- 1
+-0 1
+.names U674 U853
+0 1
+.names U833 U722 U854
+0- 1
+-0 1
+.names U726 U855
+0 1
+.names U999 U637 U856
+0- 1
+-0 1
+.names U996 U995 R_IN_REG_4_ U857
+0-- 1
+-0- 1
+--0 1
+.names U603 U1000 U760 U858
+0-- 1
+-0- 1
+--0 1
+.names U618 R_IN_REG_4_ U859
+0- 1
+-0 1
+.names U621 CONT_REG_3_ U860
+0- 1
+-0 1
+.names U619 CONT_REG_4_ U861
+0- 1
+-0 1
+.names U853 U638 U862
+0- 1
+-0 1
+.names CONT1_REG_4_ U862 U863
+0- 1
+-0 1
+.names R_IN_REG_2_ U674 U864
+0- 1
+-0 1
+.names U675 U865
+0 1
+.names U856 U726 U866
+0- 1
+-0 1
+.names U728 U867
+0 1
+.names U1014 U636 U868
+0- 1
+-0 1
+.names U1011 U1010 R_IN_REG_5_ U869
+0-- 1
+-0- 1
+--0 1
+.names U1024 U1023 U745 U870
+0-- 1
+-0- 1
+--0 1
+.names U605 U1015 U760 U871
+0-- 1
+-0- 1
+--0 1
+.names U618 R_IN_REG_5_ U872
+0- 1
+-0 1
+.names U622 U736 U873
+0- 1
+-0 1
+.names U621 CONT_REG_4_ U874
+0- 1
+-0 1
+.names CONT_REG_5_ U619 U875
+0- 1
+-0 1
+.names U873 U872 U871 U716 U870 U876
+0---- 1
+-0--- 1
+--0-- 1
+---0- 1
+----0 1
+.names U865 U670 U877
+0- 1
+-0 1
+.names CONT1_REG_5_ U877 U878
+0- 1
+-0 1
+.names U797 U675 U879
+0- 1
+-0 1
+.names U678 U880
+0 1
+.names U679 U881
+0 1
+.names U868 U728 U882
+0- 1
+-0 1
+.names U1043 U1042 U745 U883
+0-- 1
+-0- 1
+--0 1
+.names U1036 U736 U884
+0- 1
+-0 1
+.names U760 U1034 U885
+0- 1
+-0 1
+.names U748 U1029 U886
+0- 1
+-0 1
+.names CONT_REG_5_ U621 U887
+0- 1
+-0 1
+.names U884 U885 U887 U886 U883 U888
+0---- 1
+-0--- 1
+--0-- 1
+---0- 1
+----0 1
+.names U880 U677 U889
+0- 1
+-0 1
+.names U889 U640 U890
+0- 1
+-0 1
+.names CONT1_REG_6_ U678 U891
+0- 1
+-0 1
+.names U681 U892
+0 1
+.names U682 U893
+0 1
+.names U1060 U1059 U745 U894
+0-- 1
+-0- 1
+--0 1
+.names U1053 U736 U895
+0- 1
+-0 1
+.names U748 U1048 U896
+0- 1
+-0 1
+.names U1051 U609 U760 U897
+0-- 1
+-0- 1
+--0 1
+.names U897 U896 U895 U894 U898
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U760 U641 U741 U899
+0-- 1
+-0- 1
+--0 1
+.names U745 U683 U900
+0- 1
+-0 1
+.names U900 U899 U901
+0- 1
+-0 1
+.names U760 R_IN_REG_1_ U741 U902
+0-- 1
+-0- 1
+--0 1
+.names CONT1_REG_7_ U748 U893 U903
+0-- 1
+-0- 1
+--0 1
+.names U903 U902 U610 U904
+0-- 1
+-0- 1
+--0 1
+.names U733 U736 U588 U905
+0-- 1
+-0- 1
+--0 1
+.names U1068 U1067 U760 U587 U906
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U906 U905 U1066 U1065 U907
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U767 U657 U908
+0- 1
+-0 1
+.names U737 U666 U909
+0- 1
+-0 1
+.names U734 U909 U910
+0- 1
+-0 1
+.names U1075 U1074 U737 U911
+0-- 1
+-0- 1
+--0 1
+.names CONT_REG_2_ U910 U912
+0- 1
+-0 1
+.names U684 U913
+0 1
+.names U737 U684 U914
+0- 1
+-0 1
+.names U735 U915
+0 1
+.names CONT_REG_0_ U672 U916
+0- 1
+-0 1
+.names U892 R_IN_REG_3_ U917
+0- 1
+-0 1
+.names CONT_REG_4_ U585 U918
+0- 1
+-0 1
+.names R_IN_REG_1_ U638 U919
+0- 1
+-0 1
+.names R_IN_REG_3_ U641 U920
+0- 1
+-0 1
+.names R_IN_REG_4_ U636 U921
+0- 1
+-0 1
+.names R_IN_REG_5_ U640 U922
+0- 1
+-0 1
+.names R_IN_REG_0_ U637 U923
+0- 1
+-0 1
+.names R_IN_REG_2_ U639 U924
+0- 1
+-0 1
+.names STATO_REG_2_ U645 U925
+0- 1
+-0 1
+.names U744 U646 U926
+0- 1
+-0 1
+.names U746 U754 U927
+0- 1
+-0 1
+.names U751 U636 U642 U928
+0-- 1
+-0- 1
+--0 1
+.names STBI U646 U929
+0- 1
+-0 1
+.names U617 STATO_REG_2_ U930
+0- 1
+-0 1
+.names STATO_REG_3_ U647 U648 U931
+0-- 1
+-0- 1
+--0 1
+.names CONT1_REG_1_ U657 U932
+0- 1
+-0 1
+.names U692 U933
+0 1
+.names CONT1_REG_3_ U657 U934
+0- 1
+-0 1
+.names STATO_REG_3_ U649 U935
+0- 1
+-0 1
+.names CONT1_REG_4_ U657 U936
+0- 1
+-0 1
+.names STATO_REG_3_ U650 U937
+0- 1
+-0 1
+.names CONT1_REG_5_ U717 U938
+0- 1
+-0 1
+.names X_OUT_REG_5_ U656 U939
+0- 1
+-0 1
+.names STATO_REG_3_ U658 CONT1_REG_5_ U767 U940
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names R_IN_REG_3_ U638 U941
+0- 1
+-0 1
+.names R_IN_REG_2_ U640 U942
+0- 1
+-0 1
+.names R_IN_REG_3_ U718 U943
+0- 1
+-0 1
+.names CONT1_REG_0_ U641 U944
+0- 1
+-0 1
+.names R_IN_REG_1_ U647 U945
+0- 1
+-0 1
+.names CONT1_REG_0_ U641 U946
+0- 1
+-0 1
+.names R_IN_REG_1_ U647 U947
+0- 1
+-0 1
+.names U947 U946 U948
+0- 1
+-0 1
+.names R_IN_REG_1_ U719 U949
+0- 1
+-0 1
+.names U746 U646 U950
+0- 1
+-0 1
+.names U651 U658 STATO_REG_2_ U951
+0-- 1
+-0- 1
+--0 1
+.names U793 CONT1_REG_0_ U952
+0- 1
+-0 1
+.names U806 U720 U953
+0- 1
+-0 1
+.names CONT1_REG_1_ U638 U954
+0- 1
+-0 1
+.names R_IN_REG_2_ U648 U955
+0- 1
+-0 1
+.names CONT1_REG_1_ U638 U956
+0- 1
+-0 1
+.names R_IN_REG_2_ U648 U957
+0- 1
+-0 1
+.names U957 U956 U958
+0- 1
+-0 1
+.names U955 U954 U667 U959
+0-- 1
+-0- 1
+--0 1
+.names U958 U809 U960
+0- 1
+-0 1
+.names U810 U648 U961
+0- 1
+-0 1
+.names U760 U669 CONT1_REG_1_ U962
+0-- 1
+-0- 1
+--0 1
+.names U793 CONT1_REG_1_ U963
+0- 1
+-0 1
+.names U816 U720 U964
+0- 1
+-0 1
+.names CONT1_REG_2_ U670 U965
+0- 1
+-0 1
+.names U797 U661 U966
+0- 1
+-0 1
+.names CONT1_REG_2_ U670 U967
+0- 1
+-0 1
+.names U797 U661 U968
+0- 1
+-0 1
+.names U968 U967 U969
+0- 1
+-0 1
+.names U966 U965 U671 U970
+0-- 1
+-0- 1
+--0 1
+.names U969 U820 U971
+0- 1
+-0 1
+.names CONT1_REG_1_ U661 U972
+0- 1
+-0 1
+.names CONT1_REG_2_ U648 U973
+0- 1
+-0 1
+.names U973 U972 U974
+0- 1
+-0 1
+.names CONT1_REG_2_ U641 U975
+0- 1
+-0 1
+.names R_IN_REG_1_ U661 U976
+0- 1
+-0 1
+.names CONT1_REG_2_ U641 U977
+0- 1
+-0 1
+.names R_IN_REG_1_ U661 U978
+0- 1
+-0 1
+.names U978 U977 U979
+0- 1
+-0 1
+.names CONT1_REG_1_ R_IN_REG_1_ U980
+0- 1
+-0 1
+.names U669 U648 U981
+0- 1
+-0 1
+.names U695 U721 U982
+0- 1
+-0 1
+.names U982 U600 U983
+0- 1
+-0 1
+.names U793 CONT1_REG_2_ U984
+0- 1
+-0 1
+.names U830 U720 U985
+0- 1
+-0 1
+.names CONT1_REG_3_ U641 U986
+0- 1
+-0 1
+.names R_IN_REG_1_ U649 U987
+0- 1
+-0 1
+.names CONT1_REG_3_ U641 U988
+0- 1
+-0 1
+.names R_IN_REG_1_ U649 U989
+0- 1
+-0 1
+.names U989 U988 U990
+0- 1
+-0 1
+.names U832 U723 U991
+0- 1
+-0 1
+.names U838 U725 U992
+0- 1
+-0 1
+.names U793 CONT1_REG_3_ U993
+0- 1
+-0 1
+.names U851 U720 U994
+0- 1
+-0 1
+.names CONT1_REG_4_ U641 U995
+0- 1
+-0 1
+.names R_IN_REG_1_ U650 U996
+0- 1
+-0 1
+.names CONT1_REG_4_ U641 U997
+0- 1
+-0 1
+.names R_IN_REG_1_ U650 U998
+0- 1
+-0 1
+.names U998 U997 U999
+0- 1
+-0 1
+.names U855 U727 U1000
+0- 1
+-0 1
+.names CONT1_REG_4_ U638 U1001
+0- 1
+-0 1
+.names R_IN_REG_2_ U650 U1002
+0- 1
+-0 1
+.names U1002 U1001 U1003
+0- 1
+-0 1
+.names CONT1_REG_4_ U638 U1004
+0- 1
+-0 1
+.names R_IN_REG_2_ U650 U1005
+0- 1
+-0 1
+.names U1003 U674 U1006
+0- 1
+-0 1
+.names U1005 U1004 U853 U1007
+0-- 1
+-0- 1
+--0 1
+.names U793 CONT1_REG_4_ U1008
+0- 1
+-0 1
+.names U590 U720 U1009
+0- 1
+-0 1
+.names CONT1_REG_5_ U641 U1010
+0- 1
+-0 1
+.names R_IN_REG_1_ U664 U1011
+0- 1
+-0 1
+.names CONT1_REG_5_ U641 U1012
+0- 1
+-0 1
+.names R_IN_REG_1_ U664 U1013
+0- 1
+-0 1
+.names U1013 U1012 U1014
+0- 1
+-0 1
+.names U867 U729 U1015
+0- 1
+-0 1
+.names U748 U604 U664 U1016
+0-- 1
+-0- 1
+--0 1
+.names U614 CONT1_REG_5_ U1017
+0- 1
+-0 1
+.names CONT1_REG_5_ U670 U1018
+0- 1
+-0 1
+.names U797 U664 U1019
+0- 1
+-0 1
+.names U1019 U1018 U1020
+0- 1
+-0 1
+.names CONT1_REG_5_ U670 U1021
+0- 1
+-0 1
+.names U797 U664 U1022
+0- 1
+-0 1
+.names U1020 U675 U1023
+0- 1
+-0 1
+.names U1022 U1021 U865 U1024
+0-- 1
+-0- 1
+--0 1
+.names U793 CONT1_REG_5_ U1025
+0- 1
+-0 1
+.names U876 U720 U1026
+0- 1
+-0 1
+.names CONT1_REG_6_ U679 U1027
+0- 1
+-0 1
+.names U881 U677 U1028
+0- 1
+-0 1
+.names U1028 U1027 U1029
+0- 1
+-0 1
+.names R_IN_REG_1_ U677 U1030
+0- 1
+-0 1
+.names CONT1_REG_6_ U641 U1031
+0- 1
+-0 1
+.names U689 U1032
+0 1
+.names U689 U730 U1033
+0- 1
+-0 1
+.names U1033 U606 U1034
+0- 1
+-0 1
+.names U589 U731 U1035
+0- 1
+-0 1
+.names U607 U1035 U1036
+0- 1
+-0 1
+.names R_IN_REG_3_ U677 U1037
+0- 1
+-0 1
+.names CONT1_REG_6_ U640 U1038
+0- 1
+-0 1
+.names R_IN_REG_3_ U677 U1039
+0- 1
+-0 1
+.names CONT1_REG_6_ U640 U1040
+0- 1
+-0 1
+.names U1040 U1039 U1041
+0- 1
+-0 1
+.names U1038 U1037 U678 U1042
+0-- 1
+-0- 1
+--0 1
+.names U1041 U880 U1043
+0- 1
+-0 1
+.names U793 CONT1_REG_6_ U1044
+0- 1
+-0 1
+.names U888 U720 U1045
+0- 1
+-0 1
+.names CONT1_REG_7_ U682 U1046
+0- 1
+-0 1
+.names U893 U680 U1047
+0- 1
+-0 1
+.names U1047 U1046 U1048
+0- 1
+-0 1
+.names R_IN_REG_1_ U680 U1049
+0- 1
+-0 1
+.names CONT1_REG_7_ U641 U1050
+0- 1
+-0 1
+.names U690 U732 U1051
+0- 1
+-0 1
+.names U733 U588 U1052
+0- 1
+-0 1
+.names U608 U1052 U1053
+0- 1
+-0 1
+.names R_IN_REG_3_ U680 U1054
+0- 1
+-0 1
+.names CONT1_REG_7_ U640 U1055
+0- 1
+-0 1
+.names R_IN_REG_3_ U680 U1056
+0- 1
+-0 1
+.names CONT1_REG_7_ U640 U1057
+0- 1
+-0 1
+.names U1057 U1056 U1058
+0- 1
+-0 1
+.names U1055 U1054 U681 U1059
+0-- 1
+-0- 1
+--0 1
+.names U1058 U892 U1060
+0- 1
+-0 1
+.names U793 CONT1_REG_7_ U1061
+0- 1
+-0 1
+.names U898 U720 U1062
+0- 1
+-0 1
+.names U681 U680 U1063
+0- 1
+-0 1
+.names CONT1_REG_7_ U640 U1064
+0- 1
+-0 1
+.names CONT1_REG_8_ U901 U1065
+0- 1
+-0 1
+.names U904 U658 U1066
+0- 1
+-0 1
+.names CONT1_REG_8_ U641 U1067
+0- 1
+-0 1
+.names R_IN_REG_1_ U658 U1068
+0- 1
+-0 1
+.names U793 CONT1_REG_8_ U1069
+0- 1
+-0 1
+.names U907 U720 U1070
+0- 1
+-0 1
+.names U737 U666 U1071
+0- 1
+-0 1
+.names CONT_REG_1_ U910 U1072
+0- 1
+-0 1
+.names U737 CONT_REG_0_ U668 U1073
+0-- 1
+-0- 1
+--0 1
+.names CONT_REG_2_ CONT_REG_1_ U1074
+1- 1
+-1 1
+.names CONT_REG_1_ U916 U1075
+0- 1
+-0 1
+.names CONT_REG_3_ U685 U1076
+0- 1
+-0 1
+.names R_IN_REG_0_ U735 U1077
+0- 1
+-0 1
+.names X_IN_0_ U915 U1078
+0- 1
+-0 1
+.names R_IN_REG_1_ U735 U1079
+0- 1
+-0 1
+.names X_IN_1_ U915 U1080
+0- 1
+-0 1
+.names R_IN_REG_2_ U735 U1081
+0- 1
+-0 1
+.names X_IN_2_ U915 U1082
+0- 1
+-0 1
+.names R_IN_REG_3_ U735 U1083
+0- 1
+-0 1
+.names X_IN_3_ U915 U1084
+0- 1
+-0 1
+.names R_IN_REG_4_ U735 U1085
+0- 1
+-0 1
+.names X_IN_4_ U915 U1086
+0- 1
+-0 1
+.names R_IN_REG_5_ U735 U1087
+0- 1
+-0 1
+.end

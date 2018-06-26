@@ -1,0 +1,427 @@
+.model b09.blif
+.inputs X 
+.outputs Y 
+.latch	U93	D_IN_REG_0_	0
+.latch	U118	D_OUT_REG_7_	0
+.latch	U117	D_OUT_REG_6_	0
+.latch	U116	D_OUT_REG_5_	0
+.latch	U115	D_OUT_REG_4_	0
+.latch	U114	D_OUT_REG_3_	0
+.latch	U113	D_OUT_REG_2_	0
+.latch	U112	D_OUT_REG_1_	0
+.latch	U111	D_OUT_REG_0_	0
+.latch	U110	OLD_REG_7_	0
+.latch	U109	OLD_REG_6_	0
+.latch	U108	OLD_REG_5_	0
+.latch	U107	OLD_REG_4_	0
+.latch	U106	OLD_REG_3_	0
+.latch	U105	OLD_REG_2_	0
+.latch	U104	OLD_REG_1_	0
+.latch	U103	OLD_REG_0_	0
+.latch	U102	Y_REG	0
+.latch	U92	STATO_REG_1_	0
+.latch	U91	STATO_REG_0_	0
+.latch	U101	D_IN_REG_8_	0
+.latch	U100	D_IN_REG_7_	0
+.latch	U99	D_IN_REG_6_	0
+.latch	U98	D_IN_REG_5_	0
+.latch	U97	D_IN_REG_4_	0
+.latch	U96	D_IN_REG_3_	0
+.latch	U95	D_IN_REG_2_	0
+.latch	U94	D_IN_REG_1_	0
+.names Y_REG Y
+1 1
+.names STATO_REG_1_ STATO_REG_0_ U87
+11 1
+.names STATO_REG_0_ U140 U88
+11 1
+.names U149 U140 U89
+11 1
+.names U141 U201 U90
+11 1
+.names U224 U223 U153 U91
+0-- 1
+-0- 1
+--0 1
+.names U137 U139 U92
+0- 1
+-0 1
+.names D_IN_REG_1_ U206 U93
+11 1
+.names D_IN_REG_2_ U206 U94
+11 1
+.names D_IN_REG_3_ U206 U95
+11 1
+.names D_IN_REG_4_ U206 U96
+11 1
+.names D_IN_REG_5_ U206 U97
+11 1
+.names D_IN_REG_6_ U206 U98
+11 1
+.names D_IN_REG_7_ U206 U99
+11 1
+.names D_IN_REG_8_ U206 U100
+11 1
+.names U204 U203 U101
+0- 1
+-0 1
+.names U197 U198 U150 U102
+0-- 1
+-0- 1
+--0 1
+.names U195 U194 U103
+0- 1
+-0 1
+.names U193 U192 U104
+0- 1
+-0 1
+.names U191 U190 U105
+0- 1
+-0 1
+.names U189 U188 U106
+0- 1
+-0 1
+.names U187 U186 U107
+0- 1
+-0 1
+.names U185 U184 U108
+0- 1
+-0 1
+.names U183 U182 U109
+0- 1
+-0 1
+.names U181 U180 U110
+0- 1
+-0 1
+.names U176 U175 U177 U111
+0-- 1
+-0- 1
+--0 1
+.names U173 U172 U174 U112
+0-- 1
+-0- 1
+--0 1
+.names U170 U169 U171 U113
+0-- 1
+-0- 1
+--0 1
+.names U167 U166 U168 U114
+0-- 1
+-0- 1
+--0 1
+.names U164 U163 U165 U115
+0-- 1
+-0- 1
+--0 1
+.names U161 U160 U162 U116
+0-- 1
+-0- 1
+--0 1
+.names U158 U157 U159 U117
+0-- 1
+-0- 1
+--0 1
+.names U156 U155 U118
+0- 1
+-0 1
+.names STATO_REG_0_ U119
+0 1
+.names D_IN_REG_0_ U120
+0 1
+.names D_IN_REG_1_ U121
+0 1
+.names OLD_REG_0_ U122
+0 1
+.names D_IN_REG_2_ U123
+0 1
+.names OLD_REG_1_ U124
+0 1
+.names D_IN_REG_3_ U125
+0 1
+.names OLD_REG_2_ U126
+0 1
+.names D_IN_REG_4_ U127
+0 1
+.names OLD_REG_3_ U128
+0 1
+.names D_IN_REG_5_ U129
+0 1
+.names OLD_REG_4_ U130
+0 1
+.names D_IN_REG_6_ U131
+0 1
+.names OLD_REG_5_ U132
+0 1
+.names D_IN_REG_8_ U133
+0 1
+.names OLD_REG_7_ U134
+0 1
+.names D_IN_REG_7_ U135
+0 1
+.names OLD_REG_6_ U136
+0 1
+.names STATO_REG_1_ U137
+0 1
+.names U146 U145 U144 U143 U138
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names D_IN_REG_0_ STATO_REG_0_ U139
+0- 1
+-0 1
+.names U226 U225 U150 U140
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_1_ U119 U141
+0- 1
+-0 1
+.names STATO_REG_0_ U137 U142
+0- 1
+-0 1
+.names U210 U209 U208 U207 U143
+1111 1
+.names U214 U213 U212 U211 U144
+1111 1
+.names U218 U217 U216 U215 U145
+1111 1
+.names U222 U221 U220 U219 U146
+1111 1
+.names U138 U147
+0 1
+.names U142 U148
+0 1
+.names U141 U149
+0 1
+.names U151 U138 U150
+0- 1
+-0 1
+.names U139 U151
+0 1
+.names STATO_REG_1_ U120 U152
+0- 1
+-0 1
+.names U147 U87 U153
+0- 1
+-0 1
+.names U140 U154
+0 1
+.names U88 D_IN_REG_8_ U155
+0- 1
+-0 1
+.names D_OUT_REG_7_ U154 U156
+0- 1
+-0 1
+.names U89 D_OUT_REG_7_ U157
+0- 1
+-0 1
+.names U88 D_IN_REG_7_ U158
+0- 1
+-0 1
+.names D_OUT_REG_6_ U154 U159
+0- 1
+-0 1
+.names D_OUT_REG_6_ U89 U160
+0- 1
+-0 1
+.names U88 D_IN_REG_6_ U161
+0- 1
+-0 1
+.names D_OUT_REG_5_ U154 U162
+0- 1
+-0 1
+.names D_OUT_REG_5_ U89 U163
+0- 1
+-0 1
+.names U88 D_IN_REG_5_ U164
+0- 1
+-0 1
+.names D_OUT_REG_4_ U154 U165
+0- 1
+-0 1
+.names D_OUT_REG_4_ U89 U166
+0- 1
+-0 1
+.names U88 D_IN_REG_4_ U167
+0- 1
+-0 1
+.names D_OUT_REG_3_ U154 U168
+0- 1
+-0 1
+.names D_OUT_REG_3_ U89 U169
+0- 1
+-0 1
+.names U88 D_IN_REG_3_ U170
+0- 1
+-0 1
+.names D_OUT_REG_2_ U154 U171
+0- 1
+-0 1
+.names D_OUT_REG_2_ U89 U172
+0- 1
+-0 1
+.names U88 D_IN_REG_2_ U173
+0- 1
+-0 1
+.names D_OUT_REG_1_ U154 U174
+0- 1
+-0 1
+.names D_OUT_REG_1_ U89 U175
+0- 1
+-0 1
+.names U88 D_IN_REG_1_ U176
+0- 1
+-0 1
+.names D_OUT_REG_0_ U154 U177
+0- 1
+-0 1
+.names STATO_REG_0_ U120 U178
+0- 1
+-0 1
+.names U141 U178 U179
+0- 1
+-0 1
+.names U151 D_IN_REG_8_ U180
+0- 1
+-0 1
+.names OLD_REG_7_ U179 U181
+0- 1
+-0 1
+.names U151 D_IN_REG_7_ U182
+0- 1
+-0 1
+.names OLD_REG_6_ U179 U183
+0- 1
+-0 1
+.names U151 D_IN_REG_6_ U184
+0- 1
+-0 1
+.names OLD_REG_5_ U179 U185
+0- 1
+-0 1
+.names U151 D_IN_REG_5_ U186
+0- 1
+-0 1
+.names OLD_REG_4_ U179 U187
+0- 1
+-0 1
+.names U151 D_IN_REG_4_ U188
+0- 1
+-0 1
+.names OLD_REG_3_ U179 U189
+0- 1
+-0 1
+.names U151 D_IN_REG_3_ U190
+0- 1
+-0 1
+.names OLD_REG_2_ U179 U191
+0- 1
+-0 1
+.names U151 D_IN_REG_2_ U192
+0- 1
+-0 1
+.names OLD_REG_1_ U179 U193
+0- 1
+-0 1
+.names U151 D_IN_REG_1_ U194
+0- 1
+-0 1
+.names OLD_REG_0_ U179 U195
+0- 1
+-0 1
+.names Y_REG D_IN_REG_0_ U196
+1- 1
+-1 1
+.names D_OUT_REG_0_ U120 U149 U197
+0-- 1
+-0- 1
+--0 1
+.names U148 U196 U198
+0- 1
+-0 1
+.names U87 U138 U199
+0- 1
+-0 1
+.names U142 U199 U200
+0- 1
+-0 1
+.names U87 U120 U201
+0- 1
+-0 1
+.names U90 U142 U202
+0- 1
+-0 1
+.names X U202 U203
+0- 1
+-0 1
+.names D_IN_REG_0_ U200 U204
+0- 1
+-0 1
+.names U148 U120 U205
+0- 1
+-0 1
+.names U90 U205 U206
+0- 1
+-0 1
+.names D_IN_REG_1_ U122 U207
+0- 1
+-0 1
+.names OLD_REG_0_ U121 U208
+0- 1
+-0 1
+.names D_IN_REG_2_ U124 U209
+0- 1
+-0 1
+.names OLD_REG_1_ U123 U210
+0- 1
+-0 1
+.names D_IN_REG_3_ U126 U211
+0- 1
+-0 1
+.names OLD_REG_2_ U125 U212
+0- 1
+-0 1
+.names D_IN_REG_4_ U128 U213
+0- 1
+-0 1
+.names OLD_REG_3_ U127 U214
+0- 1
+-0 1
+.names D_IN_REG_5_ U130 U215
+0- 1
+-0 1
+.names OLD_REG_4_ U129 U216
+0- 1
+-0 1
+.names D_IN_REG_6_ U132 U217
+0- 1
+-0 1
+.names OLD_REG_5_ U131 U218
+0- 1
+-0 1
+.names D_IN_REG_8_ U134 U219
+0- 1
+-0 1
+.names OLD_REG_7_ U133 U220
+0- 1
+-0 1
+.names D_IN_REG_7_ U136 U221
+0- 1
+-0 1
+.names OLD_REG_6_ U135 U222
+0- 1
+-0 1
+.names STATO_REG_0_ U120 U223
+0- 1
+-0 1
+.names U152 U119 U224
+0- 1
+-0 1
+.names D_IN_REG_0_ U137 U225
+0- 1
+-0 1
+.names D_IN_REG_0_ STATO_REG_0_ U226
+1- 1
+-1 1
+.end

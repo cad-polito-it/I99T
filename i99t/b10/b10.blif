@@ -1,0 +1,549 @@
+.model b10.blif
+.inputs R_BUTTON G_BUTTON KEY START TEST RTS RTR V_IN_3_ V_IN_2_ V_IN_1_ V_IN_0_ 
+.outputs CTS CTR V_OUT_3_ V_OUT_2_ V_OUT_1_ V_OUT_0_ 
+.latch	U243	VOTO0_REG	0
+.latch	U212	STATO_REG_3_	0
+.latch	U211	STATO_REG_2_	0
+.latch	U210	STATO_REG_1_	0
+.latch	U233	STATO_REG_0_	0
+.latch	U234	V_OUT_REG_3_	0
+.latch	U235	V_OUT_REG_2_	0
+.latch	U236	V_OUT_REG_1_	0
+.latch	U237	V_OUT_REG_0_	0
+.latch	U209	SIGN_REG_3_	0
+.latch	U238	VOTO1_REG	0
+.latch	U208	CTR_REG	0
+.latch	U239	VOTO3_REG	0
+.latch	U240	LAST_R_REG	0
+.latch	U207	CTS_REG	0
+.latch	U241	VOTO2_REG	0
+.latch	U242	LAST_G_REG	0
+.names CTS_REG CTS
+1 1
+.names CTR_REG CTR
+1 1
+.names V_OUT_REG_3_ V_OUT_3_
+1 1
+.names V_OUT_REG_2_ V_OUT_2_
+1 1
+.names V_OUT_REG_1_ V_OUT_1_
+1 1
+.names V_OUT_REG_0_ V_OUT_0_
+1 1
+.names STATO_REG_3_ STATO_REG_2_ U200
+00 1
+.names STATO_REG_2_ U213 U201
+11 1
+.names START U258 U202
+11 1
+.names U269 U268 U203
+11 1
+.names U203 U261 U204
+11 1
+.names U204 U291 U205
+11 1
+.names U231 U299 U206
+11 1
+.names U315 U246 U316 U317 U207
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U260 U301 U208
+0- 1
+-0 1
+.names U290 U289 U209
+0- 1
+-0 1
+.names U332 U218 U341 U340 U210
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U283 U218 U284 U211
+0-- 1
+-0- 1
+--0 1
+.names U280 U279 U212
+0- 1
+-0 1
+.names STATO_REG_0_ U213
+0 1
+.names STATO_REG_0_ U217 U214
+0- 1
+-0 1
+.names STATO_REG_2_ U215
+0 1
+.names RTR U216
+0 1
+.names STATO_REG_1_ U217
+0 1
+.names STATO_REG_1_ U201 U218
+0- 1
+-0 1
+.names RTS U219
+0 1
+.names U200 U213 U220
+0- 1
+-0 1
+.names STATO_REG_3_ U221
+0 1
+.names START U222
+0 1
+.names START U200 U223
+0- 1
+-0 1
+.names STATO_REG_1_ STATO_REG_0_ U224
+0- 1
+-0 1
+.names STATO_REG_1_ U221 U225
+0- 1
+-0 1
+.names VOTO1_REG U226
+0 1
+.names VOTO2_REG U227
+0 1
+.names VOTO2_REG VOTO1_REG U247 U248 U228
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U246 U260 U272 U244 U203 U229
+0---- 1
+-0--- 1
+--0-- 1
+---0- 1
+----0 1
+.names SIGN_REG_3_ U230
+0 1
+.names STATO_REG_1_ U215 U231
+0- 1
+-0 1
+.names KEY U232
+0 1
+.names U343 U342 U233
+0- 1
+-0 1
+.names U345 U344 U234
+0- 1
+-0 1
+.names U347 U346 U235
+0- 1
+-0 1
+.names U349 U348 U236
+0- 1
+-0 1
+.names U351 U350 U237
+0- 1
+-0 1
+.names U353 U352 U238
+0- 1
+-0 1
+.names U363 U362 U239
+0- 1
+-0 1
+.names U365 U364 U240
+0- 1
+-0 1
+.names U367 U366 U241
+0- 1
+-0 1
+.names U369 U368 U242
+0- 1
+-0 1
+.names U371 U370 U243
+0- 1
+-0 1
+.names U336 U335 U273 U244
+111 1
+.names U357 U356 U245
+0- 1
+-0 1
+.names RTR U217 U201 U246
+0-- 1
+-0- 1
+--0 1
+.names VOTO3_REG U247
+0 1
+.names VOTO0_REG U248
+0 1
+.names U292 U263 U205 U249
+0-- 1
+-0- 1
+--0 1
+.names U205 U304 U250
+0- 1
+-0 1
+.names LAST_R_REG U251
+0 1
+.names KEY STATO_REG_1_ U202 U252
+0-- 1
+-0- 1
+--0 1
+.names U318 U263 U205 U253
+0-- 1
+-0- 1
+--0 1
+.names LAST_G_REG U254
+0 1
+.names U323 U223 U204 U255
+0-- 1
+-0- 1
+--0 1
+.names U228 U256
+0 1
+.names TEST U257
+0 1
+.names U220 U258
+0 1
+.names U218 U259
+0 1
+.names STATO_REG_2_ U219 U264 U260
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_3_ U215 U264 U261
+0-- 1
+-0- 1
+--0 1
+.names U223 U262
+0 1
+.names U202 U232 U263
+0- 1
+-0 1
+.names U214 U264
+0 1
+.names U231 U265
+0 1
+.names U224 U266
+0 1
+.names U246 U267
+0 1
+.names RTS U259 U268
+0- 1
+-0 1
+.names U258 U217 U269
+0- 1
+-0 1
+.names RTR STATO_REG_1_ U270
+1- 1
+-1 1
+.names U225 U271
+0 1
+.names U334 U333 STATO_REG_3_ U272
+0-- 1
+-0- 1
+--0 1
+.names U262 STATO_REG_0_ U273
+0- 1
+-0 1
+.names U229 U274
+0 1
+.names U256 U201 U275
+0- 1
+-0 1
+.names U258 U257 U276
+0- 1
+-0 1
+.names U276 U275 U277
+0- 1
+-0 1
+.names U213 U229 U278
+0- 1
+-0 1
+.names U277 U217 U229 U279
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_3_ U278 U280
+0- 1
+-0 1
+.names U213 U228 U281
+0- 1
+-0 1
+.names U281 U214 U229 U282
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_1_ U339 U283
+0- 1
+-0 1
+.names STATO_REG_2_ U282 U284
+0- 1
+-0 1
+.names U256 U221 U285
+0- 1
+-0 1
+.names U213 U217 U285 U286
+0-- 1
+-0- 1
+--0 1
+.names U218 U220 U286 U287
+0-- 1
+-0- 1
+--0 1
+.names U257 U217 U258 U288
+0-- 1
+-0- 1
+--0 1
+.names SIGN_REG_3_ U288 U289
+0- 1
+-0 1
+.names STATO_REG_3_ STATO_REG_0_ U290
+0- 1
+-0 1
+.names START U215 U264 U291
+0-- 1
+-0- 1
+--0 1
+.names G_BUTTON U254 U202 U292
+0-- 1
+-0- 1
+--0 1
+.names U249 U293
+0 1
+.names U259 U221 U294
+0- 1
+-0 1
+.names U261 U294 U295
+0- 1
+-0 1
+.names KEY U226 U265 U296
+0-- 1
+-0- 1
+--0 1
+.names V_IN_1_ U295 U297
+0- 1
+-0 1
+.names U297 U296 U298
+0- 1
+-0 1
+.names STATO_REG_2_ U217 U299
+0- 1
+-0 1
+.names U355 U354 U213 U206 U300
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names CTR_REG U300 U301
+0- 1
+-0 1
+.names START U232 U302
+0- 1
+-0 1
+.names U224 U302 U303
+0- 1
+-0 1
+.names U200 U303 U304
+0- 1
+-0 1
+.names U250 U305
+0 1
+.names U266 U361 U306
+0- 1
+-0 1
+.names V_IN_3_ U295 U307
+0- 1
+-0 1
+.names U307 U306 U308
+0- 1
+-0 1
+.names U252 U309
+0 1
+.names STATO_REG_0_ STATO_REG_3_ U310
+1- 1
+-1 1
+.names RTR U310 U311
+0- 1
+-0 1
+.names STATO_REG_3_ U264 U312
+0- 1
+-0 1
+.names STATO_REG_1_ U213 U313
+0- 1
+-0 1
+.names U206 U313 U312 U311 U314
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names STATO_REG_3_ U217 U201 U315
+0-- 1
+-0- 1
+--0 1
+.names RTR U200 U264 U316
+0-- 1
+-0- 1
+--0 1
+.names CTS_REG U314 U317
+0- 1
+-0 1
+.names R_BUTTON U251 U202 U318
+0-- 1
+-0- 1
+--0 1
+.names U253 U319
+0 1
+.names KEY U227 U265 U320
+0-- 1
+-0- 1
+--0 1
+.names V_IN_2_ U295 U321
+0- 1
+-0 1
+.names U321 U320 U322
+0- 1
+-0 1
+.names U265 U339 U323
+0- 1
+-0 1
+.names U255 U324
+0 1
+.names KEY U258 U325
+0- 1
+-0 1
+.names STATO_REG_3_ U230 U326
+0- 1
+-0 1
+.names U326 U325 U327
+0- 1
+-0 1
+.names STATO_REG_1_ U327 U328
+0- 1
+-0 1
+.names V_IN_0_ U295 U329
+0- 1
+-0 1
+.names U329 U328 U330
+0- 1
+-0 1
+.names V_IN_3_ V_IN_2_ V_IN_0_ V_IN_1_ U331
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U274 STATO_REG_1_ U332
+0- 1
+-0 1
+.names STATO_REG_0_ U331 U333
+0- 1
+-0 1
+.names U270 U231 U213 U334
+0-- 1
+-0- 1
+--0 1
+.names U271 U222 U215 U335
+0-- 1
+-0- 1
+--0 1
+.names U266 U216 STATO_REG_2_ U336
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_3_ U213 U337
+0- 1
+-0 1
+.names STATO_REG_0_ U221 U338
+0- 1
+-0 1
+.names U338 U337 U339
+0- 1
+-0 1
+.names STATO_REG_0_ U229 U225 U340
+0-- 1
+-0- 1
+--0 1
+.names U271 U213 U341
+0- 1
+-0 1
+.names U274 STATO_REG_0_ U342
+0- 1
+-0 1
+.names U287 U229 U343
+0- 1
+-0 1
+.names V_OUT_REG_3_ U246 U344
+0- 1
+-0 1
+.names VOTO3_REG U267 U345
+0- 1
+-0 1
+.names V_OUT_REG_2_ U246 U346
+0- 1
+-0 1
+.names U267 VOTO2_REG U347
+0- 1
+-0 1
+.names V_OUT_REG_1_ U246 U348
+0- 1
+-0 1
+.names U267 VOTO1_REG U349
+0- 1
+-0 1
+.names V_OUT_REG_0_ U246 U350
+0- 1
+-0 1
+.names VOTO0_REG U267 U351
+0- 1
+-0 1
+.names U293 VOTO1_REG U352
+0- 1
+-0 1
+.names U298 U249 U353
+0- 1
+-0 1
+.names STATO_REG_3_ U217 U354
+0- 1
+-0 1
+.names STATO_REG_1_ U219 U355
+0- 1
+-0 1
+.names VOTO2_REG U248 U356
+0- 1
+-0 1
+.names VOTO0_REG U227 U357
+0- 1
+-0 1
+.names U245 U358
+0 1
+.names U358 VOTO1_REG U359
+0- 1
+-0 1
+.names U245 U226 U360
+0- 1
+-0 1
+.names U360 U359 U361
+0- 1
+-0 1
+.names U305 VOTO3_REG U362
+0- 1
+-0 1
+.names U308 U250 U363
+0- 1
+-0 1
+.names LAST_R_REG U252 U364
+0- 1
+-0 1
+.names U309 R_BUTTON U365
+0- 1
+-0 1
+.names U319 VOTO2_REG U366
+0- 1
+-0 1
+.names U322 U253 U367
+0- 1
+-0 1
+.names LAST_G_REG U252 U368
+0- 1
+-0 1
+.names U309 G_BUTTON U369
+0- 1
+-0 1
+.names U324 VOTO0_REG U370
+0- 1
+-0 1
+.names U330 U255 U371
+0- 1
+-0 1
+.end

@@ -1,0 +1,913 @@
+.model b13.blif
+.inputs EOC DATA_IN_7_ DATA_IN_6_ DATA_IN_5_ DATA_IN_4_ DATA_IN_3_ DATA_IN_2_ DATA_IN_1_ DATA_IN_0_ DSR 
+.outputs SOC LOAD_DATO ADD_MPX2 CANALE_3_ CANALE_2_ CANALE_1_ CANALE_0_ MUX_EN ERROR DATA_OUT 
+.latch	U416	CANALE_REG_3_	0
+.latch	U415	CANALE_REG_2_	0
+.latch	U414	CANALE_REG_1_	0
+.latch	U413	CANALE_REG_0_	0
+.latch	U417	CONTA_TMP_REG_3_	0
+.latch	U412	CONTA_TMP_REG_2_	0
+.latch	U411	CONTA_TMP_REG_1_	0
+.latch	U410	CONTA_TMP_REG_0_	0
+.latch	U452	ITFC_STATE_REG_1_	0
+.latch	U409	ITFC_STATE_REG_0_	0
+.latch	U453	OUT_REG_REG_7_	0
+.latch	U454	OUT_REG_REG_6_	0
+.latch	U455	OUT_REG_REG_5_	0
+.latch	U456	OUT_REG_REG_4_	0
+.latch	U457	OUT_REG_REG_3_	0
+.latch	U458	OUT_REG_REG_2_	0
+.latch	U459	OUT_REG_REG_1_	0
+.latch	U460	OUT_REG_REG_0_	0
+.latch	U461	NEXT_BIT_REG_3_	0
+.latch	U408	NEXT_BIT_REG_2_	0
+.latch	U407	NEXT_BIT_REG_1_	0
+.latch	U462	NEXT_BIT_REG_0_	0
+.latch	U406	TX_CONTA_REG_9_	0
+.latch	U405	TX_CONTA_REG_8_	0
+.latch	U404	TX_CONTA_REG_7_	0
+.latch	U403	TX_CONTA_REG_6_	0
+.latch	U402	TX_CONTA_REG_5_	0
+.latch	U401	TX_CONTA_REG_4_	0
+.latch	U400	TX_CONTA_REG_3_	0
+.latch	U399	TX_CONTA_REG_2_	0
+.latch	U398	TX_CONTA_REG_1_	0
+.latch	U397	TX_CONTA_REG_0_	0
+.latch	U396	LOAD_REG	0
+.latch	U395	SEND_DATA_REG	0
+.latch	U394	SEND_EN_REG	0
+.latch	U393	MUX_EN_REG	0
+.latch	U392	TRE_REG	0
+.latch	U391	LOAD_DATO_REG	0
+.latch	U450	SOC_REG	0
+.latch	U390	SEND_REG	0
+.latch	U389	MPX_REG	0
+.latch	U388	CONFIRM_REG	0
+.latch	U387	SHOT_REG	0
+.latch	U386	ADD_MPX2_REG	0
+.latch	U385	RDY_REG	0
+.latch	U451	ERROR_REG	0
+.latch	U383	S1_REG_2_	0
+.latch	U464	S1_REG_1_	0
+.latch	U384	S1_REG_0_	0
+.latch	U463	S2_REG_1_	0
+.latch	U382	S2_REG_0_	0
+.latch	U381	TX_END_REG	0
+.latch	U380	DATA_OUT_REG	0
+.names SOC_REG SOC
+1 1
+.names LOAD_DATO_REG LOAD_DATO
+1 1
+.names ADD_MPX2_REG ADD_MPX2
+1 1
+.names CANALE_REG_3_ CANALE_3_
+1 1
+.names CANALE_REG_2_ CANALE_2_
+1 1
+.names CANALE_REG_1_ CANALE_1_
+1 1
+.names CANALE_REG_0_ CANALE_0_
+1 1
+.names MUX_EN_REG MUX_EN
+1 1
+.names TX_CONTA_REG_4_ GT_255_U7 GT_255_U10
+1- 1
+-1 1
+.names ERROR_REG ERROR
+1 1
+.names DATA_OUT_REG DATA_OUT
+1 1
+.names TX_CONTA_REG_2_ TX_CONTA_REG_0_ TX_CONTA_REG_1_ GT_255_U9
+1-- 1
+-1- 1
+--1 1
+.names TX_CONTA_REG_5_ TX_CONTA_REG_6_ GT_255_U10 GT_255_U8
+111 1
+.names SEND_EN_REG U420 U375
+11 1
+.names U493 U509 U376
+11 1
+.names NEXT_BIT_REG_2_ NEXT_BIT_REG_1_ U377
+11 1
+.names NEXT_BIT_REG_1_ U446 U378
+11 1
+.names CONTA_TMP_REG_1_ CONTA_TMP_REG_0_ U379
+11 1
+.names U599 U598 U474 U380
+0-- 1
+-0- 1
+--0 1
+.names U473 U445 U475 U381
+111 1
+.names U439 U472 U382
+0- 1
+-0 1
+.names U434 U561 U383
+0- 1
+-0 1
+.names U605 U604 S1_REG_0_ U384
+0-- 1
+-0- 1
+--0 1
+.names U472 U507 U385
+0- 1
+-0 1
+.names U467 ADD_MPX2_REG U386
+1- 1
+-1 1
+.names U505 U504 U387
+0- 1
+-0 1
+.names U502 U501 U388
+0- 1
+-0 1
+.names U466 U499 U389
+0- 1
+-0 1
+.names U497 U496 U390
+0- 1
+-0 1
+.names U489 U494 U391
+0- 1
+-0 1
+.names TRE_REG TX_END_REG LOAD_REG U392
+1-- 1
+-1- 1
+--1 1
+.names U491 U490 U393
+0- 1
+-0 1
+.names U488 U487 U394
+0- 1
+-0 1
+.names U486 U485 U395
+0- 1
+-0 1
+.names U482 U481 U396
+0- 1
+-0 1
+.names U479 U478 U397
+0- 1
+-0 1
+.names U477 U476 U398
+0- 1
+-0 1
+.names U548 U547 U399
+0- 1
+-0 1
+.names U546 U545 U400
+0- 1
+-0 1
+.names U544 U543 U401
+0- 1
+-0 1
+.names U542 U541 U402
+0- 1
+-0 1
+.names U540 U539 U403
+0- 1
+-0 1
+.names U538 U537 U404
+0- 1
+-0 1
+.names U536 U535 U405
+0- 1
+-0 1
+.names U534 U533 U406
+0- 1
+-0 1
+.names U529 U528 U407
+0- 1
+-0 1
+.names U593 U592 U448 U408
+0-- 1
+-0- 1
+--0 1
+.names U526 U525 U409
+0- 1
+-0 1
+.names U444 U522 U410
+0- 1
+-0 1
+.names U468 U521 U411
+0- 1
+-0 1
+.names U469 U519 U412
+0- 1
+-0 1
+.names U444 U516 U413
+0- 1
+-0 1
+.names U515 U468 U514 U414
+0-- 1
+-0- 1
+--0 1
+.names U512 U469 U513 U415
+0-- 1
+-0- 1
+--0 1
+.names U511 U510 U416
+0- 1
+-0 1
+.names CONTA_TMP_REG_3_ U517 U417
+11 1
+.names CONTA_TMP_REG_0_ U418
+0 1
+.names SEND_EN_REG U419
+0 1
+.names GT_255_U6 U420
+0 1
+.names GT_255_U6 SEND_EN_REG U421
+0- 1
+-0 1
+.names NEXT_BIT_REG_0_ U422
+0 1
+.names NEXT_BIT_REG_0_ U474 U423
+0- 1
+-0 1
+.names NEXT_BIT_REG_3_ NEXT_BIT_REG_2_ U424
+1- 1
+-1 1
+.names ITFC_STATE_REG_0_ U425
+0 1
+.names LOAD_REG U426
+0 1
+.names S1_REG_0_ U427
+0 1
+.names S1_REG_1_ U428
+0 1
+.names S1_REG_2_ U429
+0 1
+.names RDY_REG U430
+0 1
+.names RDY_REG S1_REG_1_ U431
+0- 1
+-0 1
+.names SEND_REG U432
+0 1
+.names TRE_REG U433
+0 1
+.names S1_REG_1_ U427 U434
+0- 1
+-0 1
+.names ITFC_STATE_REG_1_ U435
+0 1
+.names S2_REG_1_ U436
+0 1
+.names CONFIRM_REG U437
+0 1
+.names MPX_REG U438
+0 1
+.names S2_REG_1_ U441 CONFIRM_REG U439
+0-- 1
+-0- 1
+--0 1
+.names TX_END_REG U440
+0 1
+.names S2_REG_0_ U441
+0 1
+.names CONTA_TMP_REG_1_ U442
+0 1
+.names U492 S1_REG_2_ U443
+0- 1
+-0 1
+.names U376 U418 U444
+0- 1
+-0 1
+.names NEXT_BIT_REG_1_ U445
+0 1
+.names NEXT_BIT_REG_2_ U446
+0 1
+.names NEXT_BIT_REG_3_ U447
+0 1
+.names NEXT_BIT_REG_2_ U445 U448
+0- 1
+-0 1
+.names EOC U449
+0 1
+.names U566 U565 U450
+0- 1
+-0 1
+.names U571 U570 U451
+0- 1
+-0 1
+.names U573 U572 U452
+0- 1
+-0 1
+.names U575 U574 U453
+0- 1
+-0 1
+.names U577 U576 U454
+0- 1
+-0 1
+.names U579 U578 U455
+0- 1
+-0 1
+.names U581 U580 U456
+0- 1
+-0 1
+.names U583 U582 U457
+0- 1
+-0 1
+.names U585 U584 U458
+0- 1
+-0 1
+.names U587 U586 U459
+0- 1
+-0 1
+.names U589 U588 U460
+0- 1
+-0 1
+.names U591 U590 U461
+0- 1
+-0 1
+.names U597 U596 U462
+0- 1
+-0 1
+.names U601 U600 U463
+0- 1
+-0 1
+.names U603 U602 U464
+0- 1
+-0 1
+.names LOAD_REG U433 U465
+0- 1
+-0 1
+.names U498 U438 U466
+0- 1
+-0 1
+.names U466 U467
+0 1
+.names CONTA_TMP_REG_0_ U442 U376 U468
+0-- 1
+-0- 1
+--0 1
+.names U376 U379 U469
+0- 1
+-0 1
+.names U444 U470
+0 1
+.names U448 U471
+0 1
+.names U441 U436 SEND_DATA_REG U472
+0-- 1
+-0- 1
+--0 1
+.names U424 U473
+0 1
+.names U421 U474
+0 1
+.names U423 U475
+0 1
+.names ADD_291_U29 U375 U476
+0- 1
+-0 1
+.names TX_CONTA_REG_1_ U419 U477
+0- 1
+-0 1
+.names ADD_291_U5 U375 U478
+0- 1
+-0 1
+.names TX_CONTA_REG_0_ U419 U479
+0- 1
+-0 1
+.names ITFC_STATE_REG_0_ U435 U480
+0- 1
+-0 1
+.names U425 U435 SHOT_REG U481
+0-- 1
+-0- 1
+--0 1
+.names LOAD_REG U480 U482
+0- 1
+-0 1
+.names U431 U483
+0 1
+.names U483 S1_REG_0_ U484
+0- 1
+-0 1
+.names S1_REG_1_ S1_REG_0_ S1_REG_2_ U485
+0-- 1
+-0- 1
+--0 1
+.names SEND_DATA_REG U484 U486
+0- 1
+-0 1
+.names TRE_REG SEND_REG DSR U487
+0-- 1
+-0- 1
+--0 1
+.names SEND_EN_REG U440 U488
+0- 1
+-0 1
+.names S1_REG_2_ S1_REG_0_ U428 U449 U489
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names S1_REG_2_ S1_REG_1_ S1_REG_0_ U490
+1-- 1
+-1- 1
+--1 1
+.names MUX_EN_REG U489 U491
+0- 1
+-0 1
+.names U434 U492
+0 1
+.names U443 U493
+0 1
+.names LOAD_DATO_REG U443 U494
+0- 1
+-0 1
+.names ITFC_STATE_REG_1_ U425 U495
+0- 1
+-0 1
+.names SEND_REG U495 U496
+0- 1
+-0 1
+.names ITFC_STATE_REG_0_ U435 U497
+0- 1
+-0 1
+.names U439 U498
+0 1
+.names MPX_REG U439 U499
+0- 1
+-0 1
+.names ITFC_STATE_REG_0_ ITFC_STATE_REG_1_ U500
+1- 1
+-1 1
+.names ITFC_STATE_REG_1_ ITFC_STATE_REG_0_ TX_END_REG U501
+0-- 1
+-0- 1
+--0 1
+.names CONFIRM_REG U500 U502
+0- 1
+-0 1
+.names U441 U437 S2_REG_1_ U503
+0-- 1
+-0- 1
+--0 1
+.names SHOT_REG U503 U504
+0- 1
+-0 1
+.names S2_REG_0_ U436 U505
+0- 1
+-0 1
+.names U498 MPX_REG U506
+0- 1
+-0 1
+.names RDY_REG U506 U507
+0- 1
+-0 1
+.names DSR TRE_REG U508
+0- 1
+-0 1
+.names U379 CONTA_TMP_REG_2_ U509
+0- 1
+-0 1
+.names CONTA_TMP_REG_3_ U376 U510
+0- 1
+-0 1
+.names CANALE_REG_3_ U443 U511
+0- 1
+-0 1
+.names U376 CONTA_TMP_REG_2_ U512
+0- 1
+-0 1
+.names CANALE_REG_2_ U443 U513
+0- 1
+-0 1
+.names U470 CONTA_TMP_REG_1_ U514
+0- 1
+-0 1
+.names CANALE_REG_1_ U443 U515
+0- 1
+-0 1
+.names CANALE_REG_0_ U443 U516
+0- 1
+-0 1
+.names U379 CONTA_TMP_REG_2_ U493 U517
+0-- 1
+-0- 1
+--0 1
+.names U493 U379 U518
+0- 1
+-0 1
+.names U518 CONTA_TMP_REG_2_ U519
+0- 1
+-0 1
+.names U493 CONTA_TMP_REG_0_ U520
+0- 1
+-0 1
+.names CONTA_TMP_REG_1_ U520 U521
+0- 1
+-0 1
+.names CONTA_TMP_REG_0_ U443 U522
+0- 1
+-0 1
+.names TX_END_REG ITFC_STATE_REG_1_ U523
+0- 1
+-0 1
+.names TX_END_REG ITFC_STATE_REG_0_ U524
+0- 1
+-0 1
+.names ITFC_STATE_REG_1_ U524 U525
+0- 1
+-0 1
+.names SHOT_REG U425 U526
+0- 1
+-0 1
+.names U465 U527
+0 1
+.names U595 U594 U474 U528
+0-- 1
+-0- 1
+--0 1
+.names NEXT_BIT_REG_1_ U423 U529
+0- 1
+-0 1
+.names NEXT_BIT_REG_1_ NEXT_BIT_REG_2_ U530
+1- 1
+-1 1
+.names U530 U422 U531
+0- 1
+-0 1
+.names U447 U531 U532
+0- 1
+-0 1
+.names ADD_291_U21 U375 U533
+0- 1
+-0 1
+.names TX_CONTA_REG_9_ U419 U534
+0- 1
+-0 1
+.names ADD_291_U22 U375 U535
+0- 1
+-0 1
+.names TX_CONTA_REG_8_ U419 U536
+0- 1
+-0 1
+.names ADD_291_U23 U375 U537
+0- 1
+-0 1
+.names TX_CONTA_REG_7_ U419 U538
+0- 1
+-0 1
+.names ADD_291_U24 U375 U539
+0- 1
+-0 1
+.names TX_CONTA_REG_6_ U419 U540
+0- 1
+-0 1
+.names ADD_291_U25 U375 U541
+0- 1
+-0 1
+.names TX_CONTA_REG_5_ U419 U542
+0- 1
+-0 1
+.names ADD_291_U26 U375 U543
+0- 1
+-0 1
+.names TX_CONTA_REG_4_ U419 U544
+0- 1
+-0 1
+.names ADD_291_U27 U375 U545
+0- 1
+-0 1
+.names TX_CONTA_REG_3_ U419 U546
+0- 1
+-0 1
+.names ADD_291_U28 U375 U547
+0- 1
+-0 1
+.names TX_CONTA_REG_2_ U419 U548
+0- 1
+-0 1
+.names U378 OUT_REG_REG_6_ U549
+0- 1
+-0 1
+.names U377 OUT_REG_REG_2_ U550
+0- 1
+-0 1
+.names U473 U445 U551
+0- 1
+-0 1
+.names U471 OUT_REG_REG_4_ U552
+0- 1
+-0 1
+.names NEXT_BIT_REG_3_ OUT_REG_REG_0_ U553
+0- 1
+-0 1
+.names U550 U549 U551 U553 U552 U554
+0---- 1
+-0--- 1
+--0-- 1
+---0- 1
+----0 1
+.names U378 OUT_REG_REG_7_ U555
+0- 1
+-0 1
+.names U377 OUT_REG_REG_3_ U556
+0- 1
+-0 1
+.names U471 OUT_REG_REG_5_ U557
+0- 1
+-0 1
+.names NEXT_BIT_REG_3_ OUT_REG_REG_1_ U558
+0- 1
+-0 1
+.names U558 U557 U556 U555 U559
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names CONFIRM_REG U438 U560
+0- 1
+-0 1
+.names S1_REG_2_ S1_REG_0_ U561
+0- 1
+-0 1
+.names U431 U429 U562
+0- 1
+-0 1
+.names EOC S1_REG_1_ U563
+1- 1
+-1 1
+.names U563 U562 U564
+0- 1
+-0 1
+.names U492 U429 U565
+0- 1
+-0 1
+.names SOC_REG U434 U566
+0- 1
+-0 1
+.names ERROR_REG U426 U567
+0- 1
+-0 1
+.names TRE_REG LOAD_REG U568
+0- 1
+-0 1
+.names U568 U567 U569
+0- 1
+-0 1
+.names SEND_REG U508 U570
+0- 1
+-0 1
+.names U569 U432 U571
+0- 1
+-0 1
+.names ITFC_STATE_REG_1_ U425 U572
+0- 1
+-0 1
+.names ITFC_STATE_REG_0_ U523 U573
+0- 1
+-0 1
+.names OUT_REG_REG_7_ U465 U574
+0- 1
+-0 1
+.names DATA_IN_7_ U527 U575
+0- 1
+-0 1
+.names OUT_REG_REG_6_ U465 U576
+0- 1
+-0 1
+.names DATA_IN_6_ U527 U577
+0- 1
+-0 1
+.names OUT_REG_REG_5_ U465 U578
+0- 1
+-0 1
+.names DATA_IN_5_ U527 U579
+0- 1
+-0 1
+.names OUT_REG_REG_4_ U465 U580
+0- 1
+-0 1
+.names DATA_IN_4_ U527 U581
+0- 1
+-0 1
+.names OUT_REG_REG_3_ U465 U582
+0- 1
+-0 1
+.names DATA_IN_3_ U527 U583
+0- 1
+-0 1
+.names OUT_REG_REG_2_ U465 U584
+0- 1
+-0 1
+.names DATA_IN_2_ U527 U585
+0- 1
+-0 1
+.names OUT_REG_REG_1_ U465 U586
+0- 1
+-0 1
+.names DATA_IN_1_ U527 U587
+0- 1
+-0 1
+.names OUT_REG_REG_0_ U465 U588
+0- 1
+-0 1
+.names DATA_IN_0_ U527 U589
+0- 1
+-0 1
+.names NEXT_BIT_REG_3_ U423 U590
+0- 1
+-0 1
+.names U377 U475 U591
+0- 1
+-0 1
+.names NEXT_BIT_REG_2_ U423 U592
+0- 1
+-0 1
+.names U378 U475 U593
+0- 1
+-0 1
+.names NEXT_BIT_REG_0_ U448 U594
+0- 1
+-0 1
+.names U424 U422 U595
+0- 1
+-0 1
+.names NEXT_BIT_REG_0_ U421 U596
+0- 1
+-0 1
+.names U474 U532 U597
+0- 1
+-0 1
+.names NEXT_BIT_REG_0_ U554 U598
+0- 1
+-0 1
+.names U559 U422 U599
+0- 1
+-0 1
+.names S2_REG_1_ U560 U441 U600
+0-- 1
+-0- 1
+--0 1
+.names S2_REG_0_ U436 U601
+0- 1
+-0 1
+.names S1_REG_2_ U427 U602
+0- 1
+-0 1
+.names S1_REG_0_ U564 U603
+0- 1
+-0 1
+.names EOC S1_REG_2_ U428 U604
+0-- 1
+-0- 1
+--0 1
+.names U429 U430 S1_REG_1_ U605
+0-- 1
+-0- 1
+--0 1
+.names TX_CONTA_REG_3_ GT_255_U9 GT_255_U7
+11 1
+.names TX_CONTA_REG_0_ ADD_291_U5
+0 1
+.names TX_CONTA_REG_1_ ADD_291_U6
+0 1
+.names TX_CONTA_REG_1_ TX_CONTA_REG_0_ ADD_291_U7
+0- 1
+-0 1
+.names TX_CONTA_REG_2_ ADD_291_U8
+0 1
+.names TX_CONTA_REG_2_ ADD_291_U32 ADD_291_U9
+0- 1
+-0 1
+.names TX_CONTA_REG_3_ ADD_291_U10
+0 1
+.names TX_CONTA_REG_3_ ADD_291_U33 ADD_291_U11
+0- 1
+-0 1
+.names TX_CONTA_REG_4_ ADD_291_U12
+0 1
+.names TX_CONTA_REG_4_ ADD_291_U34 ADD_291_U13
+0- 1
+-0 1
+.names TX_CONTA_REG_5_ ADD_291_U14
+0 1
+.names TX_CONTA_REG_5_ ADD_291_U35 ADD_291_U15
+0- 1
+-0 1
+.names TX_CONTA_REG_6_ ADD_291_U16
+0 1
+.names TX_CONTA_REG_6_ ADD_291_U36 ADD_291_U17
+0- 1
+-0 1
+.names TX_CONTA_REG_7_ ADD_291_U18
+0 1
+.names TX_CONTA_REG_7_ ADD_291_U37 ADD_291_U19
+0- 1
+-0 1
+.names TX_CONTA_REG_8_ ADD_291_U20
+0 1
+.names ADD_291_U41 ADD_291_U40 ADD_291_U21
+0- 1
+-0 1
+.names ADD_291_U43 ADD_291_U42 ADD_291_U22
+0- 1
+-0 1
+.names ADD_291_U45 ADD_291_U44 ADD_291_U23
+0- 1
+-0 1
+.names ADD_291_U47 ADD_291_U46 ADD_291_U24
+0- 1
+-0 1
+.names ADD_291_U49 ADD_291_U48 ADD_291_U25
+0- 1
+-0 1
+.names ADD_291_U51 ADD_291_U50 ADD_291_U26
+0- 1
+-0 1
+.names ADD_291_U53 ADD_291_U52 ADD_291_U27
+0- 1
+-0 1
+.names ADD_291_U55 ADD_291_U54 ADD_291_U28
+0- 1
+-0 1
+.names ADD_291_U57 ADD_291_U56 ADD_291_U29
+0- 1
+-0 1
+.names TX_CONTA_REG_9_ ADD_291_U30
+0 1
+.names TX_CONTA_REG_8_ ADD_291_U38 ADD_291_U31
+0- 1
+-0 1
+.names ADD_291_U7 ADD_291_U32
+0 1
+.names ADD_291_U9 ADD_291_U33
+0 1
+.names ADD_291_U11 ADD_291_U34
+0 1
+.names ADD_291_U13 ADD_291_U35
+0 1
+.names ADD_291_U15 ADD_291_U36
+0 1
+.names ADD_291_U17 ADD_291_U37
+0 1
+.names ADD_291_U19 ADD_291_U38
+0 1
+.names ADD_291_U31 ADD_291_U39
+0 1
+.names TX_CONTA_REG_9_ ADD_291_U31 ADD_291_U40
+0- 1
+-0 1
+.names ADD_291_U39 ADD_291_U30 ADD_291_U41
+0- 1
+-0 1
+.names TX_CONTA_REG_8_ ADD_291_U19 ADD_291_U42
+0- 1
+-0 1
+.names ADD_291_U38 ADD_291_U20 ADD_291_U43
+0- 1
+-0 1
+.names TX_CONTA_REG_7_ ADD_291_U17 ADD_291_U44
+0- 1
+-0 1
+.names ADD_291_U37 ADD_291_U18 ADD_291_U45
+0- 1
+-0 1
+.names TX_CONTA_REG_6_ ADD_291_U15 ADD_291_U46
+0- 1
+-0 1
+.names ADD_291_U36 ADD_291_U16 ADD_291_U47
+0- 1
+-0 1
+.names TX_CONTA_REG_5_ ADD_291_U13 ADD_291_U48
+0- 1
+-0 1
+.names ADD_291_U35 ADD_291_U14 ADD_291_U49
+0- 1
+-0 1
+.names TX_CONTA_REG_4_ ADD_291_U11 ADD_291_U50
+0- 1
+-0 1
+.names ADD_291_U34 ADD_291_U12 ADD_291_U51
+0- 1
+-0 1
+.names TX_CONTA_REG_3_ ADD_291_U9 ADD_291_U52
+0- 1
+-0 1
+.names ADD_291_U33 ADD_291_U10 ADD_291_U53
+0- 1
+-0 1
+.names TX_CONTA_REG_2_ ADD_291_U7 ADD_291_U54
+0- 1
+-0 1
+.names ADD_291_U32 ADD_291_U8 ADD_291_U55
+0- 1
+-0 1
+.names TX_CONTA_REG_1_ ADD_291_U5 ADD_291_U56
+0- 1
+-0 1
+.names TX_CONTA_REG_0_ ADD_291_U6 ADD_291_U57
+0- 1
+-0 1
+.names TX_CONTA_REG_7_ TX_CONTA_REG_9_ TX_CONTA_REG_8_ GT_255_U8 GT_255_U6
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.end

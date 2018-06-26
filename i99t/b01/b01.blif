@@ -1,0 +1,131 @@
+.model b01.blif
+.inputs LINE1 LINE2 
+.outputs OUTP OVERFLW 
+.latch	U34	OVERFLW_REG	0
+.latch	U45	STATO_REG_2_	0
+.latch	U36	STATO_REG_1_	0
+.latch	U35	STATO_REG_0_	0
+.latch	U44	OUTP_REG	0
+.names OUTP_REG OUTP
+1 1
+.names OVERFLW_REG OVERFLW
+1 1
+.names STATO_REG_1_ U38 STATO_REG_0_ U34
+111 1
+.names U68 U67 U66 U65 U35
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U57 U55 U56 U36
+0-- 1
+-0- 1
+--0 1
+.names LINE2 LINE1 U37
+1- 1
+-1 1
+.names STATO_REG_2_ U38
+0 1
+.names STATO_REG_1_ U39
+0 1
+.names LINE2 U40
+0 1
+.names LINE1 U41
+0 1
+.names STATO_REG_0_ U42
+0 1
+.names STATO_REG_1_ U42 U43
+0- 1
+-0 1
+.names U73 U72 U44
+0- 1
+-0 1
+.names U60 U59 U45
+0- 1
+-0 1
+.names U70 U69 U46
+0- 1
+-0 1
+.names LINE1 LINE2 U47
+0- 1
+-0 1
+.names STATO_REG_2_ U43 U48
+0- 1
+-0 1
+.names U37 U49
+0 1
+.names U49 U42 U50
+0- 1
+-0 1
+.names U47 U51
+0 1
+.names U43 U52
+0 1
+.names U47 U43 U53
+0- 1
+-0 1
+.names STATO_REG_2_ U47 U54
+0- 1
+-0 1
+.names STATO_REG_0_ U39 U47 U55
+0-- 1
+-0- 1
+--0 1
+.names U52 U54 U56
+0- 1
+-0 1
+.names U62 U61 STATO_REG_2_ U57
+0-- 1
+-0- 1
+--0 1
+.names U48 U58
+0 1
+.names U53 U38 U59
+0- 1
+-0 1
+.names U50 U39 STATO_REG_2_ U60
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_1_ U49 U61
+0- 1
+-0 1
+.names U37 U42 U62
+0- 1
+-0 1
+.names STATO_REG_0_ U47 U63
+0- 1
+-0 1
+.names U51 U42 U64
+0- 1
+-0 1
+.names U64 U63 U39 U38 U65
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U43 U37 STATO_REG_2_ U66
+0-- 1
+-0- 1
+--0 1
+.names U34 U47 U67
+0- 1
+-0 1
+.names U51 U52 U68
+0- 1
+-0 1
+.names LINE1 U40 U69
+0- 1
+-0 1
+.names LINE2 U41 U70
+0- 1
+-0 1
+.names U46 U71
+0 1
+.names U58 U71 U72
+0- 1
+-0 1
+.names U46 U48 U73
+0- 1
+-0 1
+.end

@@ -1,0 +1,2604 @@
+(edif PoliTO_EDIF (edifVersion 2 0 0 ) (edifLevel 0)
+ (keywordMap (keywordLevel 0))
+ ( status
+  (written 
+   (timeStamp 1 1 1 1 1 1 )
+   (program "writedif"
+    ( Version "2.0" ))
+   (author "designer")
+  )
+ )
+ (external my_class (edifLevel 0)  (technology (numberDefinition))
+  (cell Flip_Flop_D_reset (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface 
+     (port D (direction INPUT))
+     (port CK (direction INPUT))
+     (port RESET (direction INPUT))
+     (port Q (direction OUTPUT))
+    )
+   )
+  )
+  (cell And3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell And4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell And5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nand3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nand4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nand5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Or3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Or4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Or5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nor3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nor4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nor5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Xor3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Xor4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Xor5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Xnor3_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Xnor4_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Xnor5_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port I3 (direction INPUT))
+     (port I4 (direction INPUT))
+     (port I5 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell And_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Or_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nand_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Nor_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Xor_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Xnor_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Buf_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Inv_gate (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port I1 (direction INPUT))
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Logic_0 (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+  (cell Logic_1 (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST )
+    (interface
+     (port O (direction OUTPUT))
+    )
+   )
+  )
+ )
+ (library DESIGNS (edifLevel 0)
+  (technology (numberDefinition))
+  (cell zeebo (cellType GENERIC)
+   (view Netlist_representation (viewType NETLIST)
+    (interface
+     (port R_BUTTON (direction INPUT ))
+     (port G_BUTTON (direction INPUT ))
+     (port KEY (direction INPUT ))
+     (port START (direction INPUT ))
+     (port TEST (direction INPUT ))
+     (port RTS (direction INPUT ))
+     (port RTR (direction INPUT ))
+     (port VOTO0_REG_SCAN_IN (direction INPUT ))
+     (port V_IN_3_ (direction INPUT ))
+     (port V_IN_2_ (direction INPUT ))
+     (port V_IN_1_ (direction INPUT ))
+     (port V_IN_0_ (direction INPUT ))
+     (port STATO_REG_3__SCAN_IN (direction INPUT ))
+     (port STATO_REG_2__SCAN_IN (direction INPUT ))
+     (port STATO_REG_1__SCAN_IN (direction INPUT ))
+     (port STATO_REG_0__SCAN_IN (direction INPUT ))
+     (port V_OUT_REG_3__SCAN_IN (direction INPUT ))
+     (port V_OUT_REG_2__SCAN_IN (direction INPUT ))
+     (port V_OUT_REG_1__SCAN_IN (direction INPUT ))
+     (port V_OUT_REG_0__SCAN_IN (direction INPUT ))
+     (port SIGN_REG_3__SCAN_IN (direction INPUT ))
+     (port VOTO1_REG_SCAN_IN (direction INPUT ))
+     (port CTR_REG_SCAN_IN (direction INPUT ))
+     (port VOTO3_REG_SCAN_IN (direction INPUT ))
+     (port LAST_R_REG_SCAN_IN (direction INPUT ))
+     (port CTS_REG_SCAN_IN (direction INPUT ))
+     (port VOTO2_REG_SCAN_IN (direction INPUT ))
+     (port LAST_G_REG_SCAN_IN (direction INPUT ))
+     (port CTS (direction OUTPUT ))
+     (port CTR (direction OUTPUT ))
+     (port V_OUT_3_ (direction OUTPUT ))
+     (port V_OUT_2_ (direction OUTPUT ))
+     (port V_OUT_1_ (direction OUTPUT ))
+     (port V_OUT_0_ (direction OUTPUT ))
+     (port STATO_REG_3__SCAN_OUT (direction OUTPUT ))
+     (port STATO_REG_2__SCAN_OUT (direction OUTPUT ))
+     (port STATO_REG_1__SCAN_OUT (direction OUTPUT ))
+     (port STATO_REG_0__SCAN_OUT (direction OUTPUT ))
+     (port V_OUT_REG_3__SCAN_OUT (direction OUTPUT ))
+     (port V_OUT_REG_2__SCAN_OUT (direction OUTPUT ))
+     (port V_OUT_REG_1__SCAN_OUT (direction OUTPUT ))
+     (port V_OUT_REG_0__SCAN_OUT (direction OUTPUT ))
+     (port SIGN_REG_3__SCAN_OUT (direction OUTPUT ))
+     (port VOTO1_REG_SCAN_OUT (direction OUTPUT ))
+     (port CTR_REG_SCAN_OUT (direction OUTPUT ))
+     (port VOTO3_REG_SCAN_OUT (direction OUTPUT ))
+     (port LAST_R_REG_SCAN_OUT (direction OUTPUT ))
+     (port CTS_REG_SCAN_OUT (direction OUTPUT ))
+     (port VOTO2_REG_SCAN_OUT (direction OUTPUT ))
+     (port LAST_G_REG_SCAN_OUT (direction OUTPUT ))
+     (port VOTO0_REG_SCAN_OUT (direction OUTPUT ))
+    )
+    (contents
+     (instance U200
+      (viewref Netlist_representation
+       (cellRef Nor_gate (libraryRef my_class))
+      )
+     )
+     (instance U201
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance U202
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance U203
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance U204
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance U205
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance U206
+      (viewref Netlist_representation
+       (cellRef And_gate (libraryRef my_class))
+      )
+     )
+     (instance U207
+      (viewref Netlist_representation
+       (cellRef Nand4_gate (libraryRef my_class))
+      )
+     )
+     (instance U208
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U209
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U210
+      (viewref Netlist_representation
+       (cellRef Nand4_gate (libraryRef my_class))
+      )
+     )
+     (instance U211
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U212
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U213
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U214
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U215
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U216
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U217
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U218
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U219
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U220
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U221
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U222
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U223
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U224
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U225
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U226
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U227
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U228
+      (viewref Netlist_representation
+       (cellRef Nand4_gate (libraryRef my_class))
+      )
+     )
+     (instance U229
+      (viewref Netlist_representation
+       (cellRef Nand5_gate (libraryRef my_class))
+      )
+     )
+     (instance U230
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U231
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U232
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U233
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U234
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U235
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U236
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U237
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U238
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U239
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U240
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U241
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U242
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U243
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U244
+      (viewref Netlist_representation
+       (cellRef And3_gate (libraryRef my_class))
+      )
+     )
+     (instance U245
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U246
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U247
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U248
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U249
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U250
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U251
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U252
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U253
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U254
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U255
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U256
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U257
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U258
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U259
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U260
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U261
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U262
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U263
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U264
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U265
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U266
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U267
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U268
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U269
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U270
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance U271
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U272
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U273
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U274
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U275
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U276
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U277
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U278
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U279
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U280
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U281
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U282
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U283
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U284
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U285
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U286
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U287
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U288
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U289
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U290
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U291
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U292
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U293
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U294
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U295
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U296
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U297
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U298
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U299
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U300
+      (viewref Netlist_representation
+       (cellRef Nand4_gate (libraryRef my_class))
+      )
+     )
+     (instance U301
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U302
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U303
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U304
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U305
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U306
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U307
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U308
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U309
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U310
+      (viewref Netlist_representation
+       (cellRef Or_gate (libraryRef my_class))
+      )
+     )
+     (instance U311
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U312
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U313
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U314
+      (viewref Netlist_representation
+       (cellRef Nand4_gate (libraryRef my_class))
+      )
+     )
+     (instance U315
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U316
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U317
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U318
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U319
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U320
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U321
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U322
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U323
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U324
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U325
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U326
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U327
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U328
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U329
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U330
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U331
+      (viewref Netlist_representation
+       (cellRef Nand4_gate (libraryRef my_class))
+      )
+     )
+     (instance U332
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U333
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U334
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U335
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U336
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U337
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U338
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U339
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U340
+      (viewref Netlist_representation
+       (cellRef Nand3_gate (libraryRef my_class))
+      )
+     )
+     (instance U341
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U342
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U343
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U344
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U345
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U346
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U347
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U348
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U349
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U350
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U351
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U352
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U353
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U354
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U355
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U356
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U357
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U358
+      (viewref Netlist_representation
+       (cellRef Inv_gate (libraryRef my_class))
+      )
+     )
+     (instance U359
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U360
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U361
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U362
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U363
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U364
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U365
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U366
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U367
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U368
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U369
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U370
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (instance U371
+      (viewref Netlist_representation
+       (cellRef Nand_gate (libraryRef my_class))
+      )
+     )
+     (net R_BUTTON
+      (joined 
+       (portRef R_BUTTON)
+       (portRef I1 (instanceRef U318))
+       (portRef I2 (instanceRef U365))
+      )
+     )
+     (net G_BUTTON
+      (joined 
+       (portRef G_BUTTON)
+       (portRef I1 (instanceRef U292))
+       (portRef I2 (instanceRef U369))
+      )
+     )
+     (net KEY
+      (joined 
+       (portRef KEY)
+       (portRef I1 (instanceRef U232))
+       (portRef I1 (instanceRef U252))
+       (portRef I1 (instanceRef U296))
+       (portRef I1 (instanceRef U320))
+       (portRef I1 (instanceRef U325))
+      )
+     )
+     (net START
+      (joined 
+       (portRef START)
+       (portRef I1 (instanceRef U202))
+       (portRef I1 (instanceRef U222))
+       (portRef I1 (instanceRef U223))
+       (portRef I1 (instanceRef U291))
+       (portRef I1 (instanceRef U302))
+      )
+     )
+     (net TEST
+      (joined 
+       (portRef TEST)
+       (portRef I1 (instanceRef U257))
+      )
+     )
+     (net RTS
+      (joined 
+       (portRef RTS)
+       (portRef I1 (instanceRef U219))
+       (portRef I1 (instanceRef U268))
+      )
+     )
+     (net RTR
+      (joined 
+       (portRef RTR)
+       (portRef I1 (instanceRef U216))
+       (portRef I1 (instanceRef U246))
+       (portRef I1 (instanceRef U270))
+       (portRef I1 (instanceRef U311))
+       (portRef I1 (instanceRef U316))
+      )
+     )
+     (net VOTO0_REG_SCAN_IN
+      (joined 
+       (portRef VOTO0_REG_SCAN_IN)
+       (portRef I1 (instanceRef U248))
+       (portRef I2 (instanceRef U351))
+       (portRef I2 (instanceRef U357))
+       (portRef I2 (instanceRef U370))
+      )
+     )
+     (net V_IN_3_
+      (joined 
+       (portRef V_IN_3_)
+       (portRef I1 (instanceRef U307))
+       (portRef I1 (instanceRef U331))
+      )
+     )
+     (net V_IN_2_
+      (joined 
+       (portRef V_IN_2_)
+       (portRef I1 (instanceRef U321))
+       (portRef I2 (instanceRef U331))
+      )
+     )
+     (net V_IN_1_
+      (joined 
+       (portRef V_IN_1_)
+       (portRef I1 (instanceRef U297))
+       (portRef I4 (instanceRef U331))
+      )
+     )
+     (net V_IN_0_
+      (joined 
+       (portRef V_IN_0_)
+       (portRef I1 (instanceRef U329))
+       (portRef I3 (instanceRef U331))
+      )
+     )
+     (net N335
+      (joined
+       (portRef O (instanceRef U200))
+       (portRef I2 (instanceRef U316))
+       (portRef I1 (instanceRef U304))
+       (portRef I2 (instanceRef U223))
+       (portRef I1 (instanceRef U220))
+      )
+     )
+     (net N336
+      (joined
+       (portRef O (instanceRef U201))
+       (portRef I2 (instanceRef U315))
+       (portRef I2 (instanceRef U275))
+       (portRef I3 (instanceRef U246))
+       (portRef I1 (instanceRef U218))
+      )
+     )
+     (net N337
+      (joined
+       (portRef O (instanceRef U202))
+       (portRef I3 (instanceRef U318))
+       (portRef I3 (instanceRef U292))
+       (portRef I1 (instanceRef U263))
+       (portRef I2 (instanceRef U252))
+      )
+     )
+     (net N338
+      (joined
+       (portRef O (instanceRef U203))
+       (portRef I1 (instanceRef U204))
+       (portRef I5 (instanceRef U229))
+      )
+     )
+     (net N339
+      (joined
+       (portRef O (instanceRef U204))
+       (portRef I1 (instanceRef U205))
+       (portRef I3 (instanceRef U255))
+      )
+     )
+     (net N340
+      (joined
+       (portRef O (instanceRef U205))
+       (portRef I3 (instanceRef U253))
+       (portRef I1 (instanceRef U250))
+       (portRef I3 (instanceRef U249))
+      )
+     )
+     (net N341
+      (joined
+       (portRef O (instanceRef U206))
+       (portRef I1 (instanceRef U314))
+       (portRef I4 (instanceRef U300))
+      )
+     )
+     (net N503
+      (joined
+       (portRef O (instanceRef U207))
+       (portRef CTS_REG_SCAN_OUT)
+      )
+     )
+     (net N500
+      (joined
+       (portRef O (instanceRef U208))
+       (portRef CTR_REG_SCAN_OUT)
+      )
+     )
+     (net N498
+      (joined
+       (portRef O (instanceRef U209))
+       (portRef SIGN_REG_3__SCAN_OUT)
+      )
+     )
+     (net N492
+      (joined
+       (portRef O (instanceRef U210))
+       (portRef STATO_REG_1__SCAN_OUT)
+      )
+     )
+     (net N491
+      (joined
+       (portRef O (instanceRef U211))
+       (portRef STATO_REG_2__SCAN_OUT)
+      )
+     )
+     (net N490
+      (joined
+       (portRef O (instanceRef U212))
+       (portRef STATO_REG_3__SCAN_OUT)
+      )
+     )
+     (net N358
+      (joined
+       (portRef O (instanceRef U213))
+       (portRef I1 (instanceRef U201))
+       (portRef I2 (instanceRef U341))
+       (portRef I1 (instanceRef U337))
+       (portRef I3 (instanceRef U334))
+       (portRef I1 (instanceRef U313))
+       (portRef I3 (instanceRef U300))
+       (portRef I1 (instanceRef U286))
+       (portRef I1 (instanceRef U281))
+       (portRef I1 (instanceRef U278))
+       (portRef I2 (instanceRef U220))
+      )
+     )
+     (net N359
+      (joined
+       (portRef O (instanceRef U214))
+       (portRef I2 (instanceRef U282))
+       (portRef I1 (instanceRef U264))
+      )
+     )
+     (net N361
+      (joined
+       (portRef O (instanceRef U215))
+       (portRef I3 (instanceRef U335))
+       (portRef I2 (instanceRef U291))
+       (portRef I1 (instanceRef U261))
+       (portRef I1 (instanceRef U231))
+      )
+     )
+     (net N362
+      (joined
+       (portRef O (instanceRef U216))
+       (portRef I2 (instanceRef U336))
+      )
+     )
+     (net N360
+      (joined
+       (portRef O (instanceRef U217))
+       (portRef I1 (instanceRef U354))
+       (portRef I1 (instanceRef U315))
+       (portRef I1 (instanceRef U299))
+       (portRef I2 (instanceRef U288))
+       (portRef I2 (instanceRef U286))
+       (portRef I2 (instanceRef U279))
+       (portRef I2 (instanceRef U269))
+       (portRef I2 (instanceRef U246))
+       (portRef I1 (instanceRef U214))
+      )
+     )
+     (net N351
+      (joined
+       (portRef O (instanceRef U218))
+       (portRef I1 (instanceRef U287))
+       (portRef I1 (instanceRef U259))
+       (portRef I2 (instanceRef U211))
+       (portRef I2 (instanceRef U210))
+      )
+     )
+     (net N363
+      (joined
+       (portRef O (instanceRef U219))
+       (portRef I1 (instanceRef U355))
+       (portRef I1 (instanceRef U260))
+      )
+     )
+     (net N364
+      (joined
+       (portRef O (instanceRef U220))
+       (portRef I2 (instanceRef U287))
+       (portRef I1 (instanceRef U258))
+      )
+     )
+     (net N365
+      (joined
+       (portRef O (instanceRef U221))
+       (portRef I1 (instanceRef U338))
+       (portRef I2 (instanceRef U294))
+       (portRef I2 (instanceRef U285))
+       (portRef I1 (instanceRef U225))
+      )
+     )
+     (net N366
+      (joined
+       (portRef O (instanceRef U222))
+       (portRef I2 (instanceRef U335))
+      )
+     )
+     (net N367
+      (joined
+       (portRef O (instanceRef U223))
+       (portRef I1 (instanceRef U262))
+       (portRef I2 (instanceRef U255))
+      )
+     )
+     (net N368
+      (joined
+       (portRef O (instanceRef U224))
+       (portRef I1 (instanceRef U303))
+       (portRef I1 (instanceRef U266))
+      )
+     )
+     (net N369
+      (joined
+       (portRef O (instanceRef U225))
+       (portRef I2 (instanceRef U340))
+       (portRef I1 (instanceRef U271))
+      )
+     )
+     (net N372
+      (joined
+       (portRef O (instanceRef U226))
+       (portRef I2 (instanceRef U360))
+       (portRef I2 (instanceRef U296))
+      )
+     )
+     (net N373
+      (joined
+       (portRef O (instanceRef U227))
+       (portRef I1 (instanceRef U357))
+       (portRef I2 (instanceRef U320))
+      )
+     )
+     (net N374
+      (joined
+       (portRef O (instanceRef U228))
+       (portRef I2 (instanceRef U281))
+       (portRef I1 (instanceRef U256))
+      )
+     )
+     (net N377
+      (joined
+       (portRef O (instanceRef U229))
+       (portRef I2 (instanceRef U343))
+       (portRef I1 (instanceRef U340))
+       (portRef I3 (instanceRef U282))
+       (portRef I3 (instanceRef U279))
+       (portRef I2 (instanceRef U278))
+       (portRef I1 (instanceRef U274))
+      )
+     )
+     (net N380
+      (joined
+       (portRef O (instanceRef U230))
+       (portRef I1 (instanceRef U326))
+      )
+     )
+     (net N384
+      (joined
+       (portRef O (instanceRef U231))
+       (portRef I1 (instanceRef U206))
+       (portRef I2 (instanceRef U334))
+       (portRef I1 (instanceRef U265))
+      )
+     )
+     (net N385
+      (joined
+       (portRef O (instanceRef U232))
+       (portRef I2 (instanceRef U302))
+       (portRef I2 (instanceRef U263))
+      )
+     )
+     (net N493
+      (joined
+       (portRef O (instanceRef U233))
+       (portRef STATO_REG_0__SCAN_OUT)
+      )
+     )
+     (net N494
+      (joined
+       (portRef O (instanceRef U234))
+       (portRef V_OUT_REG_3__SCAN_OUT)
+      )
+     )
+     (net N495
+      (joined
+       (portRef O (instanceRef U235))
+       (portRef V_OUT_REG_2__SCAN_OUT)
+      )
+     )
+     (net N496
+      (joined
+       (portRef O (instanceRef U236))
+       (portRef V_OUT_REG_1__SCAN_OUT)
+      )
+     )
+     (net N497
+      (joined
+       (portRef O (instanceRef U237))
+       (portRef V_OUT_REG_0__SCAN_OUT)
+      )
+     )
+     (net N499
+      (joined
+       (portRef O (instanceRef U238))
+       (portRef VOTO1_REG_SCAN_OUT)
+      )
+     )
+     (net N501
+      (joined
+       (portRef O (instanceRef U239))
+       (portRef VOTO3_REG_SCAN_OUT)
+      )
+     )
+     (net N502
+      (joined
+       (portRef O (instanceRef U240))
+       (portRef LAST_R_REG_SCAN_OUT)
+      )
+     )
+     (net N504
+      (joined
+       (portRef O (instanceRef U241))
+       (portRef VOTO2_REG_SCAN_OUT)
+      )
+     )
+     (net N505
+      (joined
+       (portRef O (instanceRef U242))
+       (portRef LAST_G_REG_SCAN_OUT)
+      )
+     )
+     (net N506
+      (joined
+       (portRef O (instanceRef U243))
+       (portRef VOTO0_REG_SCAN_OUT)
+      )
+     )
+     (net N379
+      (joined
+       (portRef O (instanceRef U244))
+       (portRef I4 (instanceRef U229))
+      )
+     )
+     (net N412
+      (joined
+       (portRef O (instanceRef U245))
+       (portRef I1 (instanceRef U360))
+       (portRef I1 (instanceRef U358))
+      )
+     )
+     (net N343
+      (joined
+       (portRef O (instanceRef U246))
+       (portRef I1 (instanceRef U350))
+       (portRef I1 (instanceRef U348))
+       (portRef I1 (instanceRef U346))
+       (portRef I1 (instanceRef U344))
+       (portRef I1 (instanceRef U267))
+       (portRef I1 (instanceRef U229))
+       (portRef I2 (instanceRef U207))
+      )
+     )
+     (net N375
+      (joined
+       (portRef O (instanceRef U247))
+       (portRef I1 (instanceRef U228))
+      )
+     )
+     (net N376
+      (joined
+       (portRef O (instanceRef U248))
+       (portRef I1 (instanceRef U356))
+       (portRef I2 (instanceRef U228))
+      )
+     )
+     (net N415
+      (joined
+       (portRef O (instanceRef U249))
+       (portRef I2 (instanceRef U353))
+       (portRef I1 (instanceRef U293))
+      )
+     )
+     (net N418
+      (joined
+       (portRef O (instanceRef U250))
+       (portRef I2 (instanceRef U363))
+       (portRef I1 (instanceRef U305))
+      )
+     )
+     (net N420
+      (joined
+       (portRef O (instanceRef U251))
+       (portRef I2 (instanceRef U318))
+      )
+     )
+     (net N421
+      (joined
+       (portRef O (instanceRef U252))
+       (portRef I1 (instanceRef U368))
+       (portRef I1 (instanceRef U364))
+       (portRef I1 (instanceRef U309))
+      )
+     )
+     (net N422
+      (joined
+       (portRef O (instanceRef U253))
+       (portRef I2 (instanceRef U367))
+       (portRef I1 (instanceRef U319))
+      )
+     )
+     (net N424
+      (joined
+       (portRef O (instanceRef U254))
+       (portRef I2 (instanceRef U292))
+      )
+     )
+     (net N425
+      (joined
+       (portRef O (instanceRef U255))
+       (portRef I2 (instanceRef U371))
+       (portRef I1 (instanceRef U324))
+      )
+     )
+     (net N427
+      (joined
+       (portRef O (instanceRef U256))
+       (portRef I1 (instanceRef U285))
+       (portRef I1 (instanceRef U275))
+      )
+     )
+     (net N428
+      (joined
+       (portRef O (instanceRef U257))
+       (portRef I1 (instanceRef U288))
+       (portRef I2 (instanceRef U276))
+      )
+     )
+     (net N381
+      (joined
+       (portRef O (instanceRef U258))
+       (portRef I2 (instanceRef U202))
+       (portRef I2 (instanceRef U325))
+       (portRef I3 (instanceRef U288))
+       (portRef I1 (instanceRef U276))
+       (portRef I1 (instanceRef U269))
+      )
+     )
+     (net N429
+      (joined
+       (portRef O (instanceRef U259))
+       (portRef I1 (instanceRef U294))
+       (portRef I2 (instanceRef U268))
+      )
+     )
+     (net N346
+      (joined
+       (portRef O (instanceRef U260))
+       (portRef I2 (instanceRef U229))
+       (portRef I1 (instanceRef U208))
+      )
+     )
+     (net N382
+      (joined
+       (portRef O (instanceRef U261))
+       (portRef I2 (instanceRef U204))
+       (portRef I1 (instanceRef U295))
+      )
+     )
+     (net N431
+      (joined
+       (portRef O (instanceRef U262))
+       (portRef I1 (instanceRef U273))
+      )
+     )
+     (net N417
+      (joined
+       (portRef O (instanceRef U263))
+       (portRef I2 (instanceRef U253))
+       (portRef I2 (instanceRef U249))
+      )
+     )
+     (net N430
+      (joined
+       (portRef O (instanceRef U264))
+       (portRef I3 (instanceRef U316))
+       (portRef I1 (instanceRef U312))
+       (portRef I3 (instanceRef U291))
+       (portRef I2 (instanceRef U261))
+       (portRef I2 (instanceRef U260))
+      )
+     )
+     (net N432
+      (joined
+       (portRef O (instanceRef U265))
+       (portRef I1 (instanceRef U323))
+       (portRef I3 (instanceRef U320))
+       (portRef I3 (instanceRef U296))
+      )
+     )
+     (net N433
+      (joined
+       (portRef O (instanceRef U266))
+       (portRef I1 (instanceRef U336))
+       (portRef I1 (instanceRef U306))
+      )
+     )
+     (net N434
+      (joined
+       (portRef O (instanceRef U267))
+       (portRef I1 (instanceRef U351))
+       (portRef I1 (instanceRef U349))
+       (portRef I1 (instanceRef U347))
+       (portRef I1 (instanceRef U345))
+      )
+     )
+     (net N371
+      (joined
+       (portRef O (instanceRef U268))
+       (portRef I2 (instanceRef U203))
+      )
+     )
+     (net N370
+      (joined
+       (portRef O (instanceRef U269))
+       (portRef I1 (instanceRef U203))
+      )
+     )
+     (net N435
+      (joined
+       (portRef O (instanceRef U270))
+       (portRef I1 (instanceRef U334))
+      )
+     )
+     (net N436
+      (joined
+       (portRef O (instanceRef U271))
+       (portRef I1 (instanceRef U341))
+       (portRef I1 (instanceRef U335))
+      )
+     )
+     (net N378
+      (joined
+       (portRef O (instanceRef U272))
+       (portRef I3 (instanceRef U229))
+      )
+     )
+     (net N411
+      (joined
+       (portRef O (instanceRef U273))
+       (portRef I3 (instanceRef U244))
+      )
+     )
+     (net N439
+      (joined
+       (portRef O (instanceRef U274))
+       (portRef I1 (instanceRef U342))
+       (portRef I1 (instanceRef U332))
+      )
+     )
+     (net N440
+      (joined
+       (portRef O (instanceRef U275))
+       (portRef I2 (instanceRef U277))
+      )
+     )
+     (net N441
+      (joined
+       (portRef O (instanceRef U276))
+       (portRef I1 (instanceRef U277))
+      )
+     )
+     (net N442
+      (joined
+       (portRef O (instanceRef U277))
+       (portRef I1 (instanceRef U279))
+      )
+     )
+     (net N443
+      (joined
+       (portRef O (instanceRef U278))
+       (portRef I1 (instanceRef U280))
+      )
+     )
+     (net N357
+      (joined
+       (portRef O (instanceRef U279))
+       (portRef I2 (instanceRef U212))
+      )
+     )
+     (net N356
+      (joined
+       (portRef O (instanceRef U280))
+       (portRef I1 (instanceRef U212))
+      )
+     )
+     (net N444
+      (joined
+       (portRef O (instanceRef U281))
+       (portRef I1 (instanceRef U282))
+      )
+     )
+     (net N445
+      (joined
+       (portRef O (instanceRef U282))
+       (portRef I1 (instanceRef U284))
+      )
+     )
+     (net N354
+      (joined
+       (portRef O (instanceRef U283))
+       (portRef I1 (instanceRef U211))
+      )
+     )
+     (net N355
+      (joined
+       (portRef O (instanceRef U284))
+       (portRef I3 (instanceRef U211))
+      )
+     )
+     (net N447
+      (joined
+       (portRef O (instanceRef U285))
+       (portRef I3 (instanceRef U286))
+      )
+     )
+     (net N448
+      (joined
+       (portRef O (instanceRef U286))
+       (portRef I3 (instanceRef U287))
+      )
+     )
+     (net N449
+      (joined
+       (portRef O (instanceRef U287))
+       (portRef I1 (instanceRef U343))
+      )
+     )
+     (net N450
+      (joined
+       (portRef O (instanceRef U288))
+       (portRef I1 (instanceRef U289))
+      )
+     )
+     (net N349
+      (joined
+       (portRef O (instanceRef U289))
+       (portRef I2 (instanceRef U209))
+      )
+     )
+     (net N348
+      (joined
+       (portRef O (instanceRef U290))
+       (portRef I1 (instanceRef U209))
+      )
+     )
+     (net N383
+      (joined
+       (portRef O (instanceRef U291))
+       (portRef I2 (instanceRef U205))
+      )
+     )
+     (net N416
+      (joined
+       (portRef O (instanceRef U292))
+       (portRef I1 (instanceRef U249))
+      )
+     )
+     (net N451
+      (joined
+       (portRef O (instanceRef U293))
+       (portRef I1 (instanceRef U352))
+      )
+     )
+     (net N452
+      (joined
+       (portRef O (instanceRef U294))
+       (portRef I2 (instanceRef U295))
+      )
+     )
+     (net N453
+      (joined
+       (portRef O (instanceRef U295))
+       (portRef I2 (instanceRef U329))
+       (portRef I2 (instanceRef U321))
+       (portRef I2 (instanceRef U307))
+       (portRef I2 (instanceRef U297))
+      )
+     )
+     (net N454
+      (joined
+       (portRef O (instanceRef U296))
+       (portRef I2 (instanceRef U298))
+      )
+     )
+     (net N455
+      (joined
+       (portRef O (instanceRef U297))
+       (portRef I1 (instanceRef U298))
+      )
+     )
+     (net N456
+      (joined
+       (portRef O (instanceRef U298))
+       (portRef I1 (instanceRef U353))
+      )
+     )
+     (net N386
+      (joined
+       (portRef O (instanceRef U299))
+       (portRef I2 (instanceRef U206))
+      )
+     )
+     (net N457
+      (joined
+       (portRef O (instanceRef U300))
+       (portRef I1 (instanceRef U301))
+      )
+     )
+     (net N347
+      (joined
+       (portRef O (instanceRef U301))
+       (portRef I2 (instanceRef U208))
+      )
+     )
+     (net N460
+      (joined
+       (portRef O (instanceRef U302))
+       (portRef I2 (instanceRef U303))
+      )
+     )
+     (net N461
+      (joined
+       (portRef O (instanceRef U303))
+       (portRef I2 (instanceRef U304))
+      )
+     )
+     (net N419
+      (joined
+       (portRef O (instanceRef U304))
+       (portRef I2 (instanceRef U250))
+      )
+     )
+     (net N462
+      (joined
+       (portRef O (instanceRef U305))
+       (portRef I1 (instanceRef U362))
+      )
+     )
+     (net N463
+      (joined
+       (portRef O (instanceRef U306))
+       (portRef I2 (instanceRef U308))
+      )
+     )
+     (net N465
+      (joined
+       (portRef O (instanceRef U307))
+       (portRef I1 (instanceRef U308))
+      )
+     )
+     (net N466
+      (joined
+       (portRef O (instanceRef U308))
+       (portRef I1 (instanceRef U363))
+      )
+     )
+     (net N467
+      (joined
+       (portRef O (instanceRef U309))
+       (portRef I1 (instanceRef U369))
+       (portRef I1 (instanceRef U365))
+      )
+     )
+     (net N468
+      (joined
+       (portRef O (instanceRef U310))
+       (portRef I2 (instanceRef U311))
+      )
+     )
+     (net N469
+      (joined
+       (portRef O (instanceRef U311))
+       (portRef I4 (instanceRef U314))
+      )
+     )
+     (net N470
+      (joined
+       (portRef O (instanceRef U312))
+       (portRef I3 (instanceRef U314))
+      )
+     )
+     (net N471
+      (joined
+       (portRef O (instanceRef U313))
+       (portRef I2 (instanceRef U314))
+      )
+     )
+     (net N472
+      (joined
+       (portRef O (instanceRef U314))
+       (portRef I1 (instanceRef U317))
+      )
+     )
+     (net N342
+      (joined
+       (portRef O (instanceRef U315))
+       (portRef I1 (instanceRef U207))
+      )
+     )
+     (net N344
+      (joined
+       (portRef O (instanceRef U316))
+       (portRef I3 (instanceRef U207))
+      )
+     )
+     (net N345
+      (joined
+       (portRef O (instanceRef U317))
+       (portRef I4 (instanceRef U207))
+      )
+     )
+     (net N423
+      (joined
+       (portRef O (instanceRef U318))
+       (portRef I1 (instanceRef U253))
+      )
+     )
+     (net N473
+      (joined
+       (portRef O (instanceRef U319))
+       (portRef I1 (instanceRef U366))
+      )
+     )
+     (net N474
+      (joined
+       (portRef O (instanceRef U320))
+       (portRef I2 (instanceRef U322))
+      )
+     )
+     (net N475
+      (joined
+       (portRef O (instanceRef U321))
+       (portRef I1 (instanceRef U322))
+      )
+     )
+     (net N476
+      (joined
+       (portRef O (instanceRef U322))
+       (portRef I1 (instanceRef U367))
+      )
+     )
+     (net N426
+      (joined
+       (portRef O (instanceRef U323))
+       (portRef I1 (instanceRef U255))
+      )
+     )
+     (net N477
+      (joined
+       (portRef O (instanceRef U324))
+       (portRef I1 (instanceRef U370))
+      )
+     )
+     (net N478
+      (joined
+       (portRef O (instanceRef U325))
+       (portRef I2 (instanceRef U327))
+      )
+     )
+     (net N479
+      (joined
+       (portRef O (instanceRef U326))
+       (portRef I1 (instanceRef U327))
+      )
+     )
+     (net N480
+      (joined
+       (portRef O (instanceRef U327))
+       (portRef I1 (instanceRef U328))
+      )
+     )
+     (net N481
+      (joined
+       (portRef O (instanceRef U328))
+       (portRef I2 (instanceRef U330))
+      )
+     )
+     (net N482
+      (joined
+       (portRef O (instanceRef U329))
+       (portRef I1 (instanceRef U330))
+      )
+     )
+     (net N483
+      (joined
+       (portRef O (instanceRef U330))
+       (portRef I1 (instanceRef U371))
+      )
+     )
+     (net N484
+      (joined
+       (portRef O (instanceRef U331))
+       (portRef I1 (instanceRef U333))
+      )
+     )
+     (net N350
+      (joined
+       (portRef O (instanceRef U332))
+       (portRef I1 (instanceRef U210))
+      )
+     )
+     (net N438
+      (joined
+       (portRef O (instanceRef U333))
+       (portRef I2 (instanceRef U272))
+      )
+     )
+     (net N437
+      (joined
+       (portRef O (instanceRef U334))
+       (portRef I1 (instanceRef U272))
+      )
+     )
+     (net N410
+      (joined
+       (portRef O (instanceRef U335))
+       (portRef I2 (instanceRef U244))
+      )
+     )
+     (net N409
+      (joined
+       (portRef O (instanceRef U336))
+       (portRef I1 (instanceRef U244))
+      )
+     )
+     (net N485
+      (joined
+       (portRef O (instanceRef U337))
+       (portRef I2 (instanceRef U339))
+      )
+     )
+     (net N486
+      (joined
+       (portRef O (instanceRef U338))
+       (portRef I1 (instanceRef U339))
+      )
+     )
+     (net N446
+      (joined
+       (portRef O (instanceRef U339))
+       (portRef I2 (instanceRef U323))
+       (portRef I1 (instanceRef U283))
+      )
+     )
+     (net N353
+      (joined
+       (portRef O (instanceRef U340))
+       (portRef I4 (instanceRef U210))
+      )
+     )
+     (net N352
+      (joined
+       (portRef O (instanceRef U341))
+       (portRef I3 (instanceRef U210))
+      )
+     )
+     (net N388
+      (joined
+       (portRef O (instanceRef U342))
+       (portRef I2 (instanceRef U233))
+      )
+     )
+     (net N387
+      (joined
+       (portRef O (instanceRef U343))
+       (portRef I1 (instanceRef U233))
+      )
+     )
+     (net N390
+      (joined
+       (portRef O (instanceRef U344))
+       (portRef I2 (instanceRef U234))
+      )
+     )
+     (net N389
+      (joined
+       (portRef O (instanceRef U345))
+       (portRef I1 (instanceRef U234))
+      )
+     )
+     (net N392
+      (joined
+       (portRef O (instanceRef U346))
+       (portRef I2 (instanceRef U235))
+      )
+     )
+     (net N391
+      (joined
+       (portRef O (instanceRef U347))
+       (portRef I1 (instanceRef U235))
+      )
+     )
+     (net N394
+      (joined
+       (portRef O (instanceRef U348))
+       (portRef I2 (instanceRef U236))
+      )
+     )
+     (net N393
+      (joined
+       (portRef O (instanceRef U349))
+       (portRef I1 (instanceRef U236))
+      )
+     )
+     (net N396
+      (joined
+       (portRef O (instanceRef U350))
+       (portRef I2 (instanceRef U237))
+      )
+     )
+     (net N395
+      (joined
+       (portRef O (instanceRef U351))
+       (portRef I1 (instanceRef U237))
+      )
+     )
+     (net N398
+      (joined
+       (portRef O (instanceRef U352))
+       (portRef I2 (instanceRef U238))
+      )
+     )
+     (net N397
+      (joined
+       (portRef O (instanceRef U353))
+       (portRef I1 (instanceRef U238))
+      )
+     )
+     (net N459
+      (joined
+       (portRef O (instanceRef U354))
+       (portRef I2 (instanceRef U300))
+      )
+     )
+     (net N458
+      (joined
+       (portRef O (instanceRef U355))
+       (portRef I1 (instanceRef U300))
+      )
+     )
+     (net N414
+      (joined
+       (portRef O (instanceRef U356))
+       (portRef I2 (instanceRef U245))
+      )
+     )
+     (net N413
+      (joined
+       (portRef O (instanceRef U357))
+       (portRef I1 (instanceRef U245))
+      )
+     )
+     (net N487
+      (joined
+       (portRef O (instanceRef U358))
+       (portRef I1 (instanceRef U359))
+      )
+     )
+     (net N488
+      (joined
+       (portRef O (instanceRef U359))
+       (portRef I2 (instanceRef U361))
+      )
+     )
+     (net N489
+      (joined
+       (portRef O (instanceRef U360))
+       (portRef I1 (instanceRef U361))
+      )
+     )
+     (net N464
+      (joined
+       (portRef O (instanceRef U361))
+       (portRef I2 (instanceRef U306))
+      )
+     )
+     (net N400
+      (joined
+       (portRef O (instanceRef U362))
+       (portRef I2 (instanceRef U239))
+      )
+     )
+     (net N399
+      (joined
+       (portRef O (instanceRef U363))
+       (portRef I1 (instanceRef U239))
+      )
+     )
+     (net N402
+      (joined
+       (portRef O (instanceRef U364))
+       (portRef I2 (instanceRef U240))
+      )
+     )
+     (net N401
+      (joined
+       (portRef O (instanceRef U365))
+       (portRef I1 (instanceRef U240))
+      )
+     )
+     (net N404
+      (joined
+       (portRef O (instanceRef U366))
+       (portRef I2 (instanceRef U241))
+      )
+     )
+     (net N403
+      (joined
+       (portRef O (instanceRef U367))
+       (portRef I1 (instanceRef U241))
+      )
+     )
+     (net N406
+      (joined
+       (portRef O (instanceRef U368))
+       (portRef I2 (instanceRef U242))
+      )
+     )
+     (net N405
+      (joined
+       (portRef O (instanceRef U369))
+       (portRef I1 (instanceRef U242))
+      )
+     )
+     (net N408
+      (joined
+       (portRef O (instanceRef U370))
+       (portRef I2 (instanceRef U243))
+      )
+     )
+     (net N407
+      (joined
+       (portRef O (instanceRef U371))
+       (portRef I1 (instanceRef U243))
+      )
+     )
+     (net STATO_REG_3__SCAN_IN
+      (joined 
+       (portRef STATO_REG_3__SCAN_IN)
+       (portRef I1 (instanceRef U200))
+       (portRef I1 (instanceRef U221))
+       (portRef I3 (instanceRef U261))
+       (portRef I3 (instanceRef U272))
+       (portRef I2 (instanceRef U280))
+       (portRef I1 (instanceRef U290))
+       (portRef I1 (instanceRef U310))
+       (portRef I2 (instanceRef U312))
+       (portRef I3 (instanceRef U315))
+       (portRef I2 (instanceRef U326))
+       (portRef I2 (instanceRef U337))
+       (portRef I2 (instanceRef U354))
+      )
+     )
+     (net STATO_REG_2__SCAN_IN
+      (joined 
+       (portRef STATO_REG_2__SCAN_IN)
+       (portRef I2 (instanceRef U200))
+       (portRef I2 (instanceRef U201))
+       (portRef I1 (instanceRef U215))
+       (portRef I3 (instanceRef U260))
+       (portRef I2 (instanceRef U284))
+       (portRef I2 (instanceRef U299))
+       (portRef I3 (instanceRef U336))
+      )
+     )
+     (net STATO_REG_1__SCAN_IN
+      (joined 
+       (portRef STATO_REG_1__SCAN_IN)
+       (portRef I1 (instanceRef U217))
+       (portRef I2 (instanceRef U218))
+       (portRef I1 (instanceRef U224))
+       (portRef I2 (instanceRef U225))
+       (portRef I2 (instanceRef U231))
+       (portRef I3 (instanceRef U252))
+       (portRef I2 (instanceRef U270))
+       (portRef I2 (instanceRef U283))
+       (portRef I2 (instanceRef U313))
+       (portRef I2 (instanceRef U328))
+       (portRef I2 (instanceRef U332))
+       (portRef I2 (instanceRef U355))
+      )
+     )
+     (net STATO_REG_0__SCAN_IN
+      (joined 
+       (portRef STATO_REG_0__SCAN_IN)
+       (portRef I1 (instanceRef U213))
+       (portRef I2 (instanceRef U214))
+       (portRef I2 (instanceRef U224))
+       (portRef I2 (instanceRef U273))
+       (portRef I2 (instanceRef U290))
+       (portRef I2 (instanceRef U310))
+       (portRef I2 (instanceRef U333))
+       (portRef I2 (instanceRef U338))
+       (portRef I3 (instanceRef U340))
+       (portRef I2 (instanceRef U342))
+      )
+     )
+     (net V_OUT_REG_3__SCAN_IN
+      (joined 
+       (portRef V_OUT_REG_3__SCAN_IN)
+       (portRef V_OUT_3_)
+       (portRef I2 (instanceRef U344))
+      )
+     )
+     (net V_OUT_REG_2__SCAN_IN
+      (joined 
+       (portRef V_OUT_REG_2__SCAN_IN)
+       (portRef V_OUT_2_)
+       (portRef I2 (instanceRef U346))
+      )
+     )
+     (net V_OUT_REG_1__SCAN_IN
+      (joined 
+       (portRef V_OUT_REG_1__SCAN_IN)
+       (portRef V_OUT_1_)
+       (portRef I2 (instanceRef U348))
+      )
+     )
+     (net V_OUT_REG_0__SCAN_IN
+      (joined 
+       (portRef V_OUT_REG_0__SCAN_IN)
+       (portRef V_OUT_0_)
+       (portRef I2 (instanceRef U350))
+      )
+     )
+     (net SIGN_REG_3__SCAN_IN
+      (joined 
+       (portRef SIGN_REG_3__SCAN_IN)
+       (portRef I1 (instanceRef U230))
+       (portRef I2 (instanceRef U289))
+      )
+     )
+     (net VOTO1_REG_SCAN_IN
+      (joined 
+       (portRef VOTO1_REG_SCAN_IN)
+       (portRef I1 (instanceRef U226))
+       (portRef I3 (instanceRef U228))
+       (portRef I2 (instanceRef U349))
+       (portRef I2 (instanceRef U352))
+       (portRef I2 (instanceRef U359))
+      )
+     )
+     (net CTR_REG_SCAN_IN
+      (joined 
+       (portRef CTR_REG_SCAN_IN)
+       (portRef CTR)
+       (portRef I2 (instanceRef U301))
+      )
+     )
+     (net VOTO3_REG_SCAN_IN
+      (joined 
+       (portRef VOTO3_REG_SCAN_IN)
+       (portRef I1 (instanceRef U247))
+       (portRef I2 (instanceRef U345))
+       (portRef I2 (instanceRef U362))
+      )
+     )
+     (net LAST_R_REG_SCAN_IN
+      (joined 
+       (portRef LAST_R_REG_SCAN_IN)
+       (portRef I1 (instanceRef U251))
+       (portRef I2 (instanceRef U364))
+      )
+     )
+     (net CTS_REG_SCAN_IN
+      (joined 
+       (portRef CTS_REG_SCAN_IN)
+       (portRef CTS)
+       (portRef I2 (instanceRef U317))
+      )
+     )
+     (net VOTO2_REG_SCAN_IN
+      (joined 
+       (portRef VOTO2_REG_SCAN_IN)
+       (portRef I1 (instanceRef U227))
+       (portRef I4 (instanceRef U228))
+       (portRef I2 (instanceRef U347))
+       (portRef I2 (instanceRef U356))
+       (portRef I2 (instanceRef U366))
+      )
+     )
+     (net LAST_G_REG_SCAN_IN
+      (joined 
+       (portRef LAST_G_REG_SCAN_IN)
+       (portRef I1 (instanceRef U254))
+       (portRef I2 (instanceRef U368))
+      )
+     )
+    )
+   )
+  )
+ )
+ (design PoliTO_EDIF(cellRef zeebo (libraryRef DESIGNS)))
+)

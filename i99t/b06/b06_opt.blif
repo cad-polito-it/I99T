@@ -1,0 +1,142 @@
+.model b06_opt.blif
+.inputs EQL CONT_EQL 
+.outputs CC_MUX_2_ CC_MUX_1_ USCITE_2_ USCITE_1_ ENABLE_COUNT ACKOUT 
+.latch	U96	STATE_REG_2_	0
+.latch	U95	STATE_REG_1_	0
+.latch	U94	STATE_REG_0_	0
+.latch	U98	CC_MUX_REG_2_	0
+.latch	U97	CC_MUX_REG_1_	0
+.latch	U100	USCITE_REG_2_	0
+.latch	U99	USCITE_REG_1_	0
+.latch	U101	ENABLE_COUNT_REG	0
+.latch	U101	ACKOUT_REG	0
+.names CC_MUX_REG_2_ CC_MUX_2_
+1 1
+.names CC_MUX_REG_1_ CC_MUX_1_
+1 1
+.names USCITE_REG_2_ USCITE_2_
+1 1
+.names USCITE_REG_1_ USCITE_1_
+1 1
+.names STATE_REG_1_ U124 U129
+0- 1
+-0 1
+.names ENABLE_COUNT_REG ENABLE_COUNT
+1 1
+.names ACKOUT_REG ACKOUT
+1 1
+.names U109 EQL U92
+1- 1
+-1 1
+.names U127 U126 U93
+11 1
+.names U93 U116 U94
+0- 1
+-0 1
+.names U119 U118 U105 U110 U95
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U117 U92 U96
+0- 1
+-0 1
+.names U125 U108 U129 U128 U97
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U123 U109 U122 U98
+0-- 1
+-0- 1
+--0 1
+.names EQL U114 U93 U99
+0-- 1
+-0- 1
+--0 1
+.names U110 U113 U100
+0- 1
+-0 1
+.names U121 U120 U101
+0- 1
+-0 1
+.names STATE_REG_2_ STATE_REG_1_ STATE_REG_0_ U102
+111 1
+.names STATE_REG_1_ U103
+0 1
+.names EQL U104
+0 1
+.names EQL STATE_REG_1_ U105
+0- 1
+-0 1
+.names STATE_REG_2_ U106
+0 1
+.names STATE_REG_0_ U107
+0 1
+.names STATE_REG_2_ STATE_REG_0_ U108
+1- 1
+-1 1
+.names U103 U106 STATE_REG_0_ U109
+0-- 1
+-0- 1
+--0 1
+.names STATE_REG_2_ U107 U103 U104 U110
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U108 U111
+0 1
+.names U105 U112
+0 1
+.names STATE_REG_2_ U112 U113
+0- 1
+-0 1
+.names STATE_REG_2_ STATE_REG_1_ U114
+0- 1
+-0 1
+.names STATE_REG_1_ STATE_REG_0_ U115
+1- 1
+-1 1
+.names U104 U115 U116
+0- 1
+-0 1
+.names STATE_REG_2_ U116 U117
+0- 1
+-0 1
+.names EQL U106 STATE_REG_0_ U118
+0-- 1
+-0- 1
+--0 1
+.names U111 STATE_REG_1_ U119
+0- 1
+-0 1
+.names STATE_REG_1_ U104 U111 U120
+0-- 1
+-0- 1
+--0 1
+.names CONT_EQL U102 U121
+1- 1
+-1 1
+.names U112 U107 U122
+0- 1
+-0 1
+.names STATE_REG_2_ U116 U123
+0- 1
+-0 1
+.names EQL U107 U124
+0- 1
+-0 1
+.names STATE_REG_0_ STATE_REG_2_ U125
+0- 1
+-0 1
+.names U111 U103 U126
+0- 1
+-0 1
+.names STATE_REG_0_ STATE_REG_1_ U127
+0- 1
+-0 1
+.names EQL U103 U128
+0- 1
+-0 1
+.end

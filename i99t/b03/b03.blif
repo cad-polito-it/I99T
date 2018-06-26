@@ -1,0 +1,416 @@
+.model b03.blif
+.inputs REQUEST1 REQUEST2 REQUEST3 REQUEST4 
+.outputs GRANT_O_3_ GRANT_O_2_ GRANT_O_1_ GRANT_O_0_ 
+.latch	U203	STATO_REG_0_	0
+.latch	U217	CODA0_REG_2_	0
+.latch	U216	CODA0_REG_1_	0
+.latch	U215	CODA0_REG_0_	0
+.latch	U214	CODA1_REG_2_	0
+.latch	U213	CODA1_REG_1_	0
+.latch	U212	CODA1_REG_0_	0
+.latch	U211	CODA2_REG_2_	0
+.latch	U210	CODA2_REG_1_	0
+.latch	U209	CODA2_REG_0_	0
+.latch	U208	CODA3_REG_2_	0
+.latch	U207	CODA3_REG_1_	0
+.latch	U206	CODA3_REG_0_	0
+.latch	U229	GRANT_REG_3_	0
+.latch	U230	GRANT_REG_2_	0
+.latch	U231	GRANT_REG_1_	0
+.latch	U232	GRANT_REG_0_	0
+.latch	U233	GRANT_O_REG_3_	0
+.latch	U234	GRANT_O_REG_2_	0
+.latch	U235	GRANT_O_REG_1_	0
+.latch	U236	GRANT_O_REG_0_	0
+.latch	U237	RU3_REG	0
+.latch	U205	FU1_REG	0
+.latch	U238	FU3_REG	0
+.latch	U204	RU1_REG	0
+.latch	U239	RU4_REG	0
+.latch	U240	FU2_REG	0
+.latch	U241	FU4_REG	0
+.latch	U242	RU2_REG	0
+.latch	STATO_REG_0_	STATO_REG_1_	0
+.names GRANT_O_REG_3_ GRANT_O_3_
+1 1
+.names GRANT_O_REG_2_ GRANT_O_2_
+1 1
+.names GRANT_O_REG_1_ GRANT_O_1_
+1 1
+.names GRANT_O_REG_0_ GRANT_O_0_
+1 1
+.names U223 U218 U201
+11 1
+.names STATO_REG_1_ U223 U202
+11 1
+.names STATO_REG_0_ U203
+0 1
+.names U222 U292 U204
+0- 1
+-0 1
+.names U222 U291 U205
+0- 1
+-0 1
+.names U290 U289 U206
+0- 1
+-0 1
+.names U288 U287 U207
+0- 1
+-0 1
+.names U286 U285 U208
+0- 1
+-0 1
+.names U283 U282 U284 U209
+0-- 1
+-0- 1
+--0 1
+.names U280 U279 U281 U210
+0-- 1
+-0- 1
+--0 1
+.names U277 U276 U278 U211
+0-- 1
+-0- 1
+--0 1
+.names U274 U273 U275 U212
+0-- 1
+-0- 1
+--0 1
+.names U271 U270 U272 U213
+0-- 1
+-0- 1
+--0 1
+.names U268 U267 U269 U214
+0-- 1
+-0- 1
+--0 1
+.names U265 U264 U266 U215
+0-- 1
+-0- 1
+--0 1
+.names U262 U261 U263 U216
+0-- 1
+-0- 1
+--0 1
+.names U259 U258 U260 U217
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_1_ U218
+0 1
+.names RU3_REG U219
+0 1
+.names RU3_REG U243 U220
+0- 1
+-0 1
+.names RU1_REG U221
+0 1
+.names RU1_REG STATO_REG_0_ U222
+0- 1
+-0 1
+.names U254 U244 U253 U223
+0-- 1
+-0- 1
+--0 1
+.names CODA0_REG_2_ U224
+0 1
+.names CODA0_REG_1_ U225
+0 1
+.names CODA0_REG_0_ U226
+0 1
+.names FU1_REG U227
+0 1
+.names FU2_REG U228
+0 1
+.names U296 U295 U229
+0- 1
+-0 1
+.names U298 U297 U230
+0- 1
+-0 1
+.names U300 U299 U231
+0- 1
+-0 1
+.names U302 U301 U232
+0- 1
+-0 1
+.names U304 U303 U233
+0- 1
+-0 1
+.names U306 U305 U234
+0- 1
+-0 1
+.names U308 U307 U235
+0- 1
+-0 1
+.names U310 U309 U236
+0- 1
+-0 1
+.names U312 U311 U237
+0- 1
+-0 1
+.names U314 U313 U238
+0- 1
+-0 1
+.names U316 U315 U239
+0- 1
+-0 1
+.names U318 U317 U240
+0- 1
+-0 1
+.names U320 U319 U241
+0- 1
+-0 1
+.names U322 U321 U242
+0- 1
+-0 1
+.names RU2_REG U243
+0 1
+.names STATO_REG_1_ U248 U244
+0- 1
+-0 1
+.names FU3_REG U245
+0 1
+.names FU4_REG U246
+0 1
+.names U222 U247
+0 1
+.names FU3_REG FU2_REG FU1_REG FU4_REG U248
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names U244 U249
+0 1
+.names U220 U250
+0 1
+.names U250 U245 U251
+0- 1
+-0 1
+.names U294 U293 U251 U252
+0-- 1
+-0- 1
+--0 1
+.names U221 STATO_REG_0_ U252 U253
+0-- 1
+-0- 1
+--0 1
+.names U247 U227 U254
+0- 1
+-0 1
+.names U223 U255
+0 1
+.names RU2_REG RU3_REG U256
+1- 1
+-1 1
+.names U221 U256 U257
+0- 1
+-0 1
+.names U201 U257 U258
+0- 1
+-0 1
+.names CODA1_REG_2_ U202 U259
+0- 1
+-0 1
+.names CODA0_REG_2_ U255 U260
+0- 1
+-0 1
+.names U220 U221 U201 U261
+0-- 1
+-0- 1
+--0 1
+.names CODA1_REG_1_ U202 U262
+0- 1
+-0 1
+.names CODA0_REG_1_ U255 U263
+0- 1
+-0 1
+.names U221 U243 U201 U264
+0-- 1
+-0- 1
+--0 1
+.names CODA1_REG_0_ U202 U265
+0- 1
+-0 1
+.names CODA0_REG_0_ U255 U266
+0- 1
+-0 1
+.names CODA2_REG_2_ U202 U267
+0- 1
+-0 1
+.names CODA0_REG_2_ U201 U268
+0- 1
+-0 1
+.names U255 CODA1_REG_2_ U269
+0- 1
+-0 1
+.names CODA2_REG_1_ U202 U270
+0- 1
+-0 1
+.names CODA0_REG_1_ U201 U271
+0- 1
+-0 1
+.names CODA1_REG_1_ U255 U272
+0- 1
+-0 1
+.names CODA2_REG_0_ U202 U273
+0- 1
+-0 1
+.names CODA0_REG_0_ U201 U274
+0- 1
+-0 1
+.names CODA1_REG_0_ U255 U275
+0- 1
+-0 1
+.names CODA3_REG_2_ U202 U276
+0- 1
+-0 1
+.names CODA1_REG_2_ U201 U277
+0- 1
+-0 1
+.names CODA2_REG_2_ U255 U278
+0- 1
+-0 1
+.names CODA3_REG_1_ U202 U279
+0- 1
+-0 1
+.names CODA1_REG_1_ U201 U280
+0- 1
+-0 1
+.names CODA2_REG_1_ U255 U281
+0- 1
+-0 1
+.names CODA3_REG_0_ U202 U282
+0- 1
+-0 1
+.names CODA1_REG_0_ U201 U283
+0- 1
+-0 1
+.names CODA2_REG_0_ U255 U284
+0- 1
+-0 1
+.names CODA2_REG_2_ U201 U285
+0- 1
+-0 1
+.names CODA3_REG_2_ U255 U286
+0- 1
+-0 1
+.names CODA2_REG_1_ U201 U287
+0- 1
+-0 1
+.names CODA3_REG_1_ U255 U288
+0- 1
+-0 1
+.names CODA2_REG_0_ U201 U289
+0- 1
+-0 1
+.names CODA3_REG_0_ U255 U290
+0- 1
+-0 1
+.names FU1_REG U203 U291
+0- 1
+-0 1
+.names REQUEST1 U203 U292
+0- 1
+-0 1
+.names RU2_REG U228 U293
+0- 1
+-0 1
+.names U219 U246 RU4_REG U243 U294
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names GRANT_REG_3_ U244 U295
+0- 1
+-0 1
+.names U226 U225 CODA0_REG_2_ U249 U296
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names GRANT_REG_2_ U244 U297
+0- 1
+-0 1
+.names U226 U224 CODA0_REG_1_ U249 U298
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names GRANT_REG_1_ U244 U299
+0- 1
+-0 1
+.names U225 U224 CODA0_REG_0_ U249 U300
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names GRANT_REG_0_ U244 U301
+0- 1
+-0 1
+.names CODA0_REG_1_ CODA0_REG_2_ CODA0_REG_0_ U249 U302
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names GRANT_O_REG_3_ U203 U303
+0- 1
+-0 1
+.names GRANT_REG_3_ STATO_REG_0_ U304
+0- 1
+-0 1
+.names GRANT_O_REG_2_ U203 U305
+0- 1
+-0 1
+.names GRANT_REG_2_ STATO_REG_0_ U306
+0- 1
+-0 1
+.names GRANT_O_REG_1_ U203 U307
+0- 1
+-0 1
+.names GRANT_REG_1_ STATO_REG_0_ U308
+0- 1
+-0 1
+.names GRANT_O_REG_0_ U203 U309
+0- 1
+-0 1
+.names GRANT_REG_0_ STATO_REG_0_ U310
+0- 1
+-0 1
+.names REQUEST3 U203 U311
+0- 1
+-0 1
+.names RU3_REG STATO_REG_0_ U312
+0- 1
+-0 1
+.names FU3_REG U203 U313
+0- 1
+-0 1
+.names RU3_REG STATO_REG_0_ U314
+0- 1
+-0 1
+.names REQUEST4 U203 U315
+0- 1
+-0 1
+.names RU4_REG STATO_REG_0_ U316
+0- 1
+-0 1
+.names FU2_REG U203 U317
+0- 1
+-0 1
+.names RU2_REG STATO_REG_0_ U318
+0- 1
+-0 1
+.names FU4_REG U203 U319
+0- 1
+-0 1
+.names RU4_REG STATO_REG_0_ U320
+0- 1
+-0 1
+.names REQUEST2 U203 U321
+0- 1
+-0 1
+.names RU2_REG STATO_REG_0_ U322
+0- 1
+-0 1
+.end

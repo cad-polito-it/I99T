@@ -1,0 +1,74 @@
+.model b02.blif
+.inputs LINEA 
+.outputs U 
+.latch	U31	U_REG	0
+.latch	U33	STATO_REG_2_	0
+.latch	U38	STATO_REG_1_	0
+.latch	U32	STATO_REG_0_	0
+.names U_REG U
+1 1
+.names U35 U37 STATO_REG_2_ U31
+111 1
+.names U48 U47 U32
+0- 1
+-0 1
+.names U42 U41 U33
+0- 1
+-0 1
+.names STATO_REG_2_ U34
+0 1
+.names STATO_REG_0_ U35
+0 1
+.names LINEA U36
+0 1
+.names STATO_REG_1_ U37
+0 1
+.names U52 U51 U38
+0- 1
+-0 1
+.names U50 U49 U35 U39
+0-- 1
+-0- 1
+--0 1
+.names STATO_REG_2_ LINEA U40
+1- 1
+-1 1
+.names STATO_REG_0_ U40 U41
+0- 1
+-0 1
+.names STATO_REG_1_ U39 U42
+0- 1
+-0 1
+.names LINEA STATO_REG_1_ U43
+1- 1
+-1 1
+.names U34 U43 U44
+0- 1
+-0 1
+.names LINEA U34 U45
+0- 1
+-0 1
+.names STATO_REG_0_ U45 U46
+0- 1
+-0 1
+.names LINEA STATO_REG_0_ STATO_REG_2_ U47
+1-- 1
+-1- 1
+--1 1
+.names U46 U37 U48
+0- 1
+-0 1
+.names LINEA U34 U49
+0- 1
+-0 1
+.names STATO_REG_2_ U36 U50
+0- 1
+-0 1
+.names STATO_REG_0_ U44 U51
+0- 1
+-0 1
+.names STATO_REG_1_ U34 U35 U52
+0-- 1
+-0- 1
+--0 1
+.end

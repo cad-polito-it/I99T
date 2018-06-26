@@ -1,0 +1,136 @@
+.model b01_opt_C.blif
+.inputs LINE2 OVERFLW_REG_SCAN_IN STATO_REG_2__SCAN_IN STATO_REG_1__SCAN_IN STATO_REG_0__SCAN_IN OUTP_REG_SCAN_IN 
+.outputs OUTP OVERFLW STATO_REG_2__SCAN_OUT STATO_REG_1__SCAN_OUT STATO_REG_0__SCAN_OUT OUTP_REG_SCAN_OUT OVERFLW_REG_SCAN_OUT 
+.names OUTP_REG_SCAN_IN OUTP
+1 1
+.names OVERFLW_REG_SCAN_IN OVERFLW
+1 1
+.names U82 STATO_REG_2__SCAN_OUT
+1 1
+.names U74 STATO_REG_1__SCAN_OUT
+1 1
+.names U73 STATO_REG_0__SCAN_OUT
+1 1
+.names U83 OUTP_REG_SCAN_OUT
+1 1
+.names U72 OVERFLW_REG_SCAN_OUT
+1 1
+.names U77 LINE1 U71
+1- 1
+-1 1
+.names U76 STATO_REG_1__SCAN_IN STATO_REG_0__SCAN_IN U72
+111 1
+.names U99 U98 U104 U103 U73
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U95 U94 U96 U74
+0-- 1
+-0- 1
+--0 1
+.names LINE2 LINE1 U75
+1- 1
+-1 1
+.names STATO_REG_2__SCAN_IN U76
+0 1
+.names LINE2 U77
+0 1
+.names STATO_REG_1__SCAN_IN U78
+0 1
+.names STATO_REG_0__SCAN_IN U79
+0 1
+.names U79 STATO_REG_1__SCAN_IN U80
+0- 1
+-0 1
+.names U80 STATO_REG_2__SCAN_IN U81
+0- 1
+-0 1
+.names U102 U101 U82
+0- 1
+-0 1
+.names U110 U109 U83
+0- 1
+-0 1
+.names LINE1 LINE2 U84
+0- 1
+-0 1
+.names U75 U85
+0 1
+.names U85 U79 U86
+0- 1
+-0 1
+.names U80 U87
+0 1
+.names U84 U88
+0 1
+.names U80 U84 U89
+0- 1
+-0 1
+.names U85 STATO_REG_2__SCAN_IN U90
+0- 1
+-0 1
+.names U84 STATO_REG_0__SCAN_IN U91
+0- 1
+-0 1
+.names U91 U90 U92
+0- 1
+-0 1
+.names U84 STATO_REG_2__SCAN_IN U93
+0- 1
+-0 1
+.names U75 STATO_REG_2__SCAN_IN STATO_REG_0__SCAN_IN U94
+0-- 1
+-0- 1
+--0 1
+.names U87 U93 U95
+0- 1
+-0 1
+.names U92 U78 U96
+0- 1
+-0 1
+.names U81 U97
+0 1
+.names U76 U78 U106 U105 U98
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U97 U75 U99
+0- 1
+-0 1
+.names U84 U75 U100
+0- 1
+-0 1
+.names U89 U76 U101
+0- 1
+-0 1
+.names U86 U78 STATO_REG_2__SCAN_IN U102
+0-- 1
+-0- 1
+--0 1
+.names U72 U84 U103
+0- 1
+-0 1
+.names U88 U87 U104
+0- 1
+-0 1
+.names U84 STATO_REG_0__SCAN_IN U105
+0- 1
+-0 1
+.names U88 U79 U106
+0- 1
+-0 1
+.names LINE1 U77 U107
+0- 1
+-0 1
+.names U71 U107 U108
+0- 1
+-0 1
+.names U97 U100 U109
+0- 1
+-0 1
+.names U108 U81 U110
+0- 1
+-0 1
+.end

@@ -1,0 +1,136 @@
+.model b01_C.blif
+.inputs LINE2 OVERFLW_REG_SCAN_IN STATO_REG_2__SCAN_IN STATO_REG_1__SCAN_IN STATO_REG_0__SCAN_IN OUTP_REG_SCAN_IN 
+.outputs OUTP OVERFLW STATO_REG_2__SCAN_OUT STATO_REG_1__SCAN_OUT STATO_REG_0__SCAN_OUT OUTP_REG_SCAN_OUT OVERFLW_REG_SCAN_OUT 
+.names OUTP_REG_SCAN_IN OUTP
+1 1
+.names OVERFLW_REG_SCAN_IN OVERFLW
+1 1
+.names U45 STATO_REG_2__SCAN_OUT
+1 1
+.names U36 STATO_REG_1__SCAN_OUT
+1 1
+.names U35 STATO_REG_0__SCAN_OUT
+1 1
+.names U44 OUTP_REG_SCAN_OUT
+1 1
+.names U34 OVERFLW_REG_SCAN_OUT
+1 1
+.names U38 STATO_REG_1__SCAN_IN STATO_REG_0__SCAN_IN U34
+111 1
+.names U68 U67 U66 U65 U35
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U57 U55 U56 U36
+0-- 1
+-0- 1
+--0 1
+.names LINE2 LINE1 U37
+1- 1
+-1 1
+.names STATO_REG_2__SCAN_IN U38
+0 1
+.names STATO_REG_1__SCAN_IN U39
+0 1
+.names LINE2 U40
+0 1
+.names LINE1 U41
+0 1
+.names STATO_REG_0__SCAN_IN U42
+0 1
+.names U42 STATO_REG_1__SCAN_IN U43
+0- 1
+-0 1
+.names U73 U72 U44
+0- 1
+-0 1
+.names U60 U59 U45
+0- 1
+-0 1
+.names U70 U69 U46
+0- 1
+-0 1
+.names LINE1 LINE2 U47
+0- 1
+-0 1
+.names U43 STATO_REG_2__SCAN_IN U48
+0- 1
+-0 1
+.names U37 U49
+0 1
+.names U49 U42 U50
+0- 1
+-0 1
+.names U47 U51
+0 1
+.names U43 U52
+0 1
+.names U47 U43 U53
+0- 1
+-0 1
+.names U47 STATO_REG_2__SCAN_IN U54
+0- 1
+-0 1
+.names U39 U47 STATO_REG_0__SCAN_IN U55
+0-- 1
+-0- 1
+--0 1
+.names U52 U54 U56
+0- 1
+-0 1
+.names U62 U61 STATO_REG_2__SCAN_IN U57
+0-- 1
+-0- 1
+--0 1
+.names U48 U58
+0 1
+.names U53 U38 U59
+0- 1
+-0 1
+.names U50 U39 STATO_REG_2__SCAN_IN U60
+0-- 1
+-0- 1
+--0 1
+.names U49 STATO_REG_1__SCAN_IN U61
+0- 1
+-0 1
+.names U37 U42 U62
+0- 1
+-0 1
+.names U47 STATO_REG_0__SCAN_IN U63
+0- 1
+-0 1
+.names U51 U42 U64
+0- 1
+-0 1
+.names U64 U63 U39 U38 U65
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names U43 U37 STATO_REG_2__SCAN_IN U66
+0-- 1
+-0- 1
+--0 1
+.names U34 U47 U67
+0- 1
+-0 1
+.names U51 U52 U68
+0- 1
+-0 1
+.names LINE1 U40 U69
+0- 1
+-0 1
+.names LINE2 U41 U70
+0- 1
+-0 1
+.names U46 U71
+0 1
+.names U58 U71 U72
+0- 1
+-0 1
+.names U46 U48 U73
+0- 1
+-0 1
+.end
