@@ -6,6 +6,7 @@ PoliTo ITC99 (I99T)
 ![Gate-level: edf](https://img.shields.io/badge/gate--level-edf-8877cc.svg)
 ![Gate-level: bench](https://img.shields.io/badge/gate--level-bench-8877cc.svg)
 ![Gate-level: blif](https://img.shields.io/badge/gate--level-blif-8877cc.svg)
+![](https://www.google-analytics.com/collect?v=1&t=pageview&tid=UA-28094298-5&cid=4f34399f-f437-4f67-9390-61c649f9b8b2&dl=https%3A%2F%2Fgithub.com%2Fsquillero%2Fitc99-poli%2F)
 
 The [ITC'99 benchmarks](http://www.cerc.utexas.edu/itc99-benchmarks/bench.html) developed in the [CAD Group](http://www.cad.polito.it/) at Politecnico di Torino (**I99T**) are a set of circuits whose characteristics are typical of synthesized circuits. For each bench both the RT-level VHDL description and the synthesized Gate-Level netlist are available. In April 2002 new RT-Level VHDL benchmarks were added to the set and more gate-level circuits were synthesized.
 
