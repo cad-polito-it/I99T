@@ -1,7 +1,7 @@
 PoliTo ITC99 (I99T)
 ===================
 
-[![License: CC-BY-SA 4.0](https://img.shields.io/badge/license-CC--BY--SA_4.0-green.svg)](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+[![License: EUPL](https://img.shields.io/badge/license-EUPL-green.svg)](https://www.eupl.eu/1.2/en/)
 ![RT-Level: VHDL](https://img.shields.io/badge/RT--level-VHDL-8877cc.svg)
 ![Gate-level: edf](https://img.shields.io/badge/gate--level-edf-8877cc.svg)
 ![Gate-level: bench](https://img.shields.io/badge/gate--level-bench-8877cc.svg)
@@ -10,7 +10,7 @@ PoliTo ITC99 (I99T)
 
 The [ITC'99 benchmarks](http://www.cerc.utexas.edu/itc99-benchmarks/bench.html) developed in the [CAD Group](http://www.cad.polito.it/) at Politecnico di Torino (**I99T**) are a set of circuits whose characteristics are typical of synthesized circuits. For each bench both the RT-level VHDL description and the synthesized Gate-Level netlist are available. In April 2002 new RT-Level VHDL benchmarks were added to the set and more gate-level circuits were synthesized.
 
-I99T benchmarks are available from [https://github.com/squillero/itc99-poli](https://github.com/squillero/itc99-poli). They are licensed under the *Creative Commons Attribution Share-Alike License 4.0* ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)).
+I99T benchmarks are available from [https://github.com/squillero/itc99-poli](https://github.com/squillero/itc99-poli). They are licensed under the ([*EUPL*](https://www.eupl.eu/1.2/en/)).
 
 Detailed descriptions of benchmarks and an experimental RT-level ATPG tool can be found in the article "RT-Level ITC 99 Benchmarks and First ATPG Results", *IEEE Design & Test of Computers*, July-August 2000 (DOI: [10.1109/54.867894](http://doi.org/10.1109/54.867894)). In brief, the main characteristics are:
 
