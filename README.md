@@ -8,11 +8,13 @@ PoliTo ITC99 (I99T)
 ![Gate-level: blif](https://img.shields.io/badge/gate--level-blif-8877cc.svg)
 ![](https://www.google-analytics.com/collect?v=1&t=pageview&tid=UA-28094298-5&cid=4f34399f-f437-4f67-9390-61c649f9b8b2&dl=https%3A%2F%2Fgithub.com%2Fsquillero%2Fitc99-poli%2F)
 
-The [ITC'99 benchmarks](http://www.cerc.utexas.edu/itc99-benchmarks/bench.html) developed in the [CAD Group](http://www.cad.polito.it/) at Politecnico di Torino (**I99T**) are a set of circuits whose characteristics are typical of synthesized circuits. For each bench both the RT-level VHDL description and the synthesized Gate-Level netlist are available. In April 2002 new RT-Level VHDL benchmarks were added to the set and more gate-level circuits were synthesized.
+The [ITC'99 benchmarks](http://www.cerc.utexas.edu/itc99-benchmarks/bench.html) developed in the [CAD Group](https://cad.polito.it/) at Politecnico di Torino (**I99T**) are a set of circuits whose characteristics are typical of synthesized circuits. For each bench both the RT-level VHDL description and the synthesized Gate-Level netlist are available. In April 2002 new RT-Level VHDL benchmarks were added to the set and more gate-level circuits were synthesized.
 
-I99T benchmarks are available from [https://github.com/squillero/itc99-poli](https://github.com/squillero/itc99-poli). They are licensed under the [European Union Public License v1.2](https://www.eupl.eu/1.2/en/).
+I99T benchmarks are available from [https://github.com/cad-polito-it/I99T](https://github.com/cad-polito-it/I99T). They are licensed under the [European Union Public License v1.2](https://www.eupl.eu/1.2/en/).
 
-Detailed descriptions of benchmarks and an experimental RT-level ATPG tool can be found in the article "RT-Level ITC 99 Benchmarks and First ATPG Results", *IEEE Design & Test of Computers*, July-August 2000 (DOI: [10.1109/54.867894](http://doi.org/10.1109/54.867894)). In brief, the main characteristics are:
+Detailed descriptions of benchmarks and an experimental RT-level ATPG tool can be found in the article "RT-Level ITC 99 Benchmarks and First ATPG Results", *IEEE Design & Test of Computers*, July-August 2000 (DOI: [10.1109/54.867894](http://doi.org/10.1109/54.867894)). **Please, cite this paper if you use the benchmarks in your research.**
+
+In brief, the main characteristics are:
 
 * Fully synthesizable RT-Level VHDL descriptions (in Synopsys Design Compiler description styles).
 * No compiler specific directive.
