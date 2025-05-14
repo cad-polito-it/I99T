@@ -12,7 +12,24 @@ The [ITC'99 benchmarks](http://www.cerc.utexas.edu/itc99-benchmarks/bench.html) 
 
 I99T benchmarks are available from [https://github.com/cad-polito-it/I99T](https://github.com/cad-polito-it/I99T). They are licensed under the [European Union Public License v1.2](https://www.eupl.eu/1.2/en/).
 
-Detailed descriptions of benchmarks and an experimental RT-level ATPG tool can be found in the article "RT-Level ITC 99 Benchmarks and First ATPG Results", *IEEE Design & Test of Computers*, July-August 2000 (DOI: [10.1109/54.867894](http://doi.org/10.1109/54.867894)). **Please, cite this paper if you use the benchmarks in your research.**
+Detailed descriptions of benchmarks and an experimental RT-level ATPG tool can be found in the article "RT-Level ITC 99 Benchmarks and First ATPG Results", *IEEE Design & Test of Computers*, July-August 2000 (DOI: [10.1109/54.867894](http://doi.org/10.1109/54.867894)). 
+
+```bibtex
+@article{PoliTO-i99T,
+  author = {Corno, Fulvio and Sonza Reorda, Matteo and Squillero, Giovanni},
+  title = {RT-level ITC’99 benchmarks and first ATPG results},
+  journal = {IEEE Design & Test of Computers},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+  pages = {44–53}
+  volume = {17},
+  number = {3},
+  year = {2000},
+  ISSN = {0740-7475},
+  DOI = {10.1109/54.867894},
+}
+```
+
+**Please, cite this paper if you use the benchmarks in your research.**
 
 In brief, the main characteristics are:
 
