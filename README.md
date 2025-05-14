@@ -20,7 +20,7 @@ Detailed descriptions of benchmarks and an experimental RT-level ATPG tool can b
   title = {RT-level ITC’99 benchmarks and first ATPG results},
   journal = {IEEE Design & Test of Computers},
   publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
-  pages = {44–53}
+  pages = {44–53},
   volume = {17},
   number = {3},
   year = {2000},
